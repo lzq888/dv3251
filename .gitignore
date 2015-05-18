@@ -1,0 +1,9 @@
+*.o
+*.elf
+*.bin
+*.map
+*.dasm
+tags
+GTAGS
+GPATH
+GRTAGS
