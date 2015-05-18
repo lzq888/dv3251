@@ -268,12 +268,12 @@
       <ResourceCompiler Options=""/>
     </GlobalSettings>
     <Configuration Name="Debug" CompilerType="arm elf" DebuggerType="GNU gdb debugger" Type="Executable" BuildCmpWithGlobalSettings="append" BuildLnkWithGlobalSettings="append" BuildResWithGlobalSettings="append">
-      <Compiler Options="-g;-O3;-Wall" C_Options="-g;-O3;-Wall" Assembler="" Required="yes" PreCompiledHeader="" PCHInCommandLine="no" PCHFlags="" PCHFlagsPolicy="0">
+      <Compiler Options="-g;-O3;-Wall" C_Options="-g;-O3;-Wall" Assembler="-c" Required="yes" PreCompiledHeader="" PCHInCommandLine="no" PCHFlags="" PCHFlagsPolicy="0">
         <IncludePath Value="."/>
         <IncludePath Value="D:/MinGW-4.7.1/arm-elf/include"/>
         <IncludePath Value="D:/MinGW-4.7.1/lib/gcc/arm-elf/4.6.0/include"/>
       </Compiler>
-      <Linker Options="-T startup/maskrom.ld;-Wl,-Map Hunter.txt -nostdlib" Required="yes">
+      <Linker Options="-T startup/maskrom.ld;-Map Hunter.txt" Required="yes">
         <LibraryPath Value="d:/MinGW-4.7.1/lib/gcc/arm-elf/4.6.0"/>
         <LibraryPath Value="d:/MinGW-4.7.1/arm-elf/lib"/>
         <LibraryPath Value="libs"/>

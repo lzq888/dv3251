@@ -2558,7 +2558,7 @@ LOAD libs\libsd.a
                 0x2005f450                __bss_end = .
 OUTPUT(./Debug/AX325X elf32-littlearm)
 
-.debug_info     0x00000000    0x4f73a
+.debug_info     0x00000000    0x4f738
  .debug_info    0x00000000     0x1234 ./Debug/audio_adc_audio_adc.c.o
  .debug_info    0x00001234     0x1aa5 ./Debug/audio_dac_audio_dac.c.o
  .debug_info    0x00002cd9     0x12d8 ./Debug/common_common.c.o
@@ -2571,67 +2571,67 @@ OUTPUT(./Debug/AX325X elf32-littlearm)
  .debug_info    0x0000d3da      0xf7b ./Debug/i2c_i2c.c.o
  .debug_info    0x0000e355      0xc2d ./Debug/int_int.c.o
  .debug_info    0x0000ef82     0x1698 ./Debug/lcd_lcdc.c.o
- .debug_info    0x0001061a     0x1376 ./Debug/lcd_osd.c.o
- .debug_info    0x00011990     0x13ae ./Debug/lcd_lcd_driver.c.o
- .debug_info    0x00012d3e     0x1454 ./Debug/lcd_lcd_interface.c.o
- .debug_info    0x00014192      0xacf ./Debug/lcd_lcd_tdo24theb2.c.o
- .debug_info    0x00014c61     0x1145 ./Debug/lcd_lcd_ili8961.c.o
- .debug_info    0x00015da6      0xacf ./Debug/lcd_lcd_nodisplay.c.o
- .debug_info    0x00016875      0xacf ./Debug/lcd_lcd_3029.c.o
- .debug_info    0x00017344      0xacf ./Debug/lcd_lcd_61505.c.o
- .debug_info    0x00017e13      0xacf ./Debug/lcd_lcd_hx8367.c.o
- .debug_info    0x000188e2      0xacf ./Debug/lcd_lcd_7781.c.o
- .debug_info    0x000193b1      0xacf ./Debug/lcd_lcd_ili6480.c.o
- .debug_info    0x00019e80      0xacf ./Debug/lcd_lcd_61505W.c.o
- .debug_info    0x0001a94f      0xacf ./Debug/lcd_lcd_3029C.c.o
- .debug_info    0x0001b41e      0xacf ./Debug/lcd_lcd_9303.c.o
- .debug_info    0x0001beed      0xacf ./Debug/lcd_lcd_9312.c.o
- .debug_info    0x0001c9bc      0xacf ./Debug/lcd_lcd_ili9225.c.o
- .debug_info    0x0001d48b      0xaec ./Debug/main_main.c.o
- .debug_info    0x0001df77     0x2053 ./Debug/menu_menu_display.c.o
- .debug_info    0x0001ffca     0x825e ./Debug/menu_menu_struct.c.o
- .debug_info    0x00028228     0x24ed ./Debug/menu_menu_setting.c.o
- .debug_info    0x0002a715     0x176e ./Debug/msg_adkey.c.o
- .debug_info    0x0002be83      0xc20 ./Debug/msg_msg.c.o
- .debug_info    0x0002caa3     0x1890 ./Debug/play_avi_player.c.o
- .debug_info    0x0002e333      0xc1e ./Debug/play_gp_fifo.c.o
- .debug_info    0x0002ef51     0x1023 ./Debug/play_play_picture.c.o
- .debug_info    0x0002ff74     0x19e2 ./Debug/rtc_rtc.c.o
- .debug_info    0x00031956     0x114a ./Debug/sd_sd_ext.c.o
- .debug_info    0x00032aa0      0xc5a ./Debug/sensor_sensor.c.o
- .debug_info    0x000336fa      0xacf ./Debug/sensor_sensor_gc0308.c.o
- .debug_info    0x000341c9      0xacf ./Debug/sensor_sensor_nt99140.c.o
- .debug_info    0x00034c98      0xacf ./Debug/sensor_sensor_ov7670.c.o
- .debug_info    0x00035767      0xacf ./Debug/sensor_sensor_ov9710.c.o
- .debug_info    0x00036236      0xcf3 ./Debug/sensor_sensor_nt99141.c.o
- .debug_info    0x00036f29      0xacf ./Debug/sensor_sensor_bf3925.c.o
- .debug_info    0x000379f8      0xacf ./Debug/sensor_sensor_siv121DS.c.o
- .debug_info    0x000384c7      0xacf ./Debug/sensor_sensor_ov7725.c.o
- .debug_info    0x00038f96      0xacf ./Debug/sensor_sensor_nt99240.c.o
- .debug_info    0x00039a65      0xacf ./Debug/sensor_sensor_siv100B.c.o
- .debug_info    0x0003a534     0x1a81 ./Debug/sys_sys.c.o
- .debug_info    0x0003bfb5      0xedb ./Debug/timer_timer.c.o
- .debug_info    0x0003ce90     0x1086 ./Debug/timer_timer_isr.c.o
- .debug_info    0x0003df16     0x1248 ./Debug/uart_uart.c.o
- .debug_info    0x0003f15e     0x160b ./Debug/spi_spi.c.o
- .debug_info    0x00040769     0x164e ./Debug/task_task.c.o
- .debug_info    0x00041db7     0x198b ./Debug/task_task_video.c.o
- .debug_info    0x00043742     0x17a1 ./Debug/task_task_photo.c.o
- .debug_info    0x00044ee3     0x191a ./Debug/task_task_play.c.o
- .debug_info    0x000467fd     0x1190 ./Debug/task_task_usb_device.c.o
- .debug_info    0x0004798d      0xf44 ./Debug/task_task_holdMode.c.o
- .debug_info    0x000488d1     0x1fc8 ./Debug/tvout_tvout.c.o
- .debug_info    0x0004a899      0xcb5 ./Debug/led_led.c.o
- .debug_info    0x0004b54e      0xeaf ./Debug/g_sensor_g_sensor.c.o
- .debug_info    0x0004c3fd      0xacf ./Debug/g_sensor_g_sensor_dmard07.c.o
- .debug_info    0x0004cecc     0x19bd ./Debug/g_sensor_g_sensor_gma301a.c.o
- .debug_info    0x0004e889      0xacf ./Debug/g_sensor_g_sensor_null.c.o
- .debug_info    0x0004f358       0xb9 d:/MinGW-4.7.1/arm-elf/lib\libc.a(lib_a-strcpy.o)
- .debug_info    0x0004f411       0xb1 d:/MinGW-4.7.1/arm-elf/lib\libc.a(lib_a-strlen.o)
- .debug_info    0x0004f4c2       0x9e d:/MinGW-4.7.1/lib/gcc/arm-elf/4.6.0\libgcc.a(_udivsi3.o)
- .debug_info    0x0004f560       0x9e d:/MinGW-4.7.1/lib/gcc/arm-elf/4.6.0\libgcc.a(_divsi3.o)
- .debug_info    0x0004f5fe       0x9e d:/MinGW-4.7.1/lib/gcc/arm-elf/4.6.0\libgcc.a(_umodsi3.o)
- .debug_info    0x0004f69c       0x9e d:/MinGW-4.7.1/lib/gcc/arm-elf/4.6.0\libgcc.a(_dvmd_tls.o)
+ .debug_info    0x0001061a     0x1374 ./Debug/lcd_osd.c.o
+ .debug_info    0x0001198e     0x13ae ./Debug/lcd_lcd_driver.c.o
+ .debug_info    0x00012d3c     0x1454 ./Debug/lcd_lcd_interface.c.o
+ .debug_info    0x00014190      0xacf ./Debug/lcd_lcd_tdo24theb2.c.o
+ .debug_info    0x00014c5f     0x1145 ./Debug/lcd_lcd_ili8961.c.o
+ .debug_info    0x00015da4      0xacf ./Debug/lcd_lcd_nodisplay.c.o
+ .debug_info    0x00016873      0xacf ./Debug/lcd_lcd_3029.c.o
+ .debug_info    0x00017342      0xacf ./Debug/lcd_lcd_61505.c.o
+ .debug_info    0x00017e11      0xacf ./Debug/lcd_lcd_hx8367.c.o
+ .debug_info    0x000188e0      0xacf ./Debug/lcd_lcd_7781.c.o
+ .debug_info    0x000193af      0xacf ./Debug/lcd_lcd_ili6480.c.o
+ .debug_info    0x00019e7e      0xacf ./Debug/lcd_lcd_61505W.c.o
+ .debug_info    0x0001a94d      0xacf ./Debug/lcd_lcd_3029C.c.o
+ .debug_info    0x0001b41c      0xacf ./Debug/lcd_lcd_9303.c.o
+ .debug_info    0x0001beeb      0xacf ./Debug/lcd_lcd_9312.c.o
+ .debug_info    0x0001c9ba      0xacf ./Debug/lcd_lcd_ili9225.c.o
+ .debug_info    0x0001d489      0xaec ./Debug/main_main.c.o
+ .debug_info    0x0001df75     0x2053 ./Debug/menu_menu_display.c.o
+ .debug_info    0x0001ffc8     0x825e ./Debug/menu_menu_struct.c.o
+ .debug_info    0x00028226     0x24ed ./Debug/menu_menu_setting.c.o
+ .debug_info    0x0002a713     0x176e ./Debug/msg_adkey.c.o
+ .debug_info    0x0002be81      0xc20 ./Debug/msg_msg.c.o
+ .debug_info    0x0002caa1     0x1890 ./Debug/play_avi_player.c.o
+ .debug_info    0x0002e331      0xc1e ./Debug/play_gp_fifo.c.o
+ .debug_info    0x0002ef4f     0x1023 ./Debug/play_play_picture.c.o
+ .debug_info    0x0002ff72     0x19e2 ./Debug/rtc_rtc.c.o
+ .debug_info    0x00031954     0x114a ./Debug/sd_sd_ext.c.o
+ .debug_info    0x00032a9e      0xc5a ./Debug/sensor_sensor.c.o
+ .debug_info    0x000336f8      0xacf ./Debug/sensor_sensor_gc0308.c.o
+ .debug_info    0x000341c7      0xacf ./Debug/sensor_sensor_nt99140.c.o
+ .debug_info    0x00034c96      0xacf ./Debug/sensor_sensor_ov7670.c.o
+ .debug_info    0x00035765      0xacf ./Debug/sensor_sensor_ov9710.c.o
+ .debug_info    0x00036234      0xcf3 ./Debug/sensor_sensor_nt99141.c.o
+ .debug_info    0x00036f27      0xacf ./Debug/sensor_sensor_bf3925.c.o
+ .debug_info    0x000379f6      0xacf ./Debug/sensor_sensor_siv121DS.c.o
+ .debug_info    0x000384c5      0xacf ./Debug/sensor_sensor_ov7725.c.o
+ .debug_info    0x00038f94      0xacf ./Debug/sensor_sensor_nt99240.c.o
+ .debug_info    0x00039a63      0xacf ./Debug/sensor_sensor_siv100B.c.o
+ .debug_info    0x0003a532     0x1a81 ./Debug/sys_sys.c.o
+ .debug_info    0x0003bfb3      0xedb ./Debug/timer_timer.c.o
+ .debug_info    0x0003ce8e     0x1086 ./Debug/timer_timer_isr.c.o
+ .debug_info    0x0003df14     0x1248 ./Debug/uart_uart.c.o
+ .debug_info    0x0003f15c     0x160b ./Debug/spi_spi.c.o
+ .debug_info    0x00040767     0x164e ./Debug/task_task.c.o
+ .debug_info    0x00041db5     0x198b ./Debug/task_task_video.c.o
+ .debug_info    0x00043740     0x17a1 ./Debug/task_task_photo.c.o
+ .debug_info    0x00044ee1     0x191a ./Debug/task_task_play.c.o
+ .debug_info    0x000467fb     0x1190 ./Debug/task_task_usb_device.c.o
+ .debug_info    0x0004798b      0xf44 ./Debug/task_task_holdMode.c.o
+ .debug_info    0x000488cf     0x1fc8 ./Debug/tvout_tvout.c.o
+ .debug_info    0x0004a897      0xcb5 ./Debug/led_led.c.o
+ .debug_info    0x0004b54c      0xeaf ./Debug/g_sensor_g_sensor.c.o
+ .debug_info    0x0004c3fb      0xacf ./Debug/g_sensor_g_sensor_dmard07.c.o
+ .debug_info    0x0004ceca     0x19bd ./Debug/g_sensor_g_sensor_gma301a.c.o
+ .debug_info    0x0004e887      0xacf ./Debug/g_sensor_g_sensor_null.c.o
+ .debug_info    0x0004f356       0xb9 d:/MinGW-4.7.1/arm-elf/lib\libc.a(lib_a-strcpy.o)
+ .debug_info    0x0004f40f       0xb1 d:/MinGW-4.7.1/arm-elf/lib\libc.a(lib_a-strlen.o)
+ .debug_info    0x0004f4c0       0x9e d:/MinGW-4.7.1/lib/gcc/arm-elf/4.6.0\libgcc.a(_udivsi3.o)
+ .debug_info    0x0004f55e       0x9e d:/MinGW-4.7.1/lib/gcc/arm-elf/4.6.0\libgcc.a(_divsi3.o)
+ .debug_info    0x0004f5fc       0x9e d:/MinGW-4.7.1/lib/gcc/arm-elf/4.6.0\libgcc.a(_umodsi3.o)
+ .debug_info    0x0004f69a       0x9e d:/MinGW-4.7.1/lib/gcc/arm-elf/4.6.0\libgcc.a(_dvmd_tls.o)
 
 .debug_abbrev   0x00000000     0x7fe7
  .debug_abbrev  0x00000000      0x249 ./Debug/audio_adc_audio_adc.c.o
@@ -2708,52 +2708,52 @@ OUTPUT(./Debug/AX325X elf32-littlearm)
  .debug_abbrev  0x00007fbf       0x14 d:/MinGW-4.7.1/lib/gcc/arm-elf/4.6.0\libgcc.a(_umodsi3.o)
  .debug_abbrev  0x00007fd3       0x14 d:/MinGW-4.7.1/lib/gcc/arm-elf/4.6.0\libgcc.a(_dvmd_tls.o)
 
-.debug_loc      0x00000000     0xddb9
+.debug_loc      0x00000000     0xddbc
  .debug_loc     0x00000000      0x1ee ./Debug/audio_adc_audio_adc.c.o
  .debug_loc     0x000001ee      0x49b ./Debug/audio_dac_audio_dac.c.o
- .debug_loc     0x00000689      0x707 ./Debug/common_common.c.o
- .debug_loc     0x00000d90      0x4dc ./Debug/csi_csi.c.o
- .debug_loc     0x0000126c       0x33 ./Debug/csi_csi_isr.c.o
- .debug_loc     0x0000129f      0x349 ./Debug/csi_csi_timeinfo.c.o
- .debug_loc     0x000015e8     0x1992 ./Debug/fat_api_fat_api.c.o
- .debug_loc     0x00002f7a     0x1672 ./Debug/font_font.c.o
- .debug_loc     0x000045ec      0x48f ./Debug/gpdma_gpdma.c.o
- .debug_loc     0x00004a7b      0x62f ./Debug/i2c_i2c.c.o
- .debug_loc     0x000050aa       0x20 ./Debug/int_int.c.o
- .debug_loc     0x000050ca      0xb93 ./Debug/lcd_lcdc.c.o
- .debug_loc     0x00005c5d      0xda3 ./Debug/lcd_osd.c.o
- .debug_loc     0x00006a00      0x188 ./Debug/lcd_lcd_driver.c.o
- .debug_loc     0x00006b88      0x694 ./Debug/lcd_lcd_interface.c.o
- .debug_loc     0x0000721c      0x1ad ./Debug/lcd_lcd_ili8961.c.o
- .debug_loc     0x000073c9       0x20 ./Debug/main_main.c.o
- .debug_loc     0x000073e9      0xc99 ./Debug/menu_menu_display.c.o
- .debug_loc     0x00008082      0xf3d ./Debug/menu_menu_setting.c.o
- .debug_loc     0x00008fbf      0x35a ./Debug/msg_adkey.c.o
- .debug_loc     0x00009319       0x26 ./Debug/msg_msg.c.o
- .debug_loc     0x0000933f      0x45a ./Debug/play_avi_player.c.o
- .debug_loc     0x00009799      0x154 ./Debug/play_gp_fifo.c.o
- .debug_loc     0x000098ed      0x138 ./Debug/play_play_picture.c.o
- .debug_loc     0x00009a25      0xdeb ./Debug/rtc_rtc.c.o
- .debug_loc     0x0000a810       0xd2 ./Debug/sd_sd_ext.c.o
- .debug_loc     0x0000a8e2      0x1a5 ./Debug/sensor_sensor.c.o
- .debug_loc     0x0000aa87       0xef ./Debug/sensor_sensor_nt99141.c.o
- .debug_loc     0x0000ab76      0x5d2 ./Debug/sys_sys.c.o
- .debug_loc     0x0000b148       0x40 ./Debug/timer_timer.c.o
- .debug_loc     0x0000b188       0x60 ./Debug/timer_timer_isr.c.o
- .debug_loc     0x0000b1e8      0x7d9 ./Debug/uart_uart.c.o
- .debug_loc     0x0000b9c1      0x449 ./Debug/spi_spi.c.o
- .debug_loc     0x0000be0a      0x163 ./Debug/task_task.c.o
- .debug_loc     0x0000bf6d      0x3f7 ./Debug/task_task_video.c.o
- .debug_loc     0x0000c364      0x1be ./Debug/task_task_photo.c.o
- .debug_loc     0x0000c522      0x266 ./Debug/task_task_play.c.o
- .debug_loc     0x0000c788       0x84 ./Debug/task_task_usb_device.c.o
- .debug_loc     0x0000c80c      0x595 ./Debug/task_task_holdMode.c.o
- .debug_loc     0x0000cda1      0x70c ./Debug/tvout_tvout.c.o
- .debug_loc     0x0000d4ad       0x3c ./Debug/led_led.c.o
- .debug_loc     0x0000d4e9      0x223 ./Debug/g_sensor_g_sensor.c.o
- .debug_loc     0x0000d70c      0x687 ./Debug/g_sensor_g_sensor_gma301a.c.o
- .debug_loc     0x0000dd93       0x13 d:/MinGW-4.7.1/arm-elf/lib\libc.a(lib_a-strcpy.o)
- .debug_loc     0x0000dda6       0x13 d:/MinGW-4.7.1/arm-elf/lib\libc.a(lib_a-strlen.o)
+ .debug_loc     0x00000689      0x728 ./Debug/common_common.c.o
+ .debug_loc     0x00000db1      0x4dc ./Debug/csi_csi.c.o
+ .debug_loc     0x0000128d       0x33 ./Debug/csi_csi_isr.c.o
+ .debug_loc     0x000012c0      0x349 ./Debug/csi_csi_timeinfo.c.o
+ .debug_loc     0x00001609     0x1992 ./Debug/fat_api_fat_api.c.o
+ .debug_loc     0x00002f9b     0x1672 ./Debug/font_font.c.o
+ .debug_loc     0x0000460d      0x48f ./Debug/gpdma_gpdma.c.o
+ .debug_loc     0x00004a9c      0x62f ./Debug/i2c_i2c.c.o
+ .debug_loc     0x000050cb       0x20 ./Debug/int_int.c.o
+ .debug_loc     0x000050eb      0xb93 ./Debug/lcd_lcdc.c.o
+ .debug_loc     0x00005c7e      0xd85 ./Debug/lcd_osd.c.o
+ .debug_loc     0x00006a03      0x188 ./Debug/lcd_lcd_driver.c.o
+ .debug_loc     0x00006b8b      0x694 ./Debug/lcd_lcd_interface.c.o
+ .debug_loc     0x0000721f      0x1ad ./Debug/lcd_lcd_ili8961.c.o
+ .debug_loc     0x000073cc       0x20 ./Debug/main_main.c.o
+ .debug_loc     0x000073ec      0xc99 ./Debug/menu_menu_display.c.o
+ .debug_loc     0x00008085      0xf3d ./Debug/menu_menu_setting.c.o
+ .debug_loc     0x00008fc2      0x35a ./Debug/msg_adkey.c.o
+ .debug_loc     0x0000931c       0x26 ./Debug/msg_msg.c.o
+ .debug_loc     0x00009342      0x45a ./Debug/play_avi_player.c.o
+ .debug_loc     0x0000979c      0x154 ./Debug/play_gp_fifo.c.o
+ .debug_loc     0x000098f0      0x138 ./Debug/play_play_picture.c.o
+ .debug_loc     0x00009a28      0xdeb ./Debug/rtc_rtc.c.o
+ .debug_loc     0x0000a813       0xd2 ./Debug/sd_sd_ext.c.o
+ .debug_loc     0x0000a8e5      0x1a5 ./Debug/sensor_sensor.c.o
+ .debug_loc     0x0000aa8a       0xef ./Debug/sensor_sensor_nt99141.c.o
+ .debug_loc     0x0000ab79      0x5d2 ./Debug/sys_sys.c.o
+ .debug_loc     0x0000b14b       0x40 ./Debug/timer_timer.c.o
+ .debug_loc     0x0000b18b       0x60 ./Debug/timer_timer_isr.c.o
+ .debug_loc     0x0000b1eb      0x7d9 ./Debug/uart_uart.c.o
+ .debug_loc     0x0000b9c4      0x449 ./Debug/spi_spi.c.o
+ .debug_loc     0x0000be0d      0x163 ./Debug/task_task.c.o
+ .debug_loc     0x0000bf70      0x3f7 ./Debug/task_task_video.c.o
+ .debug_loc     0x0000c367      0x1be ./Debug/task_task_photo.c.o
+ .debug_loc     0x0000c525      0x266 ./Debug/task_task_play.c.o
+ .debug_loc     0x0000c78b       0x84 ./Debug/task_task_usb_device.c.o
+ .debug_loc     0x0000c80f      0x595 ./Debug/task_task_holdMode.c.o
+ .debug_loc     0x0000cda4      0x70c ./Debug/tvout_tvout.c.o
+ .debug_loc     0x0000d4b0       0x3c ./Debug/led_led.c.o
+ .debug_loc     0x0000d4ec      0x223 ./Debug/g_sensor_g_sensor.c.o
+ .debug_loc     0x0000d70f      0x687 ./Debug/g_sensor_g_sensor_gma301a.c.o
+ .debug_loc     0x0000dd96       0x13 d:/MinGW-4.7.1/arm-elf/lib\libc.a(lib_a-strcpy.o)
+ .debug_loc     0x0000dda9       0x13 d:/MinGW-4.7.1/arm-elf/lib\libc.a(lib_a-strlen.o)
 
 .debug_aranges  0x00000000      0x608
  .debug_aranges
@@ -2888,7 +2888,7 @@ OUTPUT(./Debug/AX325X elf32-littlearm)
  .debug_ranges  0x00003720       0x30 ./Debug/g_sensor_g_sensor.c.o
  .debug_ranges  0x00003750      0x1c0 ./Debug/g_sensor_g_sensor_gma301a.c.o
 
-.debug_line     0x00000000    0x14b1b
+.debug_line     0x00000000    0x14b22
  .debug_line    0x00000000      0x59e ./Debug/audio_adc_audio_adc.c.o
  .debug_line    0x0000059e      0x722 ./Debug/audio_dac_audio_dac.c.o
  .debug_line    0x00000cc0      0x500 ./Debug/common_common.c.o
@@ -2942,26 +2942,26 @@ OUTPUT(./Debug/AX325X elf32-littlearm)
  .debug_line    0x0000e733      0x955 ./Debug/sys_sys.c.o
  .debug_line    0x0000f088      0x3f9 ./Debug/timer_timer.c.o
  .debug_line    0x0000f481      0x492 ./Debug/timer_timer_isr.c.o
- .debug_line    0x0000f913      0x6a2 ./Debug/uart_uart.c.o
- .debug_line    0x0000ffb5      0x5bf ./Debug/spi_spi.c.o
- .debug_line    0x00010574      0x5b2 ./Debug/task_task.c.o
- .debug_line    0x00010b26      0x7ed ./Debug/task_task_video.c.o
- .debug_line    0x00011313      0x68a ./Debug/task_task_photo.c.o
- .debug_line    0x0001199d      0x6ce ./Debug/task_task_play.c.o
- .debug_line    0x0001206b      0x496 ./Debug/task_task_usb_device.c.o
- .debug_line    0x00012501      0x5fb ./Debug/task_task_holdMode.c.o
- .debug_line    0x00012afc      0x7bf ./Debug/tvout_tvout.c.o
- .debug_line    0x000132bb      0x3d7 ./Debug/led_led.c.o
- .debug_line    0x00013692      0x4b7 ./Debug/g_sensor_g_sensor.c.o
- .debug_line    0x00013b49      0x2cf ./Debug/g_sensor_g_sensor_dmard07.c.o
- .debug_line    0x00013e18      0x5ef ./Debug/g_sensor_g_sensor_gma301a.c.o
- .debug_line    0x00014407      0x2cf ./Debug/g_sensor_g_sensor_null.c.o
- .debug_line    0x000146d6       0xcb d:/MinGW-4.7.1/arm-elf/lib\libc.a(lib_a-strcpy.o)
- .debug_line    0x000147a1      0x11d d:/MinGW-4.7.1/arm-elf/lib\libc.a(lib_a-strlen.o)
- .debug_line    0x000148be       0xa6 d:/MinGW-4.7.1/lib/gcc/arm-elf/4.6.0\libgcc.a(_udivsi3.o)
- .debug_line    0x00014964       0xb2 d:/MinGW-4.7.1/lib/gcc/arm-elf/4.6.0\libgcc.a(_divsi3.o)
- .debug_line    0x00014a16       0x8d d:/MinGW-4.7.1/lib/gcc/arm-elf/4.6.0\libgcc.a(_umodsi3.o)
- .debug_line    0x00014aa3       0x78 d:/MinGW-4.7.1/lib/gcc/arm-elf/4.6.0\libgcc.a(_dvmd_tls.o)
+ .debug_line    0x0000f913      0x6a9 ./Debug/uart_uart.c.o
+ .debug_line    0x0000ffbc      0x5bf ./Debug/spi_spi.c.o
+ .debug_line    0x0001057b      0x5b2 ./Debug/task_task.c.o
+ .debug_line    0x00010b2d      0x7ed ./Debug/task_task_video.c.o
+ .debug_line    0x0001131a      0x68a ./Debug/task_task_photo.c.o
+ .debug_line    0x000119a4      0x6ce ./Debug/task_task_play.c.o
+ .debug_line    0x00012072      0x496 ./Debug/task_task_usb_device.c.o
+ .debug_line    0x00012508      0x5fb ./Debug/task_task_holdMode.c.o
+ .debug_line    0x00012b03      0x7bf ./Debug/tvout_tvout.c.o
+ .debug_line    0x000132c2      0x3d7 ./Debug/led_led.c.o
+ .debug_line    0x00013699      0x4b7 ./Debug/g_sensor_g_sensor.c.o
+ .debug_line    0x00013b50      0x2cf ./Debug/g_sensor_g_sensor_dmard07.c.o
+ .debug_line    0x00013e1f      0x5ef ./Debug/g_sensor_g_sensor_gma301a.c.o
+ .debug_line    0x0001440e      0x2cf ./Debug/g_sensor_g_sensor_null.c.o
+ .debug_line    0x000146dd       0xcb d:/MinGW-4.7.1/arm-elf/lib\libc.a(lib_a-strcpy.o)
+ .debug_line    0x000147a8      0x11d d:/MinGW-4.7.1/arm-elf/lib\libc.a(lib_a-strlen.o)
+ .debug_line    0x000148c5       0xa6 d:/MinGW-4.7.1/lib/gcc/arm-elf/4.6.0\libgcc.a(_udivsi3.o)
+ .debug_line    0x0001496b       0xb2 d:/MinGW-4.7.1/lib/gcc/arm-elf/4.6.0\libgcc.a(_divsi3.o)
+ .debug_line    0x00014a1d       0x8d d:/MinGW-4.7.1/lib/gcc/arm-elf/4.6.0\libgcc.a(_umodsi3.o)
+ .debug_line    0x00014aaa       0x78 d:/MinGW-4.7.1/lib/gcc/arm-elf/4.6.0\libgcc.a(_dvmd_tls.o)
 
 .debug_str      0x00000000     0x888a
  .debug_str     0x00000000      0xac3 ./Debug/audio_adc_audio_adc.c.o

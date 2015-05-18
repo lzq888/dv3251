@@ -51563,7 +51563,7 @@ Disassembly of section .text:
 20033e74 <dac_buf_1>:
 20033e74:	205ea000                                ..^ 
 
-20033e78 <adc_buf_num.5590>:
+20033e78 <adc_buf_num.5620>:
 20033e78:	00000001                                ....
 
 20033e7c <music_llp0>:
@@ -51744,7 +51744,7 @@ Disassembly of section .text:
 20034730 <light_sta>:
 20034730:	0000ff01                                         .
 
-20034731 <dcin_flag.5547>:
+20034731 <dcin_flag.5577>:
 20034731:	310000ff                                         ...
 
 20034734 <NT99141InitTable_1280_720>:
@@ -51786,7 +51786,7 @@ Disassembly of section .text:
 20034964:	31b9323f 3238bc32 be323cbd 3f013234     ?2.12.82.<2.42.?
 20034974:	30062130 00000160                       0!.0`...
 
-2003497c <prev_state.5529>:
+2003497c <prev_state.5559>:
 2003497c:	000000ff                                ....
 
 20034980 <Lcd_osd_sys_time>:

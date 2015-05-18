@@ -15,8 +15,8 @@ CurrentFileFullPath    :=
 User                   :=yezq
 Date                   :=05/18/15
 CodeLitePath           :="d:\Program Files\CodeLite"
-LinkerName             :=D:/MinGW-4.7.1/arm-elf/bin/g++.exe 
-SharedObjectLinkerName :=D:/MinGW-4.7.1/arm-elf/bin/g++.exe -shared -fPIC
+LinkerName             :=D:/MinGW-4.7.1/bin/arm-elf-ld.exe
+SharedObjectLinkerName :=D:/MinGW-4.7.1/bin/arm-elf-gcc.exe
 ObjectSuffix           :=.o
 DependSuffix           :=.o.d
 PreprocessSuffix       :=.i
@@ -36,8 +36,8 @@ ObjectsFileList        :="AX325X.txt"
 PCHCompileFlags        :=
 MakeDirCommand         :=makedir
 RcCmpOptions           := 
-RcCompilerName         :=D:/MinGW-4.7.1/arm-elf/bin/windres.exe 
-LinkOptions            :=  -T startup/maskrom.ld -Wl,-Map Hunter.txt -nostdlib
+RcCompilerName         :=D:/MinGW-4.7.1/bin/windres.exe 
+LinkOptions            :=  -T startup/maskrom.ld -Map Hunter.txt
 IncludePath            :=  $(IncludeSwitch). $(IncludeSwitch). $(IncludeSwitch)D:/MinGW-4.7.1/arm-elf/include $(IncludeSwitch)D:/MinGW-4.7.1/lib/gcc/arm-elf/4.6.0/include 
 IncludePCH             := 
 RcIncludePath          := 
@@ -49,13 +49,13 @@ LibPath                := $(LibraryPathSwitch). $(LibraryPathSwitch)d:/MinGW-4.7
 ## Common variables
 ## AR, CXX, CC, AS, CXXFLAGS and CFLAGS can be overriden using an environment variables
 ##
-AR       := D:/MinGW-4.7.1/arm-elf/bin/ar.exe rcu
-CXX      := D:/MinGW-4.7.1/arm-elf/bin/g++.exe 
-CC       := D:/MinGW-4.7.1/arm-elf/bin/gcc.exe 
+AR       := D:/MinGW-4.7.1/bin/arm-elf-ar.exe
+CXX      := D:/MinGW-4.7.1/bin/arm-elf-g++.exe
+CC       := D:/MinGW-4.7.1/bin/arm-elf-gcc.exe
 CXXFLAGS :=  -g -O3 -Wall $(Preprocessors)
 CFLAGS   :=  -g -O3 -Wall $(Preprocessors)
-ASFLAGS  := 
-AS       := D:/MinGW-4.7.1/arm-elf/bin/as.exe 
+ASFLAGS  := -c
+AS       := D:/MinGW-4.7.1/bin/arm-elf-gcc.exe
 
 
 ##
