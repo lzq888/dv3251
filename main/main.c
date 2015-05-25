@@ -18,10 +18,19 @@
 //                                                                  |
 //===================================================================
 
+
 int main(void)
 {	
 	sys_Init();
 
+	for(;;) {
+		LED_RED_ON();
+		LED_GREEN_ON();
+		Delay_MS(500);
+		LED_RED_OFF();
+		LED_GREEN_OFF();
+		Delay_MS(500);
+	}
 	while (NO_KEY != get_msg());
 	run_task();
 #if SOFT_POWER_ON_OFF
