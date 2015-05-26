@@ -153,6 +153,8 @@ void led_SetStatus_RED(void)
 {
 	static u32 u32LedCnt_10ms = 0;
 	u32LedCnt_10ms++;
+
+	return;
 	
 	LED_STATUS LedStatus_RED = (LED_STATUS)(u16LedParam_RED[g_SystemState] & 0xff);
 	u8 u8LedFreq_RED = (u8)((u16LedParam_RED[g_SystemState] >>8)& 0xff);
@@ -197,6 +199,8 @@ void led_SetStatus_GREEN(void)
 	static u32 u32LedCnt_10ms = 0;
 	u32LedCnt_10ms++;
 	
+	return;
+
 	LED_STATUS LedStatus_GREEN = (LED_STATUS)(u16LedParam_GREEN[g_SystemState] & 0xff);
 	u8 u8LedFreq_GREEN = (u8)((u16LedParam_GREEN[g_SystemState] >>8)& 0xff);
 

@@ -7,3 +7,10 @@ tags
 GTAGS
 GPATH
 GRTAGS
+.codelite/AX325X.tags
+.codelite/refactoring.db
+Debug/
+Hunter.lst
+Hunter.txt
+si/
+startfiles
