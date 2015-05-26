@@ -179,6 +179,20 @@
  *****************************************************************************/
 //LCD型号选择
 #define  LCD_USE      LCD_NO_DISPLAY	
+//#define  LCD_USE      LCD_ILI8961 //yezq
+
+//#define SPI_TRANSFER 1 //yezq use with LCD_ILI8961
+
+#ifdef SPI_TRANSFER //yezq 
+	#define LCDBKL_OUTPUT()		
+	#define LCDBKL_OPEN()		
+	#define LCDBKL_CLOSE()		
+
+	#define LCDPWEN_OUTPUT()	
+	#define LCDPWEN_ENABLE()	
+	#define LCDPWEN_DISABLE()	
+#endif
+
 
 /*****************************************************************************
  * Module    : MEMU DISPLAY配置

@@ -48,6 +48,24 @@
 		#define LCD_SPI_DAT_PIN              14
 	#endif
 	#define SPI_PIN_CONF()     LCD_SPI_PMAP0();REG32(PF_DIR) &= ~((1<<LCD_SPI_CS_PIN)|(1<<LCD_SPI_DAT_PIN)|(1<<LCD_SPI_CLK_PIN));
+#elif defined(SPI_TRANSFER) //yezq
+	#define PIN_CONF()    REG32(PF_DIR) &= ~0x0f0;  //pin 4,5,6,7
+	
+	#define LCD_SPI_PMAP0()    REG32(PMAP_CFG0) |=(1<<24); REG32(PMAP_CFG0) &=~(1<<25)
+	//#define LCD_SPI_PMAP1()    REG32(PMAP_CFG0) |=(1<<25); REG32(PMAP_CFG0) &=~(1<<24);
+	#ifdef LCD_SPI_PMAP0 
+		#define LCD_SPI_CLK_PIN              5
+		#define LCD_SPI_DI_PIN               7
+		#define LCD_SPI_CS_PIN               4
+		#define LCD_SPI_DAT_PIN              6
+	#endif
+	#ifdef LCD_SPI_PMAP1  
+		#define LCD_SPI_CLK_PIN              13
+		#define LCD_SPI_DI_PIN               12
+		#define LCD_SPI_CS_PIN               15
+		#define LCD_SPI_DAT_PIN              14
+	#endif
+	#define SPI_PIN_CONF()     LCD_SPI_PMAP0();REG32(PF_DIR) &= ~((1<<LCD_SPI_CS_PIN)|(1<<LCD_SPI_DAT_PIN)|(1<<LCD_SPI_CLK_PIN));REG32(PF_DIR) |= (1<<LCD_SPI_DI_PIN);
 #else
 	......
 #endif
