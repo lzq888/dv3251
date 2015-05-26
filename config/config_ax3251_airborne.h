@@ -178,10 +178,10 @@
  * Module    : LCD配置
  *****************************************************************************/
 //LCD型号选择
-#define  LCD_USE      LCD_NO_DISPLAY	
-//#define  LCD_USE      LCD_ILI8961 //yezq
+//#define  LCD_USE      LCD_NO_DISPLAY	
+#define  LCD_USE      LCD_ILI8961 //yezq
 
-//#define SPI_TRANSFER 1 //yezq use with LCD_ILI8961
+#define SPI_TRANSFER 1 //yezq use with LCD_ILI8961
 
 #ifdef SPI_TRANSFER //yezq 
 	#define LCDBKL_OUTPUT()		
