@@ -23,6 +23,7 @@ int main(void)
 {	
 	sys_Init();
 
+#if 0
 	for(;;) {
 		LED_RED_ON();
 		LED_GREEN_ON();
@@ -31,6 +32,13 @@ int main(void)
 		LED_GREEN_OFF();
 		Delay_MS(500);
 	}
+#endif
+#if 0
+	while(1) {
+		deg_Printf("last while!!!!!!!\n");
+		Delay_MS(1000);
+	}
+#endif
 	while (NO_KEY != get_msg());
 	run_task();
 #if SOFT_POWER_ON_OFF

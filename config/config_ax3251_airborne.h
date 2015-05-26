@@ -125,7 +125,8 @@
 	#define I2C_SDA_IS_HIGH()			(I2C_SDA_PORT_DATA & BIT(I2C_SDA_PORT_BIT))
 #endif	
 
-#define SEN_USE    	SEN_NT99141
+//#define SEN_USE    	SEN_NT99141
+#define SEN_USE    	SEN_GC0308
 #define G_SEN_USE    G_SEN_NULL
 
 /*****************************************************************************

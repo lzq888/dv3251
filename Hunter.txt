@@ -1,0 +1,3391 @@
+Archive member included because of file (symbol)
+
+d:/MinGW-4.7.1/arm-elf/lib\libc.a(lib_a-strcpy.o)
+                              ./Debug/fat_api_fat_api.c.o (strcpy)
+d:/MinGW-4.7.1/arm-elf/lib\libc.a(lib_a-strlen.o)
+                              ./Debug/fat_api_fat_api.c.o (strlen)
+d:/MinGW-4.7.1/lib/gcc/arm-elf/4.6.0\libgcc.a(_udivsi3.o)
+                              ./Debug/sensor_sensor.c.o (__udivsi3)
+d:/MinGW-4.7.1/lib/gcc/arm-elf/4.6.0\libgcc.a(_divsi3.o)
+                              ./Debug/tvout_tvout.c.o (__divsi3)
+d:/MinGW-4.7.1/lib/gcc/arm-elf/4.6.0\libgcc.a(_umodsi3.o)
+                              ./Debug/sys_sys.c.o (__umodsi3)
+d:/MinGW-4.7.1/lib/gcc/arm-elf/4.6.0\libgcc.a(_dvmd_tls.o)
+                              d:/MinGW-4.7.1/lib/gcc/arm-elf/4.6.0\libgcc.a(_udivsi3.o) (__div0)
+libs\libjpeg.a(jpeg_enc.o)    ./Debug/audio_adc_audio_adc.c.o (g_stcJpegInfo)
+libs\libjpeg.a(jpeg_isr.o)    ./Debug/int_int.c.o (jpeg_Isr)
+libs\libjpeg.a(jpeg_dec.o)    ./Debug/play_play_picture.c.o (jpdec_flag)
+libs\libjpeg.a(jpeg_linebuffer.o)
+                              ./Debug/fat_api_fat_api.c.o (jpeg_LineBuffer_Start)
+libs\libfs.a(fat_format.o)    ./Debug/menu_menu_setting.c.o (format_filesystem)
+libs\libfs.a(ff.o)            ./Debug/fat_api_fat_api.c.o (clust2sect)
+libs\libfs.a(diskio.o)        libs\libfs.a(ff.o) (get_fattime)
+libs\libusb.a(usb_device_mass.o)
+                              ./Debug/task_task_usb_device.c.o (rbc_process)
+libs\libusb.a(usb_dev_audio.o)
+                              ./Debug/audio_adc_audio_adc.c.o (UacSampFreq)
+libs\libusb.a(usb_device_enum.o)
+                              ./Debug/task_task_usb_device.c.o (usb_device_init)
+libs\libusb.a(usb.o)          libs\libusb.a(usb_device_mass.o) (usb_dma_dpk)
+libs\libusb.a(usb_device_video.o)
+                              libs\libusb.a(usb_device_enum.o) (uvc_video_probe_control)
+libs\libusb.a(update.o)       libs\libusb.a(usb_device_mass.o) (.Lback2mrom)
+libs\libstartup.a(cpu.o)      ./Debug/csi_csi_timeinfo.c.o (CleanDCacheRegion)
+libs\libstartup.a(lowPower.o)
+                              ./Debug/task_task_holdMode.c.o (cpu_hold_mode)
+libs\libstartup.a(startup.o)  (_start)
+libs\libstartup.a(BootSec.o)  ./Debug/startup_spi_boot_cfg.S.o (.bootsect)
+libs\libfat.a(fat.o)          ./Debug/fat_api_fat_api.c.o (WriteVideoInfo)
+libs\libfat.a(fat_fileorder.o)
+                              ./Debug/fat_api_fat_api.c.o (RecFileNum)
+libs\libsd.a(sd.o)            ./Debug/sd_sd_ext.c.o (bsd_Reset)
+
+Allocating common symbols
+Common symbol       size              file
+
+u32csi_Dma_Size_H   0x4               ./Debug/csi_csi.c.o
+g_VideoFrameBuf     0x10              ./Debug/play_avi_player.c.o
+u32csi_Dma_Size_V   0x4               ./Debug/csi_csi.c.o
+YUYVSrcBuff         0x4               libs\libjpeg.a(jpeg_linebuffer.o)
+g_stcJpegInfo       0x78              libs\libjpeg.a(jpeg_enc.o)
+OSD1Inf             0x14              ./Debug/lcd_osd.c.o
+usb_EP1_class       0x1               ./Debug/audio_adc_audio_adc.c.o
+g_AudioIndexFIFO    0x1c              ./Debug/play_avi_player.c.o
+usbep3buf           0x4               libs\libusb.a(usb_dev_audio.o)
+g_cbw_cb            0x10              libs\libusb.a(usb_device_mass.o)
+usb_varm            0x38              ./Debug/audio_adc_audio_adc.c.o
+bRecording_Display_Flag
+                    0x1               ./Debug/fat_api_fat_api.c.o
+current_DMAADDR     0x4               libs\libusb.a(usb_device_video.o)
+g_DecodeDispFrameBuf
+                    0x10              ./Debug/play_avi_player.c.o
+ep0_rx_buf          0x40              libs\libusb.a(usb_device_enum.o)
+dac_block_flag      0x1               ./Debug/audio_dac_audio_dac.c.o
+TimerInfoPixelBuf   0x4               ./Debug/csi_csi_timeinfo.c.o
+seg_info            0x8               ./Debug/audio_adc_audio_adc.c.o
+video_start         0x1               libs\libusb.a(usb_device_enum.o)
+dev_ctl             0x14              ./Debug/audio_adc_audio_adc.c.o
+g_cbw_transfer_len  0x4               libs\libusb.a(usb_device_mass.o)
+csi_buf_point       0x1               ./Debug/audio_adc_audio_adc.c.o
+u32Test_1msCnt      0x4               ./Debug/timer_timer_isr.c.o
+play_file_num       0x4               ./Debug/task_task_play.c.o
+delFS               0x240             ./Debug/fat_api_fat_api.c.o
+u32Delay_1msCnt     0x4               ./Debug/timer_timer_isr.c.o
+g_AudioFrameBuf     0x10              ./Debug/play_avi_player.c.o
+usb_type            0x1               ./Debug/audio_adc_audio_adc.c.o
+g_DispFrameBuf      0x10              ./Debug/play_avi_player.c.o
+g_AudioIndexInfo    0x14              ./Debug/play_avi_player.c.o
+sd_dis_flag         0x1               ./Debug/audio_adc_audio_adc.c.o
+work_fatfs          0x240             ./Debug/fat_api_fat_api.c.o
+u32jpegSize_V       0x4               libs\libjpeg.a(jpeg_dec.o)
+sam_audio_buffer_ptr
+                    0x4               libs\libjpeg.a(jpeg_enc.o)
+adc_step            0x1               ./Debug/msg_adkey.c.o
+p_enp               0x4               ./Debug/audio_adc_audio_adc.c.o
+usb_enum_type       0x1               ./Debug/audio_adc_audio_adc.c.o
+g_VideoIndexInfo    0x14              ./Debug/play_avi_player.c.o
+bMD_Flag            0x1               ./Debug/csi_csi_isr.c.o
+u32sdr_Buff_Len     0x4               ./Debug/csi_csi.c.o
+delCLST             0x4               ./Debug/fat_api_fat_api.c.o
+JpegFrame_locat_fifo
+                    0x10              libs\libjpeg.a(jpeg_enc.o)
+UacSampFreq         0x3               libs\libusb.a(usb_dev_audio.o)
+g_AudioIndexBuf     0x14              ./Debug/play_avi_player.c.o
+bMD_StopVideo_Flag  0x1               ./Debug/csi_csi.c.o
+bs_buf              0x40              ./Debug/audio_adc_audio_adc.c.o
+Gsensor_ID          0x1               ./Debug/g_sensor_g_sensor.c.o
+RecFileNum          0xfa2             libs\libfat.a(fat_fileorder.o)
+blcd_FrameEnd_Flag  0x1               ./Debug/lcd_lcd_driver.c.o
+udev                0x18              ./Debug/audio_adc_audio_adc.c.o
+t_record_video      0xc               ./Debug/task_task_video.c.o
+u32MDCnt            0x4               ./Debug/csi_csi.c.o
+blcd_writeback_Flag
+                    0x1               ./Debug/lcd_lcd_driver.c.o
+u8Databytnum        0x1               ./Debug/sensor_sensor.c.o
+cur_menu            0x8               ./Debug/menu_menu_display.c.o
+UacVolCtrlCur       0x2               libs\libusb.a(usb_dev_audio.o)
+p_dev               0x4               ./Debug/audio_adc_audio_adc.c.o
+device_online       0x2               ./Debug/audio_adc_audio_adc.c.o
+g_csw_status        0x1               libs\libusb.a(usb_device_mass.o)
+filename            0x1c              ./Debug/fat_api_fat_api.c.o
+bcsi_FrameEndFlag   0x1               ./Debug/csi_csi_isr.c.o
+g_bSenseKey         0x1               libs\libusb.a(usb_device_mass.o)
+pVideoBuf           0x4               libs\libusb.a(usb_device_video.o)
+csr0_tmp            0x1               libs\libusb.a(usb_device_enum.o)
+usb_dev_req         0x8               ./Debug/audio_adc_audio_adc.c.o
+uvc_video_probe_commit_value
+                    0x1a              libs\libusb.a(usb_device_video.o)
+WriteBack_cnt       0x4               libs\libjpeg.a(jpeg_linebuffer.o)
+g_DecodeDispFrameFIFO
+                    0x1c              ./Debug/play_avi_player.c.o
+CsiLastPacketPending
+                    0x1               libs\libusb.a(usb_device_video.o)
+removeChain_outptr  0x1               libs\libfs.a(ff.o)
+gImage_palette      0x400             ./Debug/lcd_osd.c.o
+g_DecodeVideoFrameBuf
+                    0x10              ./Debug/play_avi_player.c.o
+g_DecodeVideoFrameFIFO
+                    0x1c              ./Debug/play_avi_player.c.o
+lastPacketSize      0x4               libs\libusb.a(usb_device_video.o)
+tpbulk_block        0x40              ./Debug/audio_adc_audio_adc.c.o
+ep3buf              0x40              ./Debug/audio_adc_audio_adc.c.o
+csi_timeout         0x4               ./Debug/csi_csi.c.o
+csibufflag          0x1               libs\libusb.a(usb_device_video.o)
+u8SensorreadID      0x1               ./Debug/sensor_sensor.c.o
+Total_record_timer_info
+                    0x8               ./Debug/task_task_video.c.o
+m_CsiFrameDataPos   0x4               libs\libusb.a(usb_device_video.o)
+tick                0x1               libs\libusb.a(usb_device_enum.o)
+g_csw_data_residue  0x4               libs\libusb.a(usb_device_mass.o)
+g_stcSDInfo         0x14              libs\libsd.a(sd.o)
+pSetReqCallback     0x4               ./Debug/audio_adc_audio_adc.c.o
+TimeInfoBuff        0x13              ./Debug/csi_csi_timeinfo.c.o
+msg_ctrl            0x8               ./Debug/msg_msg.c.o
+u8SensorwriteID     0x1               ./Debug/sensor_sensor.c.o
+OSD2Inf             0x14              ./Debug/lcd_osd.c.o
+g_VideoIndexFIFO    0x1c              ./Debug/play_avi_player.c.o
+lastTimeCount       0x4               ./Debug/csi_csi_timeinfo.c.o
+t_play              0x8               ./Debug/task_task_play.c.o
+setup_pkt           0x8               ./Debug/audio_adc_audio_adc.c.o
+u32csi_IntFlag      0x4               ./Debug/csi_csi_isr.c.o
+removeChain_inptr   0x1               libs\libfs.a(ff.o)
+index_filename      0x1c              ./Debug/fat_api_fat_api.c.o
+YUYVDestBuff        0x4               libs\libjpeg.a(jpeg_linebuffer.o)
+TimeInfo_for_record
+                    0x13              ./Debug/task_task_video.c.o
+UacMuteControl      0x1               libs\libusb.a(usb_dev_audio.o)
+g_IndexInfo         0x14              ./Debug/play_avi_player.c.o
+AudioStreamingIsOn  0x1               libs\libusb.a(usb_dev_audio.o)
+removeChain_pool    0x40              libs\libfs.a(ff.o)
+g_cbw_tag           0x4               libs\libusb.a(usb_device_mass.o)
+g_last_err          0x1               libs\libusb.a(usb_device_mass.o)
+bStopVideo_Flag     0x1               ./Debug/fat_api_fat_api.c.o
+Total_record_timer_current
+                    0x8               ./Debug/task_task_video.c.o
+Fil                 0x240             ./Debug/fat_api_fat_api.c.o
+pkt_per_sec         0x1               ./Debug/audio_adc_audio_adc.c.o
+indexFil            0x240             ./Debug/fat_api_fat_api.c.o
+OSD3Inf             0x14              ./Debug/lcd_osd.c.o
+g_packet_len        0x1               libs\libusb.a(usb_device_mass.o)
+g_AVIFileInfo       0x54              ./Debug/play_avi_player.c.o
+msg_pool            0xf               ./Debug/msg_msg.c.o
+ep0txbuf            0x40              libs\libusb.a(usb_dev_audio.o)
+menu_mgroup         0x44              ./Debug/menu_menu_display.c.o
+EP0WaitForSetReqData
+                    0x1               ./Debug/audio_adc_audio_adc.c.o
+FontLib             0x8               ./Debug/font_font.c.o
+g_bAdditionalSenseCode
+                    0x1               libs\libusb.a(usb_device_mass.o)
+g_VideoIndexBuf     0xc8              ./Debug/play_avi_player.c.o
+u32jpegSize_H       0x4               libs\libjpeg.a(jpeg_dec.o)
+jpdec_flag          0x1               libs\libjpeg.a(jpeg_dec.o)
+TimeInfoCurrent     0x13              ./Debug/csi_csi_timeinfo.c.o
+p_ifc               0x4               ./Debug/audio_adc_audio_adc.c.o
+auido_sd_locat_fifo
+                    0x10              libs\libjpeg.a(jpeg_enc.o)
+u32DataOffset       0x4               libs\libfat.a(fat.o)
+u8Addrbytnum        0x1               ./Debug/sensor_sensor.c.o
+sys_ctl             0x24              ./Debug/menu_menu_setting.c.o
+t_photo             0x8               ./Debug/task_task_photo.c.o
+agcflg              0x1               ./Debug/audio_adc_audio_adc.c.o
+task_ctl            0x8               ./Debug/task_task.c.o
+fnlist              0xbb80            ./Debug/fat_api_fat_api.c.o
+g_cur_lun           0x1               libs\libusb.a(usb_device_mass.o)
+clmt                0x1000            ./Debug/fat_api_fat_api.c.o
+jpeg_isrfp          0x4               ./Debug/audio_adc_audio_adc.c.o
+play_file_total     0x4               ./Debug/task_task_play.c.o
+usb_var             0x4               ./Debug/audio_adc_audio_adc.c.o
+p_cfg               0x4               ./Debug/audio_adc_audio_adc.c.o
+AudioDataIndex      0x1               libs\libusb.a(usb_dev_audio.o)
+g_bAddiSenseCodeQualifier
+                    0x1               libs\libusb.a(usb_device_mass.o)
+bSameSizeFlag       0x1               ./Debug/csi_csi.c.o
+usbstack            0xc               ./Debug/audio_adc_audio_adc.c.o
+OSD_changeFlag      0x4               ./Debug/lcd_osd.c.o
+u32Timer0_1msCnt    0x4               ./Debug/timer_timer_isr.c.o
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+ram              0x20000000         0x00050000         xw
+bssram           0x20050000         0x00018000         xw
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+LOAD ./Debug/audio_adc_audio_adc.c.o
+LOAD ./Debug/audio_dac_audio_dac.c.o
+LOAD ./Debug/common_common.c.o
+LOAD ./Debug/csi_csi.c.o
+LOAD ./Debug/csi_csi_isr.c.o
+LOAD ./Debug/csi_csi_timeinfo.c.o
+LOAD ./Debug/fat_api_fat_api.c.o
+LOAD ./Debug/font_font.c.o
+LOAD ./Debug/gpdma_gpdma.c.o
+LOAD ./Debug/i2c_i2c.c.o
+LOAD ./Debug/int_int.c.o
+LOAD ./Debug/lcd_lcdc.c.o
+LOAD ./Debug/lcd_osd.c.o
+LOAD ./Debug/lcd_lcd_driver.c.o
+LOAD ./Debug/lcd_lcd_interface.c.o
+LOAD ./Debug/lcd_lcd_tdo24theb2.c.o
+LOAD ./Debug/lcd_lcd_ili8961.c.o
+LOAD ./Debug/lcd_lcd_nodisplay.c.o
+LOAD ./Debug/lcd_lcd_3029.c.o
+LOAD ./Debug/lcd_lcd_61505.c.o
+LOAD ./Debug/lcd_lcd_hx8367.c.o
+LOAD ./Debug/lcd_lcd_7781.c.o
+LOAD ./Debug/lcd_lcd_ili6480.c.o
+LOAD ./Debug/lcd_lcd_61505W.c.o
+LOAD ./Debug/lcd_lcd_3029C.c.o
+LOAD ./Debug/lcd_lcd_9303.c.o
+LOAD ./Debug/lcd_lcd_9312.c.o
+LOAD ./Debug/lcd_lcd_ili9225.c.o
+LOAD ./Debug/main_main.c.o
+LOAD ./Debug/menu_menu_display.c.o
+LOAD ./Debug/menu_menu_struct.c.o
+LOAD ./Debug/menu_menu_setting.c.o
+LOAD ./Debug/msg_adkey.c.o
+LOAD ./Debug/msg_msg.c.o
+LOAD ./Debug/play_avi_player.c.o
+LOAD ./Debug/play_gp_fifo.c.o
+LOAD ./Debug/play_play_picture.c.o
+LOAD ./Debug/rtc_rtc.c.o
+LOAD ./Debug/sd_sd_ext.c.o
+LOAD ./Debug/sensor_sensor.c.o
+LOAD ./Debug/sensor_sensor_gc0308.c.o
+LOAD ./Debug/sensor_sensor_nt99140.c.o
+LOAD ./Debug/sensor_sensor_ov7670.c.o
+LOAD ./Debug/sensor_sensor_ov9710.c.o
+LOAD ./Debug/sensor_sensor_nt99141.c.o
+LOAD ./Debug/sensor_sensor_bf3925.c.o
+LOAD ./Debug/sensor_sensor_siv121DS.c.o
+LOAD ./Debug/sensor_sensor_ov7725.c.o
+LOAD ./Debug/sensor_sensor_nt99240.c.o
+LOAD ./Debug/sensor_sensor_siv100B.c.o
+LOAD ./Debug/startup_spi_boot_cfg.S.o
+LOAD ./Debug/sys_sys.c.o
+LOAD ./Debug/timer_timer.c.o
+LOAD ./Debug/timer_timer_isr.c.o
+LOAD ./Debug/uart_uart.c.o
+LOAD ./Debug/spi_spi.c.o
+LOAD ./Debug/task_task.c.o
+LOAD ./Debug/task_task_video.c.o
+LOAD ./Debug/task_task_photo.c.o
+LOAD ./Debug/task_task_play.c.o
+LOAD ./Debug/task_task_usb_device.c.o
+LOAD ./Debug/task_task_holdMode.c.o
+LOAD ./Debug/tvout_tvout.c.o
+LOAD ./Debug/led_led.c.o
+LOAD ./Debug/g_sensor_g_sensor.c.o
+LOAD ./Debug/g_sensor_g_sensor_dmard07.c.o
+LOAD ./Debug/g_sensor_g_sensor_gma301a.c.o
+LOAD ./Debug/g_sensor_g_sensor_null.c.o
+LOAD d:/MinGW-4.7.1/arm-elf/lib\libc.a
+LOAD d:/MinGW-4.7.1/lib/gcc/arm-elf/4.6.0\libgcc.a
+LOAD libs\libjpeg.a
+LOAD libs\libfs.a
+LOAD libs\libusb.a
+LOAD libs\libstartup.a
+LOAD libs\libfat.a
+LOAD libs\libsd.a
+
+.text           0x20000000    0x31100
+ *(.text.vector)
+ .text.vector   0x20000000      0x110 libs\libstartup.a(startup.o)
+                0x20000000                _start
+                0x20000094                MMU_Disable
+ *(.text.irq_entry)
+ .text.irq_entry
+                0x20000110      0x150 ./Debug/int_int.c.o
+                0x20000110                IRQ_EINT_Handle
+ *(.text.startup)
+ .text.startup  0x20000260       0x84 ./Debug/main_main.c.o
+                0x20000260                main
+ *(.text)
+ .text          0x200002e4      0xa7c ./Debug/audio_adc_audio_adc.c.o
+                0x200002e4                audio_adc_isr
+                0x20000320                audio_adc_analog_init
+                0x20000354                audio_adc_init
+                0x2000052c                close_adc
+                0x200005b0                audio_adc_Stop
+                0x20000624                audio_AGC_DMA_Isr
+                0x2000078c                set_usb_audio_usr_para
+                0x20000870                adc_init
+                0x20000a9c                USB_start_adc
+                0x20000ad4                Ep3_audio_adc_init
+                0x20000be0                Get_ep3_auido_adc
+ .text          0x20000d60      0xde4 ./Debug/audio_dac_audio_dac.c.o
+                0x20000e24                wr_reg
+                0x20000e48                rd_reg
+                0x20000e70                dac_irq
+                0x20000ee8                digital_volume_set
+                0x20000f8c                dac_analog_init
+                0x20000fa4                obuf_cfg
+                0x20001084                audio_dac_init
+                0x20001318                audio_dac_Stop
+                0x200013d4                audio_amplifier_open
+                0x200013f8                audio_amplifier_close
+                0x2000141c                music_init
+                0x20001680                music_play
+                0x200017c8                key_voice_init
+                0x200019e8                key_voice
+                0x20001a84                key_voice_after_recording
+ .text          0x20001b44      0x6f8 ./Debug/common_common.c.o
+                0x20001b44                my_strlen
+                0x20001b60                my_memset
+                0x20001c20                zeromem
+                0x20001cdc                my_memcpy
+                0x20001d98                my_mem_cmp
+                0x20001dc8                bmemcmp
+                0x20001e30                datacmp
+                0x20001e58                _strcpy
+                0x20001e70                _strncmp
+                0x20001eec                Delay_nopCnt
+                0x20001f04                Delay_MS
+                0x20001f24                Delay_10US
+                0x20001f4c                XCHDWORD
+                0x20001f78                XCHWORD
+                0x20001f94                device_init
+                0x20001fd8                device_get
+                0x20001ff4                device_status_stable
+                0x2000206c                device_insert
+                0x200020e0                device_remove
+                0x20002150                gp_fifo_ctr
+                0x2000218c                gp_fifo_read
+                0x200021c8                gp_fifo_look
+                0x200021d4                gp_fifo_write
+                0x2000220c                gp_fifo_num_ele_ava
+ .text          0x2000223c     0x1034 ./Debug/csi_csi.c.o
+                0x2000223c                csi_Init
+                0x2000231c                csi_ParameterSet
+                0x200023d4                csi_DmaSet
+                0x20002598                csi_SetDataWidth
+                0x2000263c                csi_SetInputSize
+                0x2000266c                csi_SetOutMode
+                0x20002708                csi_SetOutputSize
+                0x20002898                csi_Start
+                0x20002cec                csi_SetScaler
+                0x20002d54                csi_DmaEnable
+                0x20002dd8                csi_MD_Start
+                0x20002e4c                csi_MD_Enable
+                0x20002e64                csi_MD_Disable
+                0x20002e7c                csi_CheckMD
+                0x20002ee4                csi_Stop
+                0x20002f20                csi_Enable
+                0x20002f68                csi_InserTimeInfo
+                0x20003038                csi_camera_init
+                0x20003210                csi_camera_on
+                0x20003240                csi_camera_off
+ .text          0x20003270      0x3dc ./Debug/csi_csi_isr.c.o
+                0x20003270                csi_Isr
+ .text          0x2000364c      0x57c ./Debug/csi_csi_timeinfo.c.o
+                0x2000364c                csi_TimeInfo_Init
+                0x20003670                csi_SetTimePos
+                0x2000369c                csi_SetTimeInfo
+                0x200036f0                csi_SetTimeInfoSize
+                0x20003708                csi_SetTime
+                0x200039dc                csi_SetTimeInfoRam
+ .text          0x20003bc8     0x25f8 ./Debug/fat_api_fat_api.c.o
+                0x20003bc8                InitRecordFolder
+                0x20003d44                fat_GetReserveSpace
+                0x20003dc8                Fat_WriteAviHead
+                0x20003ff0                CheckVideoStopCondition
+                0x20004244                PlayVideoFile
+                0x20004280                PlayPictureFile
+                0x2000429c                f_scan_files
+                0x2000445c                RecordJPGFile
+                0x20004a64                RecordVideoFile
+                0x20005714                f_get_scan_file_name
+                0x20005780                f_get_filetime
+                0x20005798                f_get_filenum
+                0x200057d8                f_get_scan_min_num
+                0x200058c4                f_get_scan_max_num
+                0x200059b0                f_get_scan_first_num
+                0x20005b00                f_get_scan_last_num
+                0x20005c54                f_exchangesort_file
+                0x20005da0                f_check_file_num
+                0x20005e74                f_get_free_space
+                0x20005eb0                f_getFileClustSize
+                0x20005ed8                SyncAVIInfo
+                0x20006008                UpdateAVIInfo
+                0x2000615c                f_fastseek_init
+                0x20006178                f_check_rec_video_file_size
+                0x200061b8                delete_file
+                0x200061bc                lock_unlock_file
+ .text          0x200061c0       0x24 ./Debug/font_font.c.o
+                0x200061c0                FontInit
+                0x200061c4                GetUnicodeIndex
+                0x200061c8                GetStrFontInfo
+                0x200061cc                UnicodeInfoUpdate
+                0x200061d0                UnicodeInfoUpdate_EX
+                0x200061d4                DisplayUnicodeStr
+                0x200061d8                DotMatrixIconDisplay
+                0x200061dc                DisplayUnicodeStr_ToTempBuf
+                0x200061e0                DisplayUnicodeStr_EXT
+ .text          0x200061e4      0x500 ./Debug/gpdma_gpdma.c.o
+                0x200061e4                channel5_disable
+                0x2000622c                channel5_ctl
+                0x200062a8                channel5_cfg
+                0x200062fc                channel5_trans_start
+                0x2000632c                channel5_llp_cfg
+                0x20006348                channel5_llp_enable
+                0x20006390                gpdma_channel5_mem2mem
+                0x200063d0                gpdma_ch5_llp
+                0x20006414                dma_peri2mem
+                0x200064c8                dma_mem2peri
+                0x2000657c                llp_peri2mem
+                0x20006604                dma_peri2mem_Ext
+                0x200066b8                gpdma_Isr
+ .text          0x200066e4     0x1a4c ./Debug/i2c_i2c.c.o
+                0x200066e4                i2c_Init
+                0x20006714                i2c_SendStart
+                0x2000677c                i2c_SendStop
+                0x200067e0                u8i2c_ReceiveACK
+                0x20006840                i2c_SendByte
+                0x20006a9c                u8i2c_RecvByte
+                0x20006d18                u8i2c_Read
+                0x200078a8                i2c_Write
+ .text          0x20008130       0x3c ./Debug/int_int.c.o
+                0x20008130                FIQ_EINT_Handle
+                0x20008134                SetIntSrc
+                0x20008150                ClrIntSrc
+ .text          0x2000816c      0xb18 ./Debug/lcd_lcdc.c.o
+                0x2000816c                lcd_set_panel_colour
+                0x2000819c                set_osd1_address
+                0x200081ac                set_osd2_address
+                0x200081bc                set_osd3_address
+                0x200081cc                set_video_address
+                0x200081dc                lcd_rgb2yuv
+                0x200082dc                lcd_rgb2yuvChEnd
+                0x20008454                lcd_emi_video_set_window
+                0x20008498                lcd_rgb_video_set_window
+                0x200084f4                lcd_set_line
+                0x20008514                lcd_emi_video_normal
+                0x200085c8                lcd_emi_video_zoom
+                0x200086ac                lcd_emi_video_display_part
+                0x20008758                lcd_rgb_video_normal
+                0x20008824                lcd_rgb_video_zoom
+                0x20008900                save_osd_palette
+                0x20008924                save_osd_index
+                0x20008948                lcd_emi_osd1_set_window
+                0x200089ac                lcd_emi_osd2_set_window
+                0x20008a10                lcd_emi_osd3_set_window
+                0x20008a74                lcd_rgb_osd1_set_window
+                0x20008ae8                lcd_rgb_osd2_set_window
+                0x20008b5c                lcd_rgb_osd3_set_window
+                0x20008bd0                video
+ .text          0x20008c84      0xab4 ./Debug/lcd_osd.c.o
+                0x20008c84                OSDInfInit
+                0x20008ce4                lcd_UpdateOsdLUT
+                0x20008eb8                lcd_FillFullOsdData
+                0x20008ed0                lcd_OsdInit
+                0x2000904c                OSDInit
+                0x20009290                lcd_FillPartOsdData
+                0x200093ac                lcd_UpdatePartOsdData
+                0x200093b0                lcd_UpdatePartOsdData_SDRAM
+                0x200094c0                osd_OsdData_load
+                0x200094fc                lcd_UpdateOsdIconData_FromSdram
+                0x20009500                lcd_UpdateOsdIconData_FromSdram_EX
+                0x20009504                lcd_UpdateOsdIconData_FromSdramToOsdBuf
+                0x20009614                lcd_Clean_TempOsdBuf
+ .text          0x20009738      0x730 ./Debug/lcd_lcd_driver.c.o
+                0x20009738                delay_us
+                0x20009770                delay_ms
+                0x200097a0                lcd_spi_putchar
+                0x200097c0                lcd_spi_getchar
+                0x200097ec                lcd_emi_timing_init
+                0x20009930                lcd_spirgb_timing_init
+                0x20009bac                lcd_rgb_timing_init
+                0x20009dc0                datactrl_mode_sel
+                0x20009df0                spi_to_rgb
+                0x20009e1c                reset_rgb_data_en
+                0x20009e38                waittingLcdFrameEnd
+ .text          0x20009e68      0xbb0 ./Debug/lcd_lcd_interface.c.o
+                0x20009e68                lcd_emi_osd1_display
+                0x20009f5c                lcd_emi_osd2_display
+                0x2000a044                lcd_emi_osd3_display
+                0x2000a12c                lcd_emi_video_display_normal
+                0x2000a194                lcd_emi_video_display_zoom
+                0x2000a240                lcd_writeback
+                0x2000a2c0                lcd_emi_video_display_wbdata
+                0x2000a350                lcd_rgb_osd1_display
+                0x2000a444                lcd_rgb_osd2_display
+                0x2000a52c                lcd_rgb_osd3_display
+                0x2000a614                lcd_rgb_video_display_normal
+                0x2000a67c                lcd_rgb_video_display_zoom
+                0x2000a728                lcd_rgb_video_display_zoomChEnd
+                0x2000a7d4                lcd_rgb_video_display_wbdata
+                0x2000a864                lcd_PostScale_Start
+                0x2000a984                lcd_PostScale_Stop
+ .text          0x2000aa18        0x0 ./Debug/lcd_lcd_tdo24theb2.c.o
+ .text          0x2000aa18        0x0 ./Debug/lcd_lcd_ili8961.c.o
+ .text          0x2000aa18      0x258 ./Debug/lcd_lcd_nodisplay.c.o
+                0x2000aa18                lcd_spi_sendcmd
+                0x2000aa1c                delay
+                0x2000aa4c                lcd_spi_init
+                0x2000aaa8                lcd_init
+                0x2000abcc                lcd_get_w
+                0x2000abd4                lcd_get_h
+                0x2000abdc                lcd_set_backlight
+                0x2000abe0                lcd_Isr
+                0x2000ac28                TFT_LCD_Timing_Initail
+ .text          0x2000ac70        0x0 ./Debug/lcd_lcd_3029.c.o
+ .text          0x2000ac70        0x0 ./Debug/lcd_lcd_61505.c.o
+ .text          0x2000ac70        0x0 ./Debug/lcd_lcd_hx8367.c.o
+ .text          0x2000ac70        0x0 ./Debug/lcd_lcd_7781.c.o
+ .text          0x2000ac70        0x0 ./Debug/lcd_lcd_ili6480.c.o
+ .text          0x2000ac70        0x0 ./Debug/lcd_lcd_61505W.c.o
+ .text          0x2000ac70        0x0 ./Debug/lcd_lcd_3029C.c.o
+ .text          0x2000ac70        0x0 ./Debug/lcd_lcd_9303.c.o
+ .text          0x2000ac70        0x0 ./Debug/lcd_lcd_9312.c.o
+ .text          0x2000ac70        0x0 ./Debug/lcd_lcd_ili9225.c.o
+ .text          0x2000ac70        0x0 ./Debug/main_main.c.o
+ .text          0x2000ac70     0x14bc ./Debug/menu_menu_display.c.o
+                0x2000ac70                ClrOSDDisplayFlag
+                0x2000ac90                SetOSDDisplayFlag
+                0x2000acb0                GetItemNums
+                0x2000ad2c                MenuOsdSdramChange
+                0x2000ad78                MenuOsdSdramRelease
+                0x2000ad98                MenuItemDisplay
+                0x2000aec8                MenuBackgroundUpdate
+                0x2000af54                MenuPageUpdate
+                0x2000affc                MenuItemHighlight
+                0x2000b050                MenuPageOSDHeaderUpdate
+                0x2000b3b4                LoadMenuMPageInfo
+                0x2000b3f0                MenuPageOSDUpdate
+                0x2000b524                MenuPagePrev
+                0x2000b5ec                MenuUpdate
+                0x2000b6e4                MenuCommonEvent
+                0x2000b784                MenuItemUp
+                0x2000b8a0                MenuItemDown
+                0x2000b988                MenuAct
+                0x2000b9cc                MenuHandle
+                0x2000bad0                MenuOSDInit
+                0x2000bb5c                MenuInit
+                0x2000bbd0                SetCurMenuType
+                0x2000bc00                MenuExit
+                0x2000bc68                MenuDisplay
+ .text          0x2000c12c        0x0 ./Debug/menu_menu_struct.c.o
+ .text          0x2000c12c     0x2374 ./Debug/menu_menu_setting.c.o
+                0x2000c304                user_setting_factory
+                0x2000c4a0                spi_param_factory
+                0x2000c510                spi_param_write
+                0x2000c5c0                spi_param_write8
+                0x2000c5e4                set_fast_view_time
+                0x2000c608                set_beep_sound
+                0x2000c60c                user_set_video_time_info
+                0x2000c654                set_record_video_s
+                0x2000c668                user_set_crc_record
+                0x2000c6b8                set_Gsensor_senstivity_value
+                0x2000c6dc                user_set_Gsensor_senstivity
+                0x2000c740                user_set_jpeg_video_size
+                0x2000c788                user_set_moving_detect
+                0x2000c7e8                user_set_record_mute
+                0x2000c830                user_set_night_light
+                0x2000c8e4                set_night_light
+                0x2000c958                user_set_jpeg_picture_size
+                0x2000c9a0                user_set_picture_time_info
+                0x2000c9e8                fix_date
+                0x2000caec                byte2Dec10000
+                0x2000d1b8                time_setting_display
+                0x2000d75c                date_adjust_setting
+                0x2000d920                user_set_language
+                0x2000d968                poweroff_1s_check
+                0x2000da18                set_poweroff
+                0x2000da48                user_set_poweroff
+                0x2000dab8                user_set_beep_sound
+                0x2000db00                reset_powerSaveChk
+                0x2000db24                user_set_backlight
+                0x2000db8c                set_video_rotate
+                0x2000dbec                user_show_video_rotate
+                0x2000dc04                user_setting_load
+                0x2000ddb8                spi_param_init
+                0x2000e09c                user_set_video_rotate
+                0x2000e0e8                user_set_fast_view
+                0x2000e148                user_set_format
+                0x2000e36c                user_set_delete_current
+                0x2000e39c                user_set_delete_all
+                0x2000e3c0                user_set_lock_current
+                0x2000e3d8                user_set_unlock_current
+                0x2000e3f0                user_set_lock_all
+                0x2000e404                user_set_unlock_all
+                0x2000e41c                user_set_tv_mode
+ .text          0x2000e4a0      0x624 ./Debug/msg_adkey.c.o
+                0x2000e4a0                SarAdcinit
+                0x2000e4d4                SarAdcChangeCh
+                0x2000e50c                battery_check_vol
+                0x2000e5d0                IOKeyInit
+                0x2000e600                ADKeyInit
+                0x2000e604                KeyInit
+                0x2000e634                get_adValue
+                0x2000e65c                GetIOKeyTpye
+                0x2000e6d0                KeyDeal
+                0x2000e76c                KeyProcess
+                0x2000e958                ScanKey
+ .text          0x2000eac4       0xf4 ./Debug/msg_msg.c.o
+                0x2000eac4                msg_init
+                0x2000eae8                flush_msg
+                0x2000eb00                put_msg
+                0x2000eb3c                get_msg
+                0x2000eb90                peek_msg
+ .text          0x2000ebb8      0xbe0 ./Debug/play_avi_player.c.o
+                0x2000ebb8                avi_Parser
+                0x2000edb0                avi_Player
+ .text          0x2000f798      0x124 ./Debug/play_gp_fifo.c.o
+                0x2000f798                gp_fifo_init
+                0x2000f7f0                gp_fifo_push
+                0x2000f854                gp_fifo_pop
+ .text          0x2000f8bc      0x34c ./Debug/play_play_picture.c.o
+                0x2000f8bc                play_Picture
+ .text          0x2000fc08     0x12b8 ./Debug/rtc_rtc.c.o
+                0x2000fc08                rtc_Byte
+                0x2000fc30                rtc_WriteCfg
+                0x2000fc88                rtc_ReadCfg
+                0x2000fce0                rtc_WriteRam
+                0x2000fd80                rtc_ReadRam
+                0x2000fe24                rtc_WriteCnt
+                0x20010160                rtc_Init
+                0x20010348                rtc_ReadCnt
+                0x20010418                isLeapYear
+                0x20010474                byte2Dec
+                0x200104ac                now
+                0x20010704                CalcTimeInfo
+                0x20010948                rtc_WriteTime
+                0x200109b0                rtc_set_wko_down
+                0x200109cc                rtc_set_wko_up
+                0x200109e8                rtc_check_updata_time_from_txt
+ .text          0x20010ec0      0x4d0 ./Debug/sd_sd_ext.c.o
+                0x20010ec0                bsd_Init
+                0x200110a4                sd_Wait74Clk
+                0x200110a8                bsd_DetectIO
+                0x20011120                sd_CheckOffline
+                0x20011290                sd_Detect
+                0x200112a8                sd_err_reinit
+ .text          0x20011390      0x280 ./Debug/sensor_sensor.c.o
+                0x20011390                sensor_ClockInit
+                0x20011434                Sensor_WriteRegister
+                0x200114cc                Sensor_ReadRegister
+                0x200115dc                sensor_I2C_port_release
+ .text          0x20011610        0x0 ./Debug/sensor_sensor_gc0308.c.o
+ .text          0x20011610        0x0 ./Debug/sensor_sensor_nt99140.c.o
+ .text          0x20011610        0x0 ./Debug/sensor_sensor_ov7670.c.o
+ .text          0x20011610        0x0 ./Debug/sensor_sensor_ov9710.c.o
+ .text          0x20011610      0x2c4 ./Debug/sensor_sensor_nt99141.c.o
+                0x20011610                sensor_Init
+                0x200117fc                u8sensor_ReadID
+                0x20011840                sensor_rotate
+ .text          0x200118d4        0x0 ./Debug/sensor_sensor_bf3925.c.o
+ .text          0x200118d4        0x0 ./Debug/sensor_sensor_siv121DS.c.o
+ .text          0x200118d4        0x0 ./Debug/sensor_sensor_ov7725.c.o
+ .text          0x200118d4        0x0 ./Debug/sensor_sensor_nt99240.c.o
+ .text          0x200118d4        0x0 ./Debug/sensor_sensor_siv100B.c.o
+ .text          0x200118d4        0x0 ./Debug/startup_spi_boot_cfg.S.o
+ .text          0x200118d4      0xbc4 ./Debug/sys_sys.c.o
+                0x200118d4                internal_ldo_Init
+                0x2001195c                sys_close_ldo_voltage
+                0x2001198c                int_Init
+                0x200119a4                usb20_detect
+                0x20011a78                pll_Init
+                0x20011b24                sdram_Init
+                0x20011bf8                sdram_ClearBss
+                0x20011c14                bss_clear
+                0x20011c44                umod_test
+                0x20011c70                sys_dcin_init
+                0x20011ca0                sys_dcin_set_up
+                0x20011cdc                sys_dcin_set_down
+                0x20011d18                sys_dcin_check
+                0x20011da8                sys_dcin_start_flag_init
+                0x20011e70                sys_dcin_get_start_flag
+                0x20011e80                sys_dcin_set_start_flag
+                0x20011e90                jpeg_enc_InitTab
+                0x20011ee8                sys_show_jpeg
+                0x200120a8                sys_play_music
+                0x200120ac                sys_wdt_reset
+                0x200120d8                sys_update_firmware
+                0x20012214                sys_Init
+ .text          0x20012498      0x180 ./Debug/timer_timer.c.o
+                0x20012498                timer_Init
+                0x200124b0                timer_Timer0_Start
+                0x200124fc                timer_Timer0_Stop
+                0x20012514                timer_Timer1_Start
+                0x20012540                timer_Timer1_Stop
+                0x20012564                timer_Timer2_Start
+                0x20012590                timer_Timer2_Stop
+                0x200125b8                timer_Timer3_Start
+                0x20012600                timer_Timer3_Stop
+ .text          0x20012618      0x1a0 ./Debug/timer_timer_isr.c.o
+                0x20012618                timer0_isr
+                0x2001270c                timer1_isr
+                0x2001277c                timer2_isr
+                0x200127a4                timer3_isr
+ .text          0x200127b8      0xb68 ./Debug/uart_uart.c.o
+                0x200127b8                uart_Init
+                0x20012804                uart_PutChar
+                0x20012878                uart_PutChar_n
+                0x200129d4                uart_PutStr
+                0x20012b18                uart_Put_hex
+                0x20012c64                uart_Put_udec
+                0x20012d38                uart_Put_dec
+                0x20012e8c                uart_Printf
+                0x200132b4                uart_PrintfBuf
+ .text          0x20013320      0xaa0 ./Debug/spi_spi.c.o
+                0x20013320                spi_Init
+                0x200133ac                spi_setCSStatus
+                0x200133ec                spi_SendByte
+                0x20013418                u8spi_ReceiveByte
+                0x20013450                spi_SFSendAddr
+                0x200134d0                u32spi_SFReadID
+                0x200135e4                spi_SFReadData
+                0x20013720                spi_SFWriteEnable
+                0x20013794                spi_SFWriteDisable
+                0x20013808                spi_SFWaitStatusOK
+                0x200138dc                spi_SFWriteData
+                0x20013a60                spi_SFEraseSector
+                0x20013bac                spi_SFEraseBlock
+                0x20013cf8                spi_SFEraseChip
+ .text          0x20013dc0      0x90c ./Debug/task_task.c.o
+                0x20013dc0                BatVolDisplay
+                0x20013e38                LockModeDisplay
+                0x20013e98                DisPlayLowPower
+                0x20013f3c                ZoomNumDisplay
+                0x20013fd0                DisPlaySDCard
+                0x200141cc                mode_change
+                0x20014204                night_light_ctrl
+                0x2001424c                deal_msg
+                0x200144ec                init_task_data
+                0x20014500                run_task
+                0x200145d0                task_exit
+                0x20014618                task_into_lock_record_video
+                0x200146bc                task_get_lock_mode_flag
+ .text          0x200146cc     0x117c ./Debug/task_task_video.c.o
+                0x200146cc                task_record_1s_check
+                0x200146e8                task_record_set_md_wait
+                0x20014720                task_record_get_push_key_stop_flag
+                0x20014730                task_record_set_push_key_stop_flag
+                0x20014740                task_video_MD_wait
+                0x20014764                task_record_video_init
+                0x200148d8                task_record_start
+                0x20014a1c                task_record_deal_msg
+                0x20014b10                task_record_dis_system_time
+                0x20014bcc                task_record_clean_system_time
+                0x20014c00                task_record_dis_record_time
+                0x20014ed4                cal_record_time
+                0x20014fa4                clear_record_dis_time
+                0x20014fc0                task_record_video_display
+                0x200154b0                MotionDetectDisplay
+                0x20015500                task_record_common_even
+                0x200155c8                task_record_video_event
+                0x200156e0                task_record_exit
+                0x200156ec                task_record_video
+ .text          0x20015848      0x878 ./Debug/task_task_photo.c.o
+                0x20015848                task_photo_init
+                0x2001592c                task_photo_start
+                0x20015a14                task_photo_dis_system_time
+                0x20015ad0                task_photo_display
+                0x20015ba8                dis_pic_back_sensor
+                0x20015be8                task_photo_common_even
+                0x20015c58                task_photo_event
+                0x20015d18                task_photo_deal_msg
+                0x20015ea8                task_photo_exit
+                0x20015eb4                task_photo
+ .text          0x200160c0      0x6fc ./Debug/task_task_play.c.o
+                0x200160c0                task_play_init
+                0x200160d8                task_paly_get_file_num
+                0x20016138                task_play_pause_control
+                0x200161c0                task_play_deal_msg
+                0x200163e4                task_play_Next
+                0x20016404                task_play_start
+                0x20016410                task_play_event
+                0x200164f8                task_play_display
+                0x200165f4                task_play_exit
+                0x20016720                task_play
+ .text          0x200167bc      0x1f4 ./Debug/task_task_usb_device.c.o
+                0x200167bc                task_usb_device_deal_msg
+                0x200167cc                task_usb_device
+ .text          0x200169b0      0x324 ./Debug/task_task_holdMode.c.o
+                0x200169b0                powerSaveCheck
+                0x20016a38                holdModeEnter
+                0x20016b2c                holdModeExit
+                0x20016c00                holdModeHook
+                0x20016c1c                checkWakeUp
+                0x20016c6c                task_holdMode
+ .text          0x20016cd4     0x1b0c ./Debug/tvout_tvout.c.o
+                0x20016da8                tvout_lcd_en
+                0x20016dc0                tvout_lcd_disen
+                0x20016dd8                tvout_display_set
+                0x20016ee4                tvout_get_cur_mode
+                0x20016ef4                tvout_get_w
+                0x20016f04                tvout_get_h
+                0x20016f14                tv_disable
+                0x20016f2c                tvout_set_cur_mode
+                0x2001845c                tvout_Set_Dis_Offset
+                0x20018474                tvout_Change_dis_size
+                0x200186d0                tvout_Change_display
+ .text          0x200187e0       0xa0 ./Debug/led_led.c.o
+                0x200187e0                led_Init
+                0x20018834                led_SetStatus
+                0x20018850                led_SetStatus_RED
+                0x20018868                led_SetStatus_GREEN
+ .text          0x20018880        0x0 ./Debug/g_sensor_g_sensor.c.o
+ .text          0x20018880        0x0 ./Debug/g_sensor_g_sensor_dmard07.c.o
+ .text          0x20018880        0x0 ./Debug/g_sensor_g_sensor_gma301a.c.o
+ .text          0x20018880       0x14 ./Debug/g_sensor_g_sensor_null.c.o
+                0x20018880                Gsen_set_Threshold
+                0x20018884                G_sensor_init
+                0x20018888                Gsen_Int_Set
+                0x2001888c                Gsen_check_lock_flag
+ .text          0x20018894       0xf0 d:/MinGW-4.7.1/arm-elf/lib\libc.a(lib_a-strcpy.o)
+                0x20018894                strcpy
+ .text          0x20018984       0x60 d:/MinGW-4.7.1/arm-elf/lib\libc.a(lib_a-strlen.o)
+                0x20018984                strlen
+ .text          0x200189e4      0x118 d:/MinGW-4.7.1/lib/gcc/arm-elf/4.6.0\libgcc.a(_udivsi3.o)
+                0x200189e4                __aeabi_uidiv
+                0x200189e4                __udivsi3
+                0x20018adc                __aeabi_uidivmod
+ .text          0x20018afc      0x148 d:/MinGW-4.7.1/lib/gcc/arm-elf/4.6.0\libgcc.a(_divsi3.o)
+                0x20018afc                __divsi3
+                0x20018afc                __aeabi_idiv
+                0x20018c24                __aeabi_idivmod
+ .text          0x20018c44       0xcc d:/MinGW-4.7.1/lib/gcc/arm-elf/4.6.0\libgcc.a(_umodsi3.o)
+                0x20018c44                __umodsi3
+ .text          0x20018d10        0x4 d:/MinGW-4.7.1/lib/gcc/arm-elf/4.6.0\libgcc.a(_dvmd_tls.o)
+                0x20018d10                __div0
+ .text          0x20018d14      0xa60 libs\libjpeg.a(jpeg_enc.o)
+                0x20018d14                jpeg_enc_Init
+                0x20018d68                jpeg_enc_InitQualTab
+                0x20018d94                jpeg_enc_Start
+                0x200190cc                jpeg_enc_Stop
+                0x200190e8                AddIndex
+                0x2001922c                jpeg_enc_Isr
+ .text          0x20019774       0x18 libs\libjpeg.a(jpeg_isr.o)
+                0x20019774                jpeg_Isr
+ .text          0x2001978c      0xe9c libs\libjpeg.a(jpeg_dec.o)
+                0x2001978c                jpdec_Isr
+                0x200198a8                jpeg_header_decode
+                0x2001a390                mjpdec_Start
+                0x2001a600                jpdec_Stop
+ .text          0x2001a628      0x604 libs\libjpeg.a(jpeg_linebuffer.o)
+                0x2001a628                jpeg_LineBuffer_Start
+                0x2001a874                WriteHalfLineBuffer
+                0x2001a9bc                WriteEightHalfLineBuffer
+                0x2001aa98                WriteLineBuffer
+                0x2001ab64                WriteEightLineBuffer
+                0x2001abdc                lcd_WriteBack
+ .text          0x2001ac2c       0x24 libs\libfs.a(fat_format.o)
+                0x2001ac2c                format_filesystem
+ .text          0x2001ac50     0x5ed0 libs\libfs.a(ff.o)
+                0x2001d210                clust2sect
+                0x2001d234                get_fat
+                0x2001d254                put_fat
+                0x2001d274                f_mount
+                0x2001d36c                f_open
+                0x2001d5f8                f_read
+                0x2001da14                f_write
+                0x2001deb4                f_sync
+                0x2001e054                f_close
+                0x2001e0c4                f_lseek
+                0x2001e5b4                f_opendir
+                0x2001e690                f_closedir
+                0x2001e6ec                f_readdir
+                0x2001e7b4                f_stat
+                0x2001e830                f_getfree
+                0x2001ea08                f_truncate
+                0x2001ebc4                f_unlink
+                0x2001ee34                f_mkdir
+                0x2001f1a8                f_chmod
+                0x2001f23c                f_utime
+                0x2001f2d8                f_rename
+                0x2001f6cc                removeChainInit
+                0x2001f6f8                put_removeChain
+                0x2001f72c                get_removeChain
+                0x2001f77c                f_unlink_removeDir
+                0x2001f9fc                f_unlink_removeChain
+                0x2001fcdc                f_merge
+                0x2001ffec                f_bound_init
+                0x20020004                f_bound
+                0x20020264                f_mkfs
+ .text          0x20020b20      0x130 libs\libfs.a(diskio.o)
+                0x20020b20                get_fattime
+                0x20020b70                disk_initialize
+                0x20020b80                disk_status
+                0x20020b98                disk_read
+                0x20020bc8                disk_write
+                0x20020bf8                disk_ioctl
+ .text          0x20020c50     0x2518 libs\libusb.a(usb_device_mass.o)
+                0x20020c50                get_packet_from_host
+                0x20020cf8                send_packet_to_host
+                0x20020d80                cbw_check_sd_status
+                0x20020dfc                unknown
+                0x20020e98                send_csw
+                0x20020fdc                cbw_inquiry
+                0x200210ac                cbw_read_capacity
+                0x20021278                cbw_read_format_capacity
+                0x20021454                cbw_mode_sense6
+                0x20021698                cbw_connect_updata_tools_ack
+                0x20021768                delay1
+                0x20021790                cbw_update
+                0x200219f8                cbw_test_unit
+                0x20021ac4                cbw_request_sense
+                0x20021c00                STALL_INEP
+                0x20021c1c                STALL_OUTEP
+                0x20021c3c                cbw_read
+                0x20022218                cbw_write
+                0x20022808                cbw_select_mode_sense6
+                0x2002285c                prevent_allow
+                0x20022924                cbw_verify
+                0x20022944                rbc_process
+ .text          0x20023168      0x4cc libs\libusb.a(usb_dev_audio.o)
+                0x20023168                UacReceiveSetMuteControlCallback
+                0x20023190                UacReceiveSetVolControlCallback
+                0x200231d4                UacReceiveSetSamplingFreqCallback
+                0x20023254                USB_EP3DataIn
+                0x200232b0                uac_var_init
+                0x20023308                HandleUacFeatUnitReq
+                0x200234dc                UacHandleRequestToStreamingEndpoint
+                0x200235d0                dealforep3isr
+ .text          0x20023634     0x11a8 libs\libusb.a(usb_device_enum.o)
+                0x20023634                delay_5ms
+                0x20023658                usb_device_reset_int
+                0x20023734                usb_device_init
+                0x20023788                ep0_clear_send_stall
+                0x200237b0                Usb_Set_Stall
+                0x200237dc                usb_ep0_null_pkt_out
+                0x200237f8                usb_get_status
+                0x20023898                usb_get_device_desc
+                0x200238f8                usb_get_config_desc
+                0x200239f0                usb_get_string_desc
+                0x20023ad0                usb_get_dev_qualifier_dec
+                0x20023b14                usb_get_descriptor
+                0x20023c10                usb_clear_epx
+                0x20023c38                usb_clear_feature
+                0x20023c78                usb_set_config
+                0x20023c94                usb_get_config
+                0x20023cd8                usb_dev_set_addr
+                0x20023d1c                get_max_lun
+                0x20023d4c                USB_Set_Interface
+                0x20023e88                usb_class_pro
+                0x200240fc                ep0_tx_mode
+                0x200242b8                ep0_rx_mode
+                0x200243b4                usb_epx_tx_dat
+                0x20024464                ep0_idle_mode
+                0x20024700                usb_ep0_isr
+ .text          0x200247dc      0x234 libs\libusb.a(usb.o)
+                0x200247dc                usb_dma_dpk
+                0x2002488c                usb_irq_isr
+                0x20024908                usb_reset_int
+                0x20024964                usb_clk_set
+ .text          0x20024a10      0xf48 libs\libusb.a(usb_device_video.o)
+                0x20024a10                UvcReceiveStillProbeSetDataCallback
+                0x20024a18                UvcReceiveStillCommitSetDataCallback
+                0x20024a20                UvcReceivePowerLineFreSetDataCallback
+                0x20024a28                UvcReceiveBacklightComSetDataCallback
+                0x20024a30                UvcReceiveContrastSetDataCallback
+                0x20024a38                UvcReceiveSaturationSetDataCallback
+                0x20024a40                UvcReceiveSharpnessSetDataCallback
+                0x20024a48                UvcReceiveGammaSetDataCallback
+                0x20024a50                UvcReceiveBrightnessSetDataCallback
+                0x20024a58                UvcReceiveHueSetDataCallback
+                0x20024a60                UvcReceiveStillTriggerControlCallback
+                0x20024a84                UvcReceiveVideoProbeSetDataCallback
+                0x20024ae0                UvcReceiveVideoCommitSetDataCallback
+                0x20024b9c                uvc_video_probe_control
+                0x20024c28                uvc_video_commit_control
+                0x20024c70                uvc_still_probe_control
+                0x20024cf8                uvc_still_commit_control
+                0x20024d40                uvc_pu_power_line_frequency_control
+                0x20024e04                uvc_pu_backlight_compensation_control
+                0x20024f04                uvc_pu_contrast_control
+                0x20025028                uvc_pu_saturation_control
+                0x2002514c                uvc_pu_sharpness_control
+                0x20025270                uvc_pu_gamma_control
+                0x20025394                uvc_pu_brightness_control
+                0x200254b8                uvc_pu_hue_control
+                0x200255dc                uvc_still_trigger_control
+                0x20025638                uvc_send_video_packet
+                0x20025758                UsbEP2InPacketReadyCleared
+                0x2002578c                CsiHandleLastPacket
+                0x200257d0                CsiBuffer0FullIntrHandler
+                0x20025830                CsiBuffer1FullIntrHandler
+                0x20025894                CsiEndOfFrameIntrHandler
+                0x2002592c                uvc_var_init
+ *fill*         0x20025958        0x8 00
+ .text          0x20025960      0x160 libs\libusb.a(update.o)
+                0x20025960                .Lback2mrom
+ .text          0x20025ac0      0x134 libs\libstartup.a(cpu.o)
+                0x20025ac0                creat_page_table
+                0x20025b34                creat_page_table_hold
+                0x20025b80                DrainWriteBuffer
+                0x20025b8c                CleanDCacheLine
+                0x20025b98                CleanInvalidDCacheLine
+                0x20025ba4                CleanDCacheRegion
+                0x20025bcc                CleanInvalidDCacheRegion
+ .text          0x20025bf4      0x1d8 libs\libstartup.a(lowPower.o)
+                0x20025bf4                cpu_hold_func
+                0x20025d34                cpu_hold_mode
+ .text          0x20025dcc        0x0 libs\libstartup.a(startup.o)
+ .text          0x20025dcc        0x0 libs\libstartup.a(BootSec.o)
+ .text          0x20025dcc      0x83c libs\libfat.a(fat.o)
+                0x20025dcc                WriteIndexData
+                0x20025e84                Write4KJpegData
+                0x20025f64                WriteVideoInfo
+ .text          0x20026608      0xdd0 libs\libfat.a(fat_fileorder.o)
+                0x20026608                f_get_RecFileName
+                0x200266fc                f_FileOrder_AddFile
+                0x20026818                f_get_firstfile_num
+                0x20026a38                f_get_lastfile_num
+                0x20026bd4                f_get_totalfile_num
+                0x20026c88                f_get_file_name
+                0x20026c9c                f_update_FileOrder
+                0x20026d84                f_lock_unlock_FileName
+                0x20026f40                f_del_file_name
+                0x200270e4                sys_update_FileOrder
+                0x2002738c                f_Write_FlieOrder
+ .text          0x200273d8     0x2434 libs\libsd.a(sd.o)
+                0x200273d8                bsd_Reset
+                0x2002748c                bsd_GetVer
+                0x20027844                dwsd_GetRspVar
+                0x20027854                bsd_GetAllCID
+                0x20027908                bsd_GetCID
+                0x200279c4                bsd_GetRCA
+                0x20027a88                bsd_DealWithRCA
+                0x20027bf0                bsd_GetCSD
+                0x20027cac                dwsd_GetSDCap
+                0x20027d68                bsd_SelectCard
+                0x20027e80                bsd_SetBlockLen
+                0x20027f34                bsd_SetBusWidth
+                0x20028084                bsd_SetFunc
+                0x20028290                bsd_IsTranState
+                0x20028364                bsd_SendCMD
+                0x20028430                bsd_Send_CMD
+                0x20028938                bsd_Send_ACMD
+                0x20028ac8                bsd_SetMMCRCA
+                0x20028b8c                bsd_WaitDAT0High
+                0x20028c04                bsd_StopTran
+                0x20028d64                bsd_Close
+                0x20028f08                sd_StartDataKick
+                0x20028fac                bsd_WaitDataPending
+                0x20029000                bsd_UpdateSDData
+                0x20029464                bsd_write
+                0x20029500                bsd_read
+                0x2002959c                sd_WaitSdStopTran
+                0x20029704                InitSDCard
+ *(.rodata)
+ .rodata        0x2002980c      0x8c4 ./Debug/audio_dac_audio_dac.c.o
+                0x2002980c                llp0
+                0x20029828                key_voice_llp0
+                0x20029844                llp1
+                0x20029860                key_voice_source
+ .rodata        0x2002a0d0       0x18 ./Debug/fat_api_fat_api.c.o
+                0x2002a0d0                work_dir_dc
+                0x2002a0dc                work_dir_dv
+ .rodata        0x2002a0e8       0x44 ./Debug/lcd_lcd_nodisplay.c.o
+                0x2002a0e8                spi_nodisplay
+ .rodata        0x2002a12c     0x3b44 ./Debug/menu_menu_struct.c.o
+                0x2002a12c                menu_level_clear_region
+                0x2002a150                menu_highlight
+                0x2002a174                menu_level_region
+                0x2002a198                menu2page
+                0x2002a1c0                menu_list
+                0x2002a1e8                act_list
+                0x2002a2b8                browse_menu
+                0x2002a2c4                browse_menu_item
+                0x2002a2e8                browse_protect_menu
+                0x2002a2f4                browse_protect_item
+                0x2002a330                browse_unlock_all_menu
+                0x2002a33c                browse_unlock_all_item
+                0x2002a360                browse_lock_all_menu
+                0x2002a36c                browse_lock_all_item
+                0x2002a390                browse_unlock_this_menu
+                0x2002a39c                browse_unlock_this_item
+                0x2002a3c0                browse_lock_this_menu
+                0x2002a3cc                browse_lock_this_item
+                0x2002a3f0                browse_delete_menu
+                0x2002a3fc                browse_delete_item
+                0x2002a420                photo_delete_all_menu
+                0x2002a42c                browse_delete_all_item
+                0x2002a450                browse_delete_this_menu
+                0x2002a45c                browse_delete_this_item
+                0x2002a480                photo_menu
+                0x2002a48c                photo_setting_item
+                0x2002a4bc                photo_date_menu
+                0x2002a4c8                PHOTO_DATE_SETTING_ITEM
+                0x2002a4ec                photo_slide_menu
+                0x2002a4f8                PHOTO_VIEW_ITEM
+                0x2002a528                photo_mp_menu
+                0x2002a534                photo_mp_item
+                0x2002a570                video_menu
+                0x2002a57c                VIDEO_SETTING_ITEM
+                0x2002a5c4                video_g_sensor_menu
+                0x2002a5d0                video_g_sensor_item
+                0x2002a60c                video_date_menu
+                0x2002a618                video_date_tag_item
+                0x2002a63c                video_vioce_menu
+                0x2002a648                VIDEO_VOICE_SETTING_ITEM
+                0x2002a66c                motion_detection_menu
+                0x2002a678                MOTION_DECTECTION_ITEM
+                0x2002a69c                video_loop_menu
+                0x2002a6a8                VIDEO_LOOP_SETTING_ITEM
+                0x2002a6e4                video_resolution_menu
+                0x2002a6f0                VIDEO_RESOLUTION_SETTING_ITEM
+                0x2002a720                attribute_menu
+                0x2002a72c                ATTRIBUTE_SETTING_ITEM
+                0x2002a7b0                version_menu
+                0x2002a7bc                version_item
+                0x2002a7d4                video_night_light_menu
+                0x2002a7e0                video_night_light_item
+                0x2002a804                default_menu
+                0x2002a810                default_item
+                0x2002a834                formate_menu
+                0x2002a840                formate_item
+                0x2002a864                beep_sound_menu
+                0x2002a870                beep_sound_item
+                0x2002a894                tv_menu
+                0x2002a8a0                tv_item
+                0x2002a8d0                video_rotate_menu
+                0x2002a8dc                video_rotate_item
+                0x2002a900                screen_save_menu
+                0x2002a90c                screen_save_item
+                0x2002a948                language_menu
+                0x2002a954                language_item
+                0x2002a9e4                power_off_menu
+                0x2002a9f0                power_off_item
+                0x2002aa20                unlock_all_t
+                0x2002aa4c                lock_all_t
+                0x2002aa78                unlock_this_t
+                0x2002aaa4                lock_this_t
+                0x2002aad0                delete_all_t
+                0x2002aafc                delete_this_t
+                0x2002ab28                browse_string
+                0x2002ab54                photo_string
+                0x2002ab80                video_string
+                0x2002abac                attribute_string
+                0x2002abd8                browse_setting_string1
+                0x2002ac04                browse_setting_string0
+                0x2002ac30                photo_protecting_string3
+                0x2002ac5c                photo_protecting_string2
+                0x2002ac88                photo_protecting_string1
+                0x2002acb4                photo_protecting_string0
+                0x2002ace0                ok_string
+                0x2002ad0c                cancel_string
+                0x2002ad38                photo_deleting_string1
+                0x2002ad64                photo_deleting_string0
+                0x2002ad90                photo_setting_string2
+                0x2002adbc                photo_setting_string1
+                0x2002ade8                photo_setting_string0
+                0x2002ae14                photo_date_string1
+                0x2002ae40                photo_date_string0
+                0x2002ae6c                photo_view_string2
+                0x2002ae98                photo_view_string1
+                0x2002aec4                photo_view_string0
+                0x2002aef0                rotate_string1
+                0x2002af1c                rotate_string0
+                0x2002af48                photo_resolution_string3
+                0x2002af74                photo_resolution_string2
+                0x2002afa0                photo_resolution_string1
+                0x2002afcc                photo_resolution_string0
+                0x2002aff8                video_setting_string6
+                0x2002b024                video_setting_string4
+                0x2002b050                video_setting_string3
+                0x2002b07c                video_setting_string2
+                0x2002b0a8                video_setting_string1
+                0x2002b0d4                video_setting_string0
+                0x2002b100                video_gsensor_string3
+                0x2002b12c                video_gsensor_string2
+                0x2002b158                video_gsensor_string1
+                0x2002b184                video_gsensor_string0
+                0x2002b1b0                video_night_string1
+                0x2002b1dc                video_night_string0
+                0x2002b208                video_date_string1
+                0x2002b234                video_date_string0
+                0x2002b260                video_voice_string1
+                0x2002b28c                video_voice_string0
+                0x2002b2b8                video_detecting_string1
+                0x2002b2e4                video_detecting_string0
+                0x2002b310                on_string
+                0x2002b33c                off_string
+                0x2002b368                video_loop_string3
+                0x2002b394                video_loop_string2
+                0x2002b3c0                video_loop_string1
+                0x2002b3ec                video_loop_string0
+                0x2002b418                video_resolution_string3
+                0x2002b444                video_resolution_string2
+                0x2002b470                video_resolution_string1
+                0x2002b49c                video_resolution_string0
+                0x2002b4c8                attribute_tv_mode_string
+                0x2002b4f4                attribute_beep_sound_string
+                0x2002b520                attribute_page_string9
+                0x2002b54c                attribute_page_string8
+                0x2002b578                attribute_page_string7
+                0x2002b5a4                attribute_page_string6
+                0x2002b5d0                attribute_page_string5
+                0x2002b5fc                attribute_page_string4
+                0x2002b628                attribute_page_string3
+                0x2002b654                attribute_page_string2
+                0x2002b680                attribute_page_string1
+                0x2002b6ac                attribute_page_string0
+                0x2002b6d8                tv_string2
+                0x2002b704                tv_string1
+                0x2002b730                tv_string0
+                0x2002b75c                version_string0
+                0x2002b788                default_string1
+                0x2002b7b4                default_string0
+                0x2002b7e0                formate_string1
+                0x2002b80c                formate_string0
+                0x2002b838                sleep_time_string3
+                0x2002b864                sleep_time_string2
+                0x2002b890                sleep_time_string1
+                0x2002b8bc                sleep_time_string0
+                0x2002b8e8                light_source_string1
+                0x2002b914                light_source_string0
+                0x2002b940                power_off_string2
+                0x2002b96c                power_off_string1
+                0x2002b998                power_off_string0
+                0x2002b9c4                language10
+                0x2002b9f0                language9
+                0x2002ba1c                language8
+                0x2002ba48                language7
+                0x2002ba74                language6
+                0x2002baa0                language5
+                0x2002bacc                language4
+                0x2002baf8                language3
+                0x2002bb24                language2
+                0x2002bb50                language1
+                0x2002bb7c                language0
+                0x2002bba8                beep_sound_po
+                0x2002bbbc                beep_sound_th
+                0x2002bbcc                beep_sound_he
+                0x2002bbe4                beep_sound_tu
+                0x2002bbf0                beep_sound_spa
+                0x2002bc04                beep_sound_ja
+                0x2002bc14                beep_sound_ko
+                0x2002bc20                beep_sound_ru
+                0x2002bc34                beep_sound_en
+                0x2002bc40                beep_sound_cnt
+                0x2002bc4c                beep_sound_cns
+                0x2002bc58                wait_po
+                0x2002bc6c                wait_th
+                0x2002bc80                wait_he
+                0x2002bc98                wait_tu
+                0x2002bca8                wait_spa
+                0x2002bcb8                wait_ja
+                0x2002bcd8                wait_ko
+                0x2002bcf0                wait_ru
+                0x2002bd20                wait_en
+                0x2002bd34                wait_cnt
+                0x2002bd44                wait_cns
+                0x2002bd54                play_po
+                0x2002bd60                play_th
+                0x2002bd7c                play_he
+                0x2002bd94                play_tu
+                0x2002bda0                play_spa
+                0x2002bdac                play_ja
+                0x2002bdbc                play_ko
+                0x2002bdcc                play_ru
+                0x2002bdec                play_en
+                0x2002bdf8                play_cnt
+                0x2002be08                play_cns
+                0x2002be18                photo_po
+                0x2002be24                photo_th
+                0x2002be3c                photo_he
+                0x2002be58                photo_tu
+                0x2002be64                photo_spa
+                0x2002be70                photo_ja
+                0x2002be78                photo_ko
+                0x2002be84                photo_ru
+                0x2002bea4                photo_en
+                0x2002beac                photo_cnt
+                0x2002bebc                photo_cns
+                0x2002becc                video_po
+                0x2002bed4                video_th
+                0x2002befc                video_he
+                0x2002bf08                video_tu
+                0x2002bf10                video_spa
+                0x2002bf18                video_ja
+                0x2002bf24                video_ko
+                0x2002bf30                video_ru
+                0x2002bf3c                video_en
+                0x2002bf44                video_cnt
+                0x2002bf54                video_cns
+                0x2002bf64                setting_po
+                0x2002bf70                setting_th
+                0x2002bf88                setting_he
+                0x2002bf98                setting_tu
+                0x2002bfa0                setting_spa
+                0x2002bfa8                setting_ja
+                0x2002bfb0                setting_ko
+                0x2002bfb8                setting_ru
+                0x2002bfcc                setting_en
+                0x2002bfd4                setting_cnt
+                0x2002bfdc                setting_cns
+                0x2002bfe4                lock_po
+                0x2002bff0                lock_th
+                0x2002c000                lock_he
+                0x2002c008                lock_tu
+                0x2002c014                lock_spa
+                0x2002c020                lock_ja
+                0x2002c02c                lock_ko
+                0x2002c034                lock_ru
+                0x2002c04c                lock_en
+                0x2002c054                lock_cnt
+                0x2002c05c                lock_cns
+                0x2002c064                delete_po
+                0x2002c070                delete_th
+                0x2002c078                delete_he
+                0x2002c080                delete_tu
+                0x2002c088                delete_spa
+                0x2002c090                delete_ja
+                0x2002c0a0                delete_ko
+                0x2002c0a8                delete_ru
+                0x2002c0b8                delete_en
+                0x2002c0c0                delete_cnt
+                0x2002c0c8                delete_cns
+                0x2002c0d0                unlock_all_po
+                0x2002c0e8                unlock_all_th
+                0x2002c118                unlock_all_he
+                0x2002c134                unlock_all_tu
+                0x2002c148                unlock_all_spa
+                0x2002c15c                unlock_all_ja
+                0x2002c180                unlock_all_ko
+                0x2002c194                unlock_all_ru
+                0x2002c1b8                unlock_all_en
+                0x2002c1c4                unlock_all_cnt
+                0x2002c1d4                unlock_all_cns
+                0x2002c1e4                lock_all_po
+                0x2002c1f8                lock_all_th
+                0x2002c21c                lock_all_he
+                0x2002c22c                lock_all_tu
+                0x2002c23c                lock_all_spa
+                0x2002c24c                lock_all_ja
+                0x2002c268                lock_all_ko
+                0x2002c278                lock_all_ru
+                0x2002c298                lock_all_en
+                0x2002c2a4                lock_all_cnt
+                0x2002c2b4                lock_all_cns
+                0x2002c2c4                unlock_this_po
+                0x2002c2d4                unlock_this_th
+                0x2002c2f0                unlock_this_he
+                0x2002c304                unlock_this_tu
+                0x2002c310                unlock_this_spa
+                0x2002c328                unlock_this_ja
+                0x2002c34c                unlock_this_ko
+                0x2002c360                unlock_this_ru
+                0x2002c390                unlock_this_en
+                0x2002c39c                unlock_this_cnt
+                0x2002c3ac                unlock_this_cns
+                0x2002c3bc                lock_this_po
+                0x2002c3cc                lock_this_th
+                0x2002c3f4                lock_this_he
+                0x2002c40c                lock_this_tu
+                0x2002c414                lock_this_spa
+                0x2002c428                lock_this_ja
+                0x2002c444                lock_this_ko
+                0x2002c458                lock_this_ru
+                0x2002c480                lock_this_en
+                0x2002c48c                lock_this_cnt
+                0x2002c49c                lock_this_cns
+                0x2002c4ac                delete_all_po
+                0x2002c4bc                delete_all_th
+                0x2002c4d8                delete_all_he
+                0x2002c4e8                delete_all_tu
+                0x2002c4f8                delete_all_spa
+                0x2002c504                delete_all_ja
+                0x2002c528                delete_all_ko
+                0x2002c538                delete_all_ru
+                0x2002c550                delete_all_en
+                0x2002c55c                delete_all_cnt
+                0x2002c56c                delete_all_cns
+                0x2002c57c                delete_this_po
+                0x2002c588                delete_this_th
+                0x2002c5a8                delete_this_he
+                0x2002c5c0                delete_this_tu
+                0x2002c5c8                delete_this_spa
+                0x2002c5dc                delete_this_ja
+                0x2002c600                delete_this_ko
+                0x2002c614                delete_this_ru
+                0x2002c634                delete_this_en
+                0x2002c640                delete_this_cnt
+                0x2002c650                delete_this_cns
+                0x2002c660                fast_view_po
+                0x2002c66c                fast_view_th
+                0x2002c688                fast_view_he
+                0x2002c6a0                fast_view_tu
+                0x2002c6b4                fast_view_spa
+                0x2002c6cc                fast_view_ja
+                0x2002c6e0                fast_view_ko
+                0x2002c6f0                fast_view_ru
+                0x2002c714                fast_view_en
+                0x2002c720                fast_view_cnt
+                0x2002c730                fast_view_cns
+                0x2002c740                five_sec_po
+                0x2002c74c                five_sec_th
+                0x2002c760                five_sec_he
+                0x2002c770                five_sec_tu
+                0x2002c77c                five_sec_spa
+                0x2002c784                five_sec_ja
+                0x2002c78c                five_sec_ko
+                0x2002c794                five_sec_ru
+                0x2002c79c                five_sec_en
+                0x2002c7a0                five_sec_cnt
+                0x2002c7a8                five_sec_cns
+                0x2002c7b0                two_sec_po
+                0x2002c7bc                two_sec_th
+                0x2002c7d0                two_sec_he
+                0x2002c7e0                two_sec_tu
+                0x2002c7ec                two_sec_spa
+                0x2002c7f4                two_sec_ja
+                0x2002c7fc                two_sec_ko
+                0x2002c804                two_sec_ru
+                0x2002c80c                two_sec_en
+                0x2002c810                two_sec_cnt
+                0x2002c818                two_sec_cns
+                0x2002c820                high_po
+                0x2002c828                high_th
+                0x2002c834                high_he
+                0x2002c840                high_tu
+                0x2002c848                high_spa
+                0x2002c850                high_ja
+                0x2002c858                high_ko
+                0x2002c85c                high_ru
+                0x2002c86c                high_en
+                0x2002c874                high_cnt
+                0x2002c878                high_cns
+                0x2002c87c                mid_po
+                0x2002c880                mid_th
+                0x2002c888                mid_he
+                0x2002c88c                mid_tu
+                0x2002c894                mid_spa
+                0x2002c89c                mid_ja
+                0x2002c8a8                mid_ko
+                0x2002c8b0                mid_ru
+                0x2002c8c4                mid_en
+                0x2002c8c8                mid_cnt
+                0x2002c8cc                mid_cns
+                0x2002c8d0                low_po
+                0x2002c8d8                low_th
+                0x2002c8e4                low_he
+                0x2002c8f0                low_tu
+                0x2002c8fc                low_spa
+                0x2002c904                low_ja
+                0x2002c90c                low_ko
+                0x2002c914                low_ru
+                0x2002c924                low_en
+                0x2002c928                low_cnt
+                0x2002c92c                low_cns
+                0x2002c930                gsensor_sens_po
+                0x2002c940                gsensor_sens_th
+                0x2002c980                gsensor_sens_he
+                0x2002c998                gsensor_sens_tu
+                0x2002c9b0                gsensor_sens_spa
+                0x2002c9d0                gsensor_sens_ja
+                0x2002c9e0                gsensor_sens_ko
+                0x2002c9f0                gsensor_sens_ru
+                0x2002ca20                gsensor_sens_en
+                0x2002ca2c                gsensor_sens_cnt
+                0x2002ca3c                gsensor_sens_cns
+                0x2002ca4c                night_visoin_po
+                0x2002ca64                night_visoin_th
+                0x2002ca7c                night_visoin_he
+                0x2002ca90                night_visoin_tu
+                0x2002caa0                night_visoin_spa
+                0x2002cab0                night_visoin_ja
+                0x2002cabc                night_visoin_ko
+                0x2002cad0                night_visoin_ru
+                0x2002caec                night_visoin_en
+                0x2002caf8                night_visoin_cnt
+                0x2002cb04                night_visoin_cns
+                0x2002cb10                date_tag_po
+                0x2002cb20                date_tag_th
+                0x2002cb48                date_tag_he
+                0x2002cb5c                date_tag_tu
+                0x2002cb6c                date_tag_spa
+                0x2002cb7c                date_tag_ja
+                0x2002cb8c                date_tag_ko
+                0x2002cb9c                date_tag_ru
+                0x2002cbbc                date_tag_en
+                0x2002cbc8                date_tag_cnt
+                0x2002cbd8                date_tag_cns
+                0x2002cbe8                audio_recording_po
+                0x2002cbf4                audio_recording_th
+                0x2002cc18                audio_recording_he
+                0x2002cc24                audio_recording_tu
+                0x2002cc2c                audio_recording_spa
+                0x2002cc40                audio_recording_ja
+                0x2002cc48                audio_recording_ko
+                0x2002cc50                audio_recording_ru
+                0x2002cc60                audio_recording_en
+                0x2002cc68                audio_recording_cnt
+                0x2002cc78                audio_recording_cns
+                0x2002cc88                motion_detecting_po
+                0x2002cc98                motion_detecting_th
+                0x2002ccc0                motion_detecting_he
+                0x2002ccd8                motion_detecting_tu
+                0x2002ccec                motion_detecting_spa
+                0x2002cd00                motion_detecting_ja
+                0x2002cd10                motion_detecting_ko
+                0x2002cd20                motion_detecting_ru
+                0x2002cd48                motion_detecting_en
+                0x2002cd5c                motion_detecting_cnt
+                0x2002cd6c                motion_detecting_cns
+                0x2002cd7c                loop_video_po
+                0x2002cd94                loop_video_th
+                0x2002cdac                loop_video_he
+                0x2002cdc8                loop_video_tu
+                0x2002cddc                loop_video_spa
+                0x2002cdf8                loop_video_ja
+                0x2002ce08                loop_video_ko
+                0x2002ce1c                loop_video_ru
+                0x2002ce34                loop_video_en
+                0x2002ce44                loop_video_cnt
+                0x2002ce54                loop_video_cns
+                0x2002ce64                resolution_po
+                0x2002ce70                resolution_th
+                0x2002ce84                resolution_he
+                0x2002ce98                resolution_tu
+                0x2002cea4                resolution_spa
+                0x2002ceb0                resolution_ja
+                0x2002cebc                resolution_ko
+                0x2002cec8                resolution_ru
+                0x2002cef4                resolution_en
+                0x2002cf00                resolution_cnt
+                0x2002cf0c                resolution_cns
+                0x2002cf18                r4032X3024
+                0x2002cf24                r2560X1440
+                0x2002cf30                r1920X1080
+                0x2002cf3c                r1280X720
+                0x2002cf48                qvga320X240
+                0x2002cf58                vga640X480
+                0x2002cf64                r720X480
+                0x2002cf6c                r1280X1024
+                0x2002cf7c                pal_po
+                0x2002cf80                pal_th
+                0x2002cf84                pal_he
+                0x2002cf88                pal_tu
+                0x2002cf8c                pal_spa
+                0x2002cf90                pal_ja
+                0x2002cf94                pal_ko
+                0x2002cf98                pal_ru
+                0x2002cf9c                pal_en
+                0x2002cfa0                pal_cnt
+                0x2002cfa4                pal_cns
+                0x2002cfa8                ntsc_po
+                0x2002cfb0                ntsc_th
+                0x2002cfb8                ntsc_he
+                0x2002cfc0                ntsc_tu
+                0x2002cfc8                ntsc_spa
+                0x2002cfd0                ntsc_ja
+                0x2002cfd8                ntsc_ko
+                0x2002cfe0                ntsc_ru
+                0x2002cfe8                ntsc_en
+                0x2002cff0                ntsc_cnt
+                0x2002cff8                ntsc_cns
+                0x2002d000                tv_mode_po
+                0x2002d004                tv_mode_th
+                0x2002d008                tv_mode_he
+                0x2002d00c                tv_mode_tu
+                0x2002d010                tv_mode_spa
+                0x2002d014                tv_mode_ja
+                0x2002d018                tv_mode_ko
+                0x2002d01c                tv_mode_ru
+                0x2002d020                tv_mode_en
+                0x2002d024                tv_mode_cnt
+                0x2002d028                tv_mode_cns
+                0x2002d02c                version
+                0x2002d034                version_po
+                0x2002d03c                version_th
+                0x2002d04c                version_he
+                0x2002d058                version_tu
+                0x2002d064                version_spa
+                0x2002d06c                version_ja
+                0x2002d07c                version_ko
+                0x2002d084                version_ru
+                0x2002d094                version_en
+                0x2002d09c                version_cnt
+                0x2002d0ac                version_cns
+                0x2002d0bc                formating_po
+                0x2002d0c4                formating_th
+                0x2002d0d8                formating_he
+                0x2002d0e4                formating_tu
+                0x2002d0ec                formating_spa
+                0x2002d0f8                formating_ja
+                0x2002d10c                formating_ko
+                0x2002d114                formating_ru
+                0x2002d134                formating_en
+                0x2002d13c                formating_cnt
+                0x2002d148                formating_cns
+                0x2002d154                defaulting_po
+                0x2002d16c                defaulting_th
+                0x2002d184                defaulting_he
+                0x2002d198                defaulting_tu
+                0x2002d1a4                defaulting_spa
+                0x2002d1c4                defaulting_ja
+                0x2002d1e0                defaulting_ko
+                0x2002d1f4                defaulting_ru
+                0x2002d220                defaulting_en
+                0x2002d230                defaulting_cnt
+                0x2002d240                defaulting_cns
+                0x2002d250                Picture_rotating_po
+                0x2002d264                Picture_rotating_th
+                0x2002d27c                Picture_rotating_he
+                0x2002d294                Picture_rotating_tu
+                0x2002d2a8                Picture_rotating_spa
+                0x2002d2b4                Picture_rotating_ja
+                0x2002d2c4                Picture_rotating_ko
+                0x2002d2dc                Picture_rotating_ru
+                0x2002d304                Picture_rotating_en
+                0x2002d314                Picture_rotating_cnt
+                0x2002d324                Picture_rotating_cns
+                0x2002d334                screen_protecting_po
+                0x2002d348                screen_protecting_th
+                0x2002d370                screen_protecting_he
+                0x2002d384                screen_protecting_tu
+                0x2002d398                screen_protecting_spa
+                0x2002d3ac                screen_protecting_ja
+                0x2002d3c4                screen_protecting_ko
+                0x2002d3d8                screen_protecting_ru
+                0x2002d3f4                screen_protecting_en
+                0x2002d404                screen_protecting_cnt
+                0x2002d414                screen_protecting_cns
+                0x2002d424                light_freq_po
+                0x2002d440                light_freq_th
+                0x2002d458                light_freq_he
+                0x2002d46c                light_freq_tu
+                0x2002d480                light_freq_spa
+                0x2002d490                light_freq_ja
+                0x2002d4a0                light_freq_ko
+                0x2002d4b4                light_freq_ru
+                0x2002d4cc                light_freq_en
+                0x2002d4d8                light_freq_cnt
+                0x2002d4e8                light_freq_cns
+                0x2002d4f8                lanuage_setting_po
+                0x2002d50c                lanuage_setting_th
+                0x2002d51c                lanuage_setting_he
+                0x2002d530                lanuage_setting_tu
+                0x2002d540                lanuage_setting_spa
+                0x2002d550                lanuage_setting_ja
+                0x2002d560                lanuage_setting_ko
+                0x2002d570                lanuage_setting_ru
+                0x2002d590                lanuage_setting_en
+                0x2002d5a4                lanuage_setting_cnt
+                0x2002d5ac                lanuage_setting_cns
+                0x2002d5b4                auto_off_po
+                0x2002d5d0                auto_off_th
+                0x2002d5f8                auto_off_he
+                0x2002d614                auto_off_tu
+                0x2002d628                auto_off_spa
+                0x2002d638                auto_off_ja
+                0x2002d654                auto_off_ko
+                0x2002d66c                auto_off_ru
+                0x2002d680                auto_off_en
+                0x2002d690                auto_off_cnt
+                0x2002d6a0                auto_off_cns
+                0x2002d6b0                date_time_po
+                0x2002d6bc                date_time_th
+                0x2002d6d8                date_time_he
+                0x2002d6e8                date_time_tu
+                0x2002d6f4                date_time_spa
+                0x2002d708                date_time_ja
+                0x2002d718                date_time_ko
+                0x2002d728                date_time_ru
+                0x2002d74c                date_time_en
+                0x2002d75c                date_time_cnt
+                0x2002d76c                date_time_cns
+                0x2002d77c                yes_po
+                0x2002d780                yes_th
+                0x2002d78c                yes_he
+                0x2002d794                yes_tu
+                0x2002d79c                yes_spa
+                0x2002d7a0                yes_ja
+                0x2002d7a8                yes_ko
+                0x2002d7ac                yes_ru
+                0x2002d7b4                yes_en
+                0x2002d7b8                yes_cnt
+                0x2002d7bc                yes_cns
+                0x2002d7c0                no_po
+                0x2002d7c4                no_th
+                0x2002d7d0                no_he
+                0x2002d7d8                no_tu
+                0x2002d7e0                no_spa
+                0x2002d7e4                no_ja
+                0x2002d7f0                no_ko
+                0x2002d7fc                no_ru
+                0x2002d804                no_en
+                0x2002d808                no_cnt
+                0x2002d80c                no_cns
+                0x2002d810                ok_po
+                0x2002d820                ok_th
+                0x2002d830                ok_he
+                0x2002d838                ok_tu
+                0x2002d840                ok_spa
+                0x2002d84c                ok_ja
+                0x2002d854                ok_ko
+                0x2002d85c                ok_ru
+                0x2002d878                ok_en
+                0x2002d87c                ok_cnt
+                0x2002d884                ok_cns
+                0x2002d88c                cancel_po
+                0x2002d898                cancel_th
+                0x2002d8ac                cancel_he
+                0x2002d8b4                cancel_tu
+                0x2002d8bc                cancel_spa
+                0x2002d8c8                cancel_ja
+                0x2002d8d8                cancel_ko
+                0x2002d8e0                cancel_ru
+                0x2002d8f0                cancel_en
+                0x2002d8f8                cancel_cnt
+                0x2002d900                cancel_cns
+                0x2002d908                fre_60hz_cns
+                0x2002d910                fre_50hz_cns
+                0x2002d918                ten_minute_po
+                0x2002d924                ten_minute_th
+                0x2002d934                ten_minute_he
+                0x2002d940                ten_minute_tu
+                0x2002d94c                ten_minute_spa
+                0x2002d954                ten_minute_ja
+                0x2002d960                ten_minute_ko
+                0x2002d968                ten_minute_ru
+                0x2002d974                ten_minute_en
+                0x2002d980                ten_minute_cnt
+                0x2002d98c                ten_minute_cns
+                0x2002d998                five_minute_po
+                0x2002d9a0                five_minute_th
+                0x2002d9b0                five_minute_he
+                0x2002d9bc                five_minute_tu
+                0x2002d9c8                five_minute_spa
+                0x2002d9d0                five_minute_ja
+                0x2002d9d8                five_minute_ko
+                0x2002d9e0                five_minute_ru
+                0x2002d9e8                five_minute_en
+                0x2002d9f4                five_minute_cnt
+                0x2002d9fc                five_minute_cns
+                0x2002da04                three_minute_po
+                0x2002da10                three_minute_th
+                0x2002da20                three_minute_he
+                0x2002da2c                three_minute_tu
+                0x2002da38                three_minute_spa
+                0x2002da40                three_minute_ja
+                0x2002da48                three_minute_ko
+                0x2002da50                three_minute_ru
+                0x2002da58                three_minute_en
+                0x2002da68                three_minute_cnt
+                0x2002da70                three_minute_cns
+                0x2002da78                one_minute_po
+                0x2002da84                one_minute_th
+                0x2002da94                one_minute_he
+                0x2002daa0                one_minute_tu
+                0x2002daac                one_minute_spa
+                0x2002dab4                one_minute_ja
+                0x2002dabc                one_minute_ko
+                0x2002dac4                one_minute_ru
+                0x2002dacc                one_minute_en
+                0x2002dad8                one_minute_cnt
+                0x2002dae0                one_minute_cns
+                0x2002dae8                on_po
+                0x2002daf0                on_th
+                0x2002db00                on_he
+                0x2002db0c                on_tu
+                0x2002db14                on_spa
+                0x2002db20                on_ja
+                0x2002db28                on_ko
+                0x2002db2c                on_ru
+                0x2002db34                on_en
+                0x2002db38                on_cnt
+                0x2002db3c                on_cns
+                0x2002db40                off_po
+                0x2002db4c                off_th
+                0x2002db58                off_he
+                0x2002db64                off_tu
+                0x2002db6c                off_spa
+                0x2002db78                off_ja
+                0x2002db80                off_ko
+                0x2002db88                off_ru
+                0x2002db94                off_en
+                0x2002db98                off_cnt
+                0x2002db9c                off_cns
+                0x2002dba0                polish
+                0x2002dba8                thai
+                0x2002dbb4                hebrew
+                0x2002dbc0                turkey
+                0x2002dbcc                spanish
+                0x2002dbd8                japanese
+                0x2002dbe4                korean
+                0x2002dbf0                russian
+                0x2002dc00                english
+                0x2002dc08                traditional_chinese
+                0x2002dc18                simplified_chinese
+                0x2002dc28                some_chars
+ .rodata        0x2002dc70       0x28 ./Debug/menu_menu_setting.c.o
+                0x2002dc70                tbl_Gsensor_senstivity
+                0x2002dc74                tbl_powerSaveCnt
+                0x2002dc84                tbl_poweroff
+                0x2002dc8c                tbl_fast_view_time
+                0x2002dc90                tbl_record_video_s
+ .rodata        0x2002dc98       0x30 ./Debug/rtc_rtc.c.o
+                0x2002dc98                daysPerMonth
+ .rodata        0x2002dcc8       0x40 ./Debug/led_led.c.o
+                0x2002dcc8                u16LedParam_GREEN
+                0x2002dce8                u16LedParam_RED
+ .rodata        0x2002dd08       0x40 libs\libjpeg.a(jpeg_dec.o)
+ .rodata        0x2002dd48       0x30 libs\libfs.a(ff.o)
+ .rodata        0x2002dd78       0x28 libs\libusb.a(usb_device_mass.o)
+                0x2002dd78                device_inquiry_data
+                0x2002dd9c                gabSCSIModeSense
+ .rodata        0x2002dda0       0x48 libs\libusb.a(usb_dev_audio.o)
+                0x2002dda0                UacVolCtrlSettings
+                0x2002dda8                audioSample
+ .rodata        0x2002dde8      0x260 libs\libusb.a(usb_device_enum.o)
+                0x2002dde8                DEVICE_DESC_DATA
+                0x2002ddfc                CONFIG_DESC_DATA_UVC
+                0x2002dfe8                UsbLanguageID
+                0x2002dfec                UsbStrDescManufacturer
+                0x2002dffc                UsbStrDescProduct
+                0x2002e018                UsbStrDescSerialNumber
+                0x2002e038                DEV_QAULIFIER_DESC_DATA
+                0x2002e044                CONFIG_DATA
+ .rodata        0x2002e048       0x28 libs\libusb.a(usb_device_video.o)
+                0x2002e048                UVC_Still_Probe_Commit_Default
+                0x2002e054                uvc_video_probe_commit_default
+ .rodata        0x2002e070       0x18 libs\libfat.a(fat_fileorder.o)
+ *(.rodata.*)
+ .rodata.str1.4
+                0x2002e088       0xf2 ./Debug/audio_adc_audio_adc.c.o
+                                 0xf8 (size before relaxing)
+ *fill*         0x2002e17a        0x2 00
+ .rodata.str1.4
+                0x2002e17c        0xf ./Debug/audio_dac_audio_dac.c.o
+                                 0x10 (size before relaxing)
+ *fill*         0x2002e18b        0x1 00
+ .rodata.str1.4
+                0x2002e18c        0xb ./Debug/common_common.c.o
+                                  0xc (size before relaxing)
+ *fill*         0x2002e197        0x1 00
+ .rodata.str1.4
+                0x2002e198       0x76 ./Debug/csi_csi.c.o
+                                 0x78 (size before relaxing)
+ *fill*         0x2002e20e        0x2 00
+ .rodata.str1.4
+                0x2002e210       0x2e ./Debug/csi_csi_isr.c.o
+                                 0x30 (size before relaxing)
+ *fill*         0x2002e23e        0x2 00
+ .rodata.str1.4
+                0x2002e240       0x25 ./Debug/csi_csi_timeinfo.c.o
+                                 0x28 (size before relaxing)
+ *fill*         0x2002e265        0x3 00
+ .rodata.str1.4
+                0x2002e268      0x373 ./Debug/fat_api_fat_api.c.o
+                                0x378 (size before relaxing)
+ *fill*         0x2002e5db        0x1 00
+ .rodata.str1.4
+                0x2002e5dc        0x7 ./Debug/int_int.c.o
+                                  0x8 (size before relaxing)
+ *fill*         0x2002e5e3        0x1 00
+ .rodata.str1.4
+                0x2002e5e4        0xb ./Debug/lcd_osd.c.o
+                                  0xc (size before relaxing)
+ *fill*         0x2002e5ef        0x1 00
+ .rodata.str1.4
+                0x2002e5f0       0x2d ./Debug/lcd_lcd_nodisplay.c.o
+                                 0x30 (size before relaxing)
+ *fill*         0x2002e61d        0x3 00
+ .rodata.str1.4
+                0x2002e620       0x18 ./Debug/menu_menu_display.c.o
+ .rodata.str1.4
+                0x2002e638      0x60b ./Debug/menu_menu_struct.c.o
+                                0x60c (size before relaxing)
+ *fill*         0x2002ec43        0x1 00
+ .rodata.str1.4
+                0x2002ec44      0x129 ./Debug/menu_menu_setting.c.o
+                                0x134 (size before relaxing)
+ *fill*         0x2002ed6d        0x3 00
+ .rodata.str1.4
+                0x2002ed70        0xb ./Debug/msg_adkey.c.o
+                                  0xc (size before relaxing)
+ *fill*         0x2002ed7b        0x1 00
+ .rodata.str1.4
+                0x2002ed7c      0x131 ./Debug/play_avi_player.c.o
+                                0x134 (size before relaxing)
+ *fill*         0x2002eead        0x3 00
+ .rodata.str1.4
+                0x2002eeb0       0x49 ./Debug/play_play_picture.c.o
+                                 0x4c (size before relaxing)
+ *fill*         0x2002eef9        0x3 00
+ .rodata.str1.4
+                0x2002eefc       0xa4 ./Debug/rtc_rtc.c.o
+ .rodata.str1.4
+                0x2002efa0      0x17b ./Debug/sd_sd_ext.c.o
+                                0x180 (size before relaxing)
+ *fill*         0x2002f11b        0x1 00
+ .rodata.str1.4
+                0x2002f11c        0xd ./Debug/sensor_sensor_nt99141.c.o
+                                 0x10 (size before relaxing)
+ *fill*         0x2002f129        0x3 00
+ .rodata.str1.4
+                0x2002f12c      0x174 ./Debug/sys_sys.c.o
+                                0x1b0 (size before relaxing)
+ .rodata.str1.4
+                0x2002f2a0        0x4 ./Debug/uart_uart.c.o
+                                  0x8 (size before relaxing)
+ .rodata.str1.4
+                0x2002f2a4       0xb3 ./Debug/task_task.c.o
+                                 0xb4 (size before relaxing)
+ *fill*         0x2002f357        0x1 00
+ .rodata.str1.4
+                0x2002f358       0xdd ./Debug/task_task_video.c.o
+                                 0xec (size before relaxing)
+ *fill*         0x2002f435        0x3 00
+ .rodata.str1.4
+                0x2002f438       0x71 ./Debug/task_task_photo.c.o
+                                 0x84 (size before relaxing)
+ *fill*         0x2002f4a9        0x3 00
+ .rodata.str1.4
+                0x2002f4ac       0x4e ./Debug/task_task_play.c.o
+                                 0x54 (size before relaxing)
+ *fill*         0x2002f4fa        0x2 00
+ .rodata.str1.4
+                0x2002f4fc       0x82 ./Debug/task_task_usb_device.c.o
+                                 0x84 (size before relaxing)
+ *fill*         0x2002f57e        0x2 00
+ .rodata.str1.4
+                0x2002f580       0x98 ./Debug/task_task_holdMode.c.o
+                                 0xac (size before relaxing)
+ .rodata.str1.4
+                0x2002f618       0x66 ./Debug/tvout_tvout.c.o
+                                 0x68 (size before relaxing)
+ *fill*         0x2002f67e        0x2 00
+ .rodata.str1.4
+                0x2002f680       0x1a libs\libjpeg.a(jpeg_enc.o)
+                                 0x1c (size before relaxing)
+ *fill*         0x2002f69a        0x2 00
+ .rodata.str1.4
+                0x2002f69c        0xf libs\libjpeg.a(jpeg_dec.o)
+                                 0x10 (size before relaxing)
+ .rodata.str1.4
+                0x00000000        0x4 libs\libfs.a(fat_format.o)
+ *fill*         0x2002f6ab        0x1 00
+ .rodata.str1.4
+                0x2002f6ac       0xc4 libs\libfs.a(ff.o)
+ .rodata.str1.4
+                0x2002f770       0x20 libs\libfs.a(diskio.o)
+ .rodata.str1.4
+                0x2002f790       0x34 libs\libusb.a(usb_device_mass.o)
+                                 0x4c (size before relaxing)
+ .rodata.str1.4
+                0x2002f7c4       0x40 libs\libusb.a(usb_dev_audio.o)
+ .rodata.str1.4
+                0x2002f804       0xce libs\libusb.a(usb_device_enum.o)
+                                 0xd0 (size before relaxing)
+ *fill*         0x2002f8d2        0x2 00
+ .rodata.str1.4
+                0x2002f8d4        0xa libs\libusb.a(usb_device_video.o)
+                                  0xc (size before relaxing)
+ *fill*         0x2002f8de        0x2 00
+ .rodata.str1.4
+                0x2002f8e0       0x98 libs\libfat.a(fat.o)
+ .rodata.str1.4
+                0x2002f978        0x7 libs\libfat.a(fat_fileorder.o)
+                                 0x24 (size before relaxing)
+ *fill*         0x2002f97f        0x1 00
+ .rodata.str1.4
+                0x2002f980       0x70 libs\libsd.a(sd.o)
+ *(.data)
+ .data          0x2002f9f0       0x48 ./Debug/audio_adc_audio_adc.c.o
+                0x2002f9f0                audio_buffer_ptr
+                0x2002fa2c                dac_buf_0
+                0x2002fa30                dac_buf_1
+ .data          0x2002fa38       0x38 ./Debug/audio_dac_audio_dac.c.o
+ .data          0x2002fa70        0x0 ./Debug/common_common.c.o
+ .data          0x2002fa70        0x0 ./Debug/csi_csi.c.o
+ .data          0x2002fa70        0x0 ./Debug/csi_csi_isr.c.o
+ .data          0x2002fa70      0x680 ./Debug/csi_csi_timeinfo.c.o
+                0x2002fa70                CSI_FONT_ZERO
+                0x2002faf0                CSI_FONT_ONE
+                0x2002fb70                CSI_FONT_TWO
+                0x2002fbf0                CSI_FONT_THREE
+                0x2002fc70                CSI_FONT_FOUR
+                0x2002fcf0                CSI_FONT_FIVE
+                0x2002fd70                CSI_FONT_SIX
+                0x2002fdf0                CSI_FONT_SEVEN
+                0x2002fe70                CSI_FONT_EIGHT
+                0x2002fef0                CSI_FONT_NINE
+                0x2002ff70                CSI_FONT_COLON
+                0x2002fff0                CSI_FONT_SLASH
+                0x20030070                CSI_FONT_HIFIN
+ .data          0x200300f0        0x0 ./Debug/fat_api_fat_api.c.o
+ .data          0x200300f0        0x0 ./Debug/font_font.c.o
+ .data          0x200300f0        0x0 ./Debug/gpdma_gpdma.c.o
+ .data          0x200300f0        0x0 ./Debug/i2c_i2c.c.o
+ .data          0x200300f0        0x0 ./Debug/int_int.c.o
+ .data          0x200300f0        0x0 ./Debug/lcd_lcdc.c.o
+ .data          0x200300f0        0x0 ./Debug/lcd_osd.c.o
+ .data          0x200300f0        0x0 ./Debug/lcd_lcd_driver.c.o
+ .data          0x200300f0        0x0 ./Debug/lcd_lcd_interface.c.o
+ .data          0x200300f0        0x0 ./Debug/lcd_lcd_tdo24theb2.c.o
+ .data          0x200300f0        0x0 ./Debug/lcd_lcd_ili8961.c.o
+ .data          0x200300f0       0xc8 ./Debug/lcd_lcd_nodisplay.c.o
+                0x200300f0                table_init
+ .data          0x200301b8        0x0 ./Debug/lcd_lcd_3029.c.o
+ .data          0x200301b8        0x0 ./Debug/lcd_lcd_61505.c.o
+ .data          0x200301b8        0x0 ./Debug/lcd_lcd_hx8367.c.o
+ .data          0x200301b8        0x0 ./Debug/lcd_lcd_7781.c.o
+ .data          0x200301b8        0x0 ./Debug/lcd_lcd_ili6480.c.o
+ .data          0x200301b8        0x0 ./Debug/lcd_lcd_61505W.c.o
+ .data          0x200301b8        0x0 ./Debug/lcd_lcd_3029C.c.o
+ .data          0x200301b8        0x0 ./Debug/lcd_lcd_9303.c.o
+ .data          0x200301b8        0x0 ./Debug/lcd_lcd_9312.c.o
+ .data          0x200301b8        0x0 ./Debug/lcd_lcd_ili9225.c.o
+ .data          0x200301b8        0x0 ./Debug/main_main.c.o
+ .data          0x200301b8        0x0 ./Debug/menu_menu_display.c.o
+ .data          0x200301b8      0x134 ./Debug/menu_menu_struct.c.o
+                0x200301b8                group_file_delete
+                0x200301e4                group_file_lock
+                0x20030210                group_low_power
+                0x2003023c                group_format_sd_fail
+                0x20030268                group_format_sd_succeed
+                0x20030294                group_format_sd_ing
+                0x200302c0                group_no_card
+ .data          0x200302ec        0x1 ./Debug/menu_menu_setting.c.o
+                0x200302ec                light_sta
+ .data          0x200302ed        0x0 ./Debug/msg_adkey.c.o
+ .data          0x200302ed        0x0 ./Debug/msg_msg.c.o
+ .data          0x200302ed        0x0 ./Debug/play_avi_player.c.o
+ .data          0x200302ed        0x0 ./Debug/play_gp_fifo.c.o
+ .data          0x200302ed        0x0 ./Debug/play_play_picture.c.o
+ .data          0x200302ed        0x0 ./Debug/rtc_rtc.c.o
+ .data          0x200302ed        0x0 ./Debug/sd_sd_ext.c.o
+ .data          0x200302ed        0x0 ./Debug/sensor_sensor.c.o
+ .data          0x200302ed        0x0 ./Debug/sensor_sensor_gc0308.c.o
+ .data          0x200302ed        0x0 ./Debug/sensor_sensor_nt99140.c.o
+ .data          0x200302ed        0x0 ./Debug/sensor_sensor_ov7670.c.o
+ .data          0x200302ed        0x0 ./Debug/sensor_sensor_ov9710.c.o
+ *fill*         0x200302ed        0x3 00
+ .data          0x200302f0      0x248 ./Debug/sensor_sensor_nt99141.c.o
+                0x200302f0                NT99141InitTable_1280_720
+ .data          0x20030538        0x0 ./Debug/sensor_sensor_bf3925.c.o
+ .data          0x20030538        0x0 ./Debug/sensor_sensor_siv121DS.c.o
+ .data          0x20030538        0x0 ./Debug/sensor_sensor_ov7725.c.o
+ .data          0x20030538        0x0 ./Debug/sensor_sensor_nt99240.c.o
+ .data          0x20030538        0x0 ./Debug/sensor_sensor_siv100B.c.o
+ .data          0x20030538        0x0 ./Debug/startup_spi_boot_cfg.S.o
+ .data          0x20030538        0x0 ./Debug/sys_sys.c.o
+ .data          0x20030538        0x0 ./Debug/timer_timer.c.o
+ .data          0x20030538        0x4 ./Debug/timer_timer_isr.c.o
+ .data          0x2003053c        0x0 ./Debug/uart_uart.c.o
+ .data          0x2003053c        0x0 ./Debug/spi_spi.c.o
+ .data          0x2003053c        0x0 ./Debug/task_task.c.o
+ .data          0x2003053c      0x8f0 ./Debug/task_task_video.c.o
+                0x2003053c                Lcd_osd_sys_time
+ .data          0x20030e2c        0x0 ./Debug/task_task_photo.c.o
+ .data          0x20030e2c        0x0 ./Debug/task_task_play.c.o
+ .data          0x20030e2c        0x0 ./Debug/task_task_usb_device.c.o
+ .data          0x20030e2c        0x0 ./Debug/task_task_holdMode.c.o
+ .data          0x20030e2c        0x0 ./Debug/tvout_tvout.c.o
+ .data          0x20030e2c        0x0 ./Debug/led_led.c.o
+ .data          0x20030e2c        0x0 ./Debug/g_sensor_g_sensor.c.o
+ .data          0x20030e2c        0x0 ./Debug/g_sensor_g_sensor_dmard07.c.o
+ .data          0x20030e2c        0x0 ./Debug/g_sensor_g_sensor_gma301a.c.o
+ .data          0x20030e2c        0x0 ./Debug/g_sensor_g_sensor_null.c.o
+ .data          0x20030e2c        0x0 d:/MinGW-4.7.1/arm-elf/lib\libc.a(lib_a-strcpy.o)
+ .data          0x20030e2c        0x0 d:/MinGW-4.7.1/arm-elf/lib\libc.a(lib_a-strlen.o)
+ .data          0x20030e2c        0x0 d:/MinGW-4.7.1/lib/gcc/arm-elf/4.6.0\libgcc.a(_udivsi3.o)
+ .data          0x20030e2c        0x0 d:/MinGW-4.7.1/lib/gcc/arm-elf/4.6.0\libgcc.a(_divsi3.o)
+ .data          0x20030e2c        0x0 d:/MinGW-4.7.1/lib/gcc/arm-elf/4.6.0\libgcc.a(_umodsi3.o)
+ .data          0x20030e2c        0x0 d:/MinGW-4.7.1/lib/gcc/arm-elf/4.6.0\libgcc.a(_dvmd_tls.o)
+ .data          0x20030e2c        0x0 libs\libjpeg.a(jpeg_enc.o)
+ .data          0x20030e2c        0x0 libs\libjpeg.a(jpeg_isr.o)
+ .data          0x20030e2c        0x0 libs\libjpeg.a(jpeg_dec.o)
+ .data          0x20030e2c        0x0 libs\libjpeg.a(jpeg_linebuffer.o)
+ .data          0x20030e2c        0x0 libs\libfs.a(fat_format.o)
+ .data          0x20030e2c        0x0 libs\libfs.a(ff.o)
+ .data          0x20030e2c        0x0 libs\libfs.a(diskio.o)
+ .data          0x20030e2c        0x0 libs\libusb.a(usb_device_mass.o)
+ .data          0x20030e2c        0x0 libs\libusb.a(usb_dev_audio.o)
+ .data          0x20030e2c       0x20 libs\libusb.a(usb_device_enum.o)
+                0x20030e2c                CONFIG_DESC_DATA
+ .data          0x20030e4c        0x0 libs\libusb.a(usb.o)
+ .data          0x20030e4c       0x5c libs\libusb.a(usb_device_video.o)
+                0x20030e4c                uvc_pu_power_line_frequency_def
+                0x20030e4d                uvc_pu_power_line_frequency_info
+                0x20030e4e                uvc_pu_power_line_frequency_max
+                0x20030e50                uvc_pu_backlight_compensation_def
+                0x20030e52                uvc_pu_backlight_compensation_info
+                0x20030e54                uvc_pu_backlight_compensation_min
+                0x20030e58                uvc_pu_backlight_compensation_max
+                0x20030e5c                uvc_pu_contrast_cur
+                0x20030e60                uvc_pu_contrast_res
+                0x20030e62                uvc_pu_contrast_info
+                0x20030e64                uvc_pu_contrast_max
+                0x20030e68                uvc_pu_saturation_cur
+                0x20030e6c                uvc_pu_saturation_res
+                0x20030e6e                uvc_pu_saturation_info
+                0x20030e70                uvc_pu_saturation_max
+                0x20030e74                uvc_pu_sharpness_cur
+                0x20030e78                uvc_pu_sharpness_res
+                0x20030e7a                uvc_pu_sharpness_info
+                0x20030e7c                uvc_pu_sharpness_max
+                0x20030e80                uvc_pu_gamma_cur
+                0x20030e84                uvc_pu_gamma_res
+                0x20030e86                uvc_pu_gamma_info
+                0x20030e88                uvc_pu_gamma_min
+                0x20030e8c                uvc_pu_gamma_max
+                0x20030e90                uvc_pu_brightness_cur
+                0x20030e94                uvc_pu_brightness_res
+                0x20030e96                uvc_pu_brightness_info
+                0x20030e98                uvc_pu_brightness_max
+                0x20030e9c                uvc_pu_hue_res
+                0x20030e9e                uvc_pu_hue_info
+                0x20030ea0                uvc_pu_hue_min
+                0x20030ea4                uvc_pu_hue_max
+ .data          0x20030ea8        0x0 libs\libusb.a(update.o)
+ .data          0x20030ea8        0x0 libs\libstartup.a(cpu.o)
+ .data          0x20030ea8        0x0 libs\libstartup.a(lowPower.o)
+ .data          0x20030ea8        0x0 libs\libstartup.a(startup.o)
+ .data          0x20030ea8        0x0 libs\libstartup.a(BootSec.o)
+ .data          0x20030ea8        0x0 libs\libfat.a(fat.o)
+ .data          0x20030ea8        0x0 libs\libfat.a(fat_fileorder.o)
+ .data          0x20030ea8        0x0 libs\libsd.a(sd.o)
+                0x20030ec0                . = ALIGN (0x20)
+ *fill*         0x20030ea8       0x18 00
+ *(.fat_temp)
+                0x20030ec0                . = ALIGN (0x20)
+ *(.usb_var_cbw)
+ .usb_var_cbw   0x20030ec0       0x40 libs\libusb.a(usb_device_mass.o)
+                0x20030ec0                g_cbw_buf
+                0x20030f00                . = ALIGN (0x20)
+ *(.usb_dat_buf)
+ .usb_dat_buf   0x20030f00      0x200 libs\libusb.a(usb_device_mass.o)
+                0x20030f00                g_usb_dat_buf
+
+.glue_7         0x20031100        0x0
+ .glue_7        0x00000000        0x0 linker stubs
+
+.glue_7t        0x20031100        0x0
+ .glue_7t       0x00000000        0x0 linker stubs
+
+.vfp11_veneer   0x20031100        0x0
+ .vfp11_veneer  0x00000000        0x0 linker stubs
+
+.v4_bx          0x20031100        0x0
+ .v4_bx         0x00000000        0x0 linker stubs
+
+.iplt           0x20031100        0x0
+ .iplt          0x00000000        0x0 ./Debug/audio_adc_audio_adc.c.o
+
+.bootsec        0x20031100      0x200
+ .bootsec       0x20031100      0x200 libs\libstartup.a(BootSec.o)
+                0x200312e8                .bootsect
+
+.igot.plt       0x20031300        0x0
+ .igot.plt      0x00000000        0x0 ./Debug/audio_adc_audio_adc.c.o
+
+.usb_cam_test_buf
+                0x20031300      0xbac
+ .usb_cam_test_buf
+                0x20031300      0xbac libs\libusb.a(usb_device_video.o)
+                0x20031300                usb_cam_buf
+
+.rel.dyn        0x20031eac        0x0
+ .rel.iplt      0x00000000        0x0 ./Debug/audio_adc_audio_adc.c.o
+
+.bss            0x20050000     0xf428
+                0x20050000                __bss_start = .
+ *(.bss)
+ .bss           0x20050000       0x10 ./Debug/audio_adc_audio_adc.c.o
+                0x20050004                adc_single_double_ch
+                0x20050008                adc_sample_rate
+                0x2005000c                audio_offset
+ .bss           0x20050010        0x3 ./Debug/audio_dac_audio_dac.c.o
+                0x20050011                record_botton_mem
+ .bss           0x20050013        0x0 ./Debug/common_common.c.o
+ *fill*         0x20050013        0x1 00
+ .bss           0x20050014        0x8 ./Debug/csi_csi.c.o
+ .bss           0x2005001c        0x1 ./Debug/csi_csi_isr.c.o
+                0x2005001c                cnt
+ *fill*         0x2005001d        0x3 00
+ .bss           0x20050020       0x80 ./Debug/csi_csi_timeinfo.c.o
+                0x20050020                CSI_FONT_NULL
+ .bss           0x200500a0       0x24 ./Debug/fat_api_fat_api.c.o
+                0x200500a0                delResult
+                0x200500c0                bPhotoScalFlag
+                0x200500c1                bDeleteFile
+ .bss           0x200500c4        0x0 ./Debug/font_font.c.o
+ .bss           0x200500c4        0x0 ./Debug/gpdma_gpdma.c.o
+ .bss           0x200500c4        0x3 ./Debug/i2c_i2c.c.o
+                0x200500c6                bI2CBusy_Flag
+ .bss           0x200500c7        0x1 ./Debug/int_int.c.o
+                0x200500c7                bIRQStateFlag
+ .bss           0x200500c8        0x0 ./Debug/lcd_lcdc.c.o
+ .bss           0x200500c8        0x0 ./Debug/lcd_osd.c.o
+ .bss           0x200500c8        0x0 ./Debug/lcd_lcd_driver.c.o
+ .bss           0x200500c8        0x0 ./Debug/lcd_lcd_interface.c.o
+ .bss           0x200500c8        0x0 ./Debug/lcd_lcd_tdo24theb2.c.o
+ .bss           0x200500c8        0x0 ./Debug/lcd_lcd_ili8961.c.o
+ .bss           0x200500c8        0x0 ./Debug/lcd_lcd_nodisplay.c.o
+ .bss           0x200500c8        0x0 ./Debug/lcd_lcd_3029.c.o
+ .bss           0x200500c8        0x0 ./Debug/lcd_lcd_61505.c.o
+ .bss           0x200500c8        0x0 ./Debug/lcd_lcd_hx8367.c.o
+ .bss           0x200500c8        0x0 ./Debug/lcd_lcd_7781.c.o
+ .bss           0x200500c8        0x0 ./Debug/lcd_lcd_ili6480.c.o
+ .bss           0x200500c8        0x0 ./Debug/lcd_lcd_61505W.c.o
+ .bss           0x200500c8        0x0 ./Debug/lcd_lcd_3029C.c.o
+ .bss           0x200500c8        0x0 ./Debug/lcd_lcd_9303.c.o
+ .bss           0x200500c8        0x0 ./Debug/lcd_lcd_9312.c.o
+ .bss           0x200500c8        0x0 ./Debug/lcd_lcd_ili9225.c.o
+ .bss           0x200500c8        0x0 ./Debug/main_main.c.o
+ .bss           0x200500c8        0x0 ./Debug/menu_menu_display.c.o
+ .bss           0x200500c8        0x0 ./Debug/menu_menu_struct.c.o
+ .bss           0x200500c8        0x0 ./Debug/menu_menu_setting.c.o
+ .bss           0x200500c8       0x20 ./Debug/msg_adkey.c.o
+ .bss           0x200500e8        0x0 ./Debug/msg_msg.c.o
+ .bss           0x200500e8        0x2 ./Debug/play_avi_player.c.o
+                0x200500e8                bOpenBackLightFlag
+                0x200500e9                bPlayVideo_DacFlag
+ .bss           0x200500ea        0x0 ./Debug/play_gp_fifo.c.o
+ .bss           0x200500ea        0x0 ./Debug/play_play_picture.c.o
+ .bss           0x200500ea        0x0 ./Debug/rtc_rtc.c.o
+ *fill*         0x200500ea        0x2 00
+ .bss           0x200500ec        0x8 ./Debug/sd_sd_ext.c.o
+                0x200500ec                bSDCardStatus
+ .bss           0x200500f4        0x0 ./Debug/sensor_sensor.c.o
+ .bss           0x200500f4        0x0 ./Debug/sensor_sensor_gc0308.c.o
+ .bss           0x200500f4        0x0 ./Debug/sensor_sensor_nt99140.c.o
+ .bss           0x200500f4        0x0 ./Debug/sensor_sensor_ov7670.c.o
+ .bss           0x200500f4        0x0 ./Debug/sensor_sensor_ov9710.c.o
+ .bss           0x200500f4        0x0 ./Debug/sensor_sensor_nt99141.c.o
+ .bss           0x200500f4        0x0 ./Debug/sensor_sensor_bf3925.c.o
+ .bss           0x200500f4        0x0 ./Debug/sensor_sensor_siv121DS.c.o
+ .bss           0x200500f4        0x0 ./Debug/sensor_sensor_ov7725.c.o
+ .bss           0x200500f4        0x0 ./Debug/sensor_sensor_nt99240.c.o
+ .bss           0x200500f4        0x0 ./Debug/sensor_sensor_siv100B.c.o
+ .bss           0x200500f4        0x0 ./Debug/startup_spi_boot_cfg.S.o
+ .bss           0x200500f4        0x1 ./Debug/sys_sys.c.o
+ .bss           0x200500f5        0x0 ./Debug/timer_timer.c.o
+ .bss           0x200500f5        0x0 ./Debug/timer_timer_isr.c.o
+ .bss           0x200500f5        0x0 ./Debug/uart_uart.c.o
+ .bss           0x200500f5        0x1 ./Debug/spi_spi.c.o
+                0x200500f5                bSFBusy_Flag
+ .bss           0x200500f6        0x1 ./Debug/task_task.c.o
+                0x200500f6                video_enlager
+ *fill*         0x200500f7        0x1 00
+ .bss           0x200500f8        0x8 ./Debug/task_task_video.c.o
+ .bss           0x20050100        0x1 ./Debug/task_task_photo.c.o
+                0x20050100                bFastViewFlag
+ .bss           0x20050101        0x1 ./Debug/task_task_play.c.o
+                0x20050101                bTaskPlayExit_Flag
+ .bss           0x20050102        0x0 ./Debug/task_task_usb_device.c.o
+ *fill*         0x20050102        0x2 00
+ .bss           0x20050104        0x4 ./Debug/task_task_holdMode.c.o
+                0x20050104                powerSaveFlag
+ .bss           0x20050108       0x14 ./Debug/tvout_tvout.c.o
+                0x20050114                enlager_offset_len
+ .bss           0x2005011c        0xc ./Debug/led_led.c.o
+                0x20050124                g_SystemState
+ .bss           0x20050128        0x1 ./Debug/g_sensor_g_sensor.c.o
+                0x20050128                bGsensor_Lock
+ .bss           0x20050129        0x0 ./Debug/g_sensor_g_sensor_dmard07.c.o
+ .bss           0x20050129        0x0 ./Debug/g_sensor_g_sensor_gma301a.c.o
+ .bss           0x20050129        0x0 ./Debug/g_sensor_g_sensor_null.c.o
+ .bss           0x20050129        0x0 d:/MinGW-4.7.1/arm-elf/lib\libc.a(lib_a-strcpy.o)
+ .bss           0x20050129        0x0 d:/MinGW-4.7.1/arm-elf/lib\libc.a(lib_a-strlen.o)
+ .bss           0x20050129        0x0 d:/MinGW-4.7.1/lib/gcc/arm-elf/4.6.0\libgcc.a(_udivsi3.o)
+ .bss           0x20050129        0x0 d:/MinGW-4.7.1/lib/gcc/arm-elf/4.6.0\libgcc.a(_divsi3.o)
+ .bss           0x20050129        0x0 d:/MinGW-4.7.1/lib/gcc/arm-elf/4.6.0\libgcc.a(_umodsi3.o)
+ .bss           0x20050129        0x0 d:/MinGW-4.7.1/lib/gcc/arm-elf/4.6.0\libgcc.a(_dvmd_tls.o)
+ *fill*         0x20050129        0x3 00
+ .bss           0x2005012c      0x28c libs\libjpeg.a(jpeg_enc.o)
+ .bss           0x200503b8        0x0 libs\libjpeg.a(jpeg_isr.o)
+ .bss           0x200503b8       0x24 libs\libjpeg.a(jpeg_dec.o)
+ .bss           0x200503dc       0x10 libs\libjpeg.a(jpeg_linebuffer.o)
+ .bss           0x200503ec        0x0 libs\libfs.a(fat_format.o)
+ .bss           0x200503ec       0x18 libs\libfs.a(ff.o)
+                0x200503f8                pDeleteFS
+ .bss           0x20050404        0x0 libs\libfs.a(diskio.o)
+ .bss           0x20050404        0x8 libs\libusb.a(usb_device_mass.o)
+                0x20050404                usb_timeout
+                0x20050408                usb_dma_occupy
+ .bss           0x2005040c        0x2 libs\libusb.a(usb_dev_audio.o)
+                0x2005040c                UacSampFreqChange
+                0x2005040d                uac_on
+ *fill*         0x2005040e        0x2 00
+ .bss           0x20050410        0x8 libs\libusb.a(usb_device_enum.o)
+                0x20050410                ep1_max_size
+                0x20050414                ep0_current_state
+                0x20050415                usb_dev_addr
+                0x20050416                uvc_on
+ .bss           0x20050418        0x8 libs\libusb.a(usb.o)
+                0x20050418                usb_dma_timeout
+                0x2005041c                Ep1Deal
+ .bss           0x20050420       0x20 libs\libusb.a(usb_device_video.o)
+                0x20050420                bStillTriggerKick
+                0x20050424                uvc_pu_power_line_frequency_min
+                0x20050428                uvc_pu_contrast_min
+                0x2005042c                uvc_pu_saturation_min
+                0x20050430                uvc_pu_sharpness_min
+                0x20050434                uvc_pu_brightness_min
+                0x20050438                uvc_pu_hue_cur
+                0x2005043a                toggleframe
+                0x2005043c                bStillImageFlag
+ .bss           0x20050440        0x0 libs\libusb.a(update.o)
+ .bss           0x20050440        0x0 libs\libstartup.a(cpu.o)
+ .bss           0x20050440        0x0 libs\libstartup.a(lowPower.o)
+ .bss           0x20050440        0x0 libs\libstartup.a(startup.o)
+ .bss           0x20050440        0x0 libs\libstartup.a(BootSec.o)
+ .bss           0x20050440        0x1 libs\libfat.a(fat.o)
+ *fill*         0x20050441        0x3 00
+ .bss           0x20050444        0xc libs\libfat.a(fat_fileorder.o)
+ .bss           0x20050450        0x0 libs\libsd.a(sd.o)
+ *(COMMON)
+ COMMON         0x20050450      0x17c ./Debug/audio_adc_audio_adc.c.o
+                0x20050450                usb_EP1_class
+                0x20050454                usb_varm
+                0x2005048c                seg_info
+                0x20050494                dev_ctl
+                0x200504a8                csi_buf_point
+                0x200504a9                usb_type
+                0x200504aa                sd_dis_flag
+                0x200504ac                p_enp
+                0x200504b0                usb_enum_type
+                0x200504b4                bs_buf
+                0x200504f4                udev
+                0x2005050c                p_dev
+                0x20050510                device_online
+                0x20050514                usb_dev_req
+                0x2005051c                tpbulk_block
+                0x2005055c                ep3buf
+                0x2005059c                pSetReqCallback
+                0x200505a0                setup_pkt
+                0x200505a8                pkt_per_sec
+                0x200505a9                EP0WaitForSetReqData
+                0x200505ac                p_ifc
+                0x200505b0                agcflg
+                0x200505b4                jpeg_isrfp
+                0x200505b8                usb_var
+                0x200505bc                p_cfg
+                0x200505c0                usbstack
+ COMMON         0x200505cc        0x1 ./Debug/audio_dac_audio_dac.c.o
+                0x200505cc                dac_block_flag
+ *fill*         0x200505cd        0x3 00
+ COMMON         0x200505d0       0x19 ./Debug/csi_csi.c.o
+                0x200505d0                u32csi_Dma_Size_H
+                0x200505d4                u32csi_Dma_Size_V
+                0x200505d8                u32sdr_Buff_Len
+                0x200505dc                bMD_StopVideo_Flag
+                0x200505e0                u32MDCnt
+                0x200505e4                csi_timeout
+                0x200505e8                bSameSizeFlag
+ *fill*         0x200505e9        0x3 00
+ COMMON         0x200505ec        0x8 ./Debug/csi_csi_isr.c.o
+                0x200505ec                bMD_Flag
+                0x200505ed                bcsi_FrameEndFlag
+                0x200505f0                u32csi_IntFlag
+ COMMON         0x200505f4       0x2f ./Debug/csi_csi_timeinfo.c.o
+                0x200505f4                TimerInfoPixelBuf
+                0x200505f8                TimeInfoBuff
+                0x2005060c                lastTimeCount
+                0x20050610                TimeInfoCurrent
+ *fill*         0x20050623       0x1d 00
+ COMMON         0x20050640     0xd4e0 ./Debug/fat_api_fat_api.c.o
+                0x20050640                bRecording_Display_Flag
+                0x20050660                delFS
+                0x200508a0                work_fatfs
+                0x20050ae0                delCLST
+                0x20050ae4                filename
+                0x20050b00                index_filename
+                0x20050b1c                bStopVideo_Flag
+                0x20050b20                Fil
+                0x20050d60                indexFil
+                0x20050fa0                fnlist
+                0x2005cb20                clmt
+ COMMON         0x2005db20        0x8 ./Debug/font_font.c.o
+                0x2005db20                FontLib
+ COMMON         0x2005db28      0x440 ./Debug/lcd_osd.c.o
+                0x2005db28                OSD1Inf
+                0x2005db3c                gImage_palette
+                0x2005df3c                OSD2Inf
+                0x2005df50                OSD3Inf
+                0x2005df64                OSD_changeFlag
+ COMMON         0x2005df68        0x2 ./Debug/lcd_lcd_driver.c.o
+                0x2005df68                blcd_FrameEnd_Flag
+                0x2005df69                blcd_writeback_Flag
+ *fill*         0x2005df6a        0x2 00
+ COMMON         0x2005df6c       0x4c ./Debug/menu_menu_display.c.o
+                0x2005df6c                cur_menu
+                0x2005df74                menu_mgroup
+ COMMON         0x2005dfb8       0x24 ./Debug/menu_menu_setting.c.o
+                0x2005dfb8                sys_ctl
+ COMMON         0x2005dfdc        0x1 ./Debug/msg_adkey.c.o
+                0x2005dfdc                adc_step
+ *fill*         0x2005dfdd        0x3 00
+ COMMON         0x2005dfe0       0x17 ./Debug/msg_msg.c.o
+                0x2005dfe0                msg_ctrl
+                0x2005dfe8                msg_pool
+ *fill*         0x2005dff7        0x1 00
+ COMMON         0x2005dff8      0x22c ./Debug/play_avi_player.c.o
+                0x2005dff8                g_VideoFrameBuf
+                0x2005e008                g_AudioIndexFIFO
+                0x2005e024                g_DecodeDispFrameBuf
+                0x2005e034                g_AudioFrameBuf
+                0x2005e044                g_DispFrameBuf
+                0x2005e054                g_AudioIndexInfo
+                0x2005e068                g_VideoIndexInfo
+                0x2005e07c                g_AudioIndexBuf
+                0x2005e090                g_DecodeDispFrameFIFO
+                0x2005e0ac                g_DecodeVideoFrameBuf
+                0x2005e0bc                g_DecodeVideoFrameFIFO
+                0x2005e0d8                g_VideoIndexFIFO
+                0x2005e0f4                g_IndexInfo
+                0x2005e108                g_AVIFileInfo
+                0x2005e15c                g_VideoIndexBuf
+ COMMON         0x2005e224        0x4 ./Debug/sensor_sensor.c.o
+                0x2005e224                u8Databytnum
+                0x2005e225                u8SensorreadID
+                0x2005e226                u8SensorwriteID
+                0x2005e227                u8Addrbytnum
+ COMMON         0x2005e228        0xc ./Debug/timer_timer_isr.c.o
+                0x2005e228                u32Test_1msCnt
+                0x2005e22c                u32Delay_1msCnt
+                0x2005e230                u32Timer0_1msCnt
+ COMMON         0x2005e234        0x8 ./Debug/task_task.c.o
+                0x2005e234                task_ctl
+ COMMON         0x2005e23c       0x30 ./Debug/task_task_video.c.o
+                0x2005e23c                t_record_video
+                0x2005e248                Total_record_timer_info
+                0x2005e250                TimeInfo_for_record
+                0x2005e264                Total_record_timer_current
+ COMMON         0x2005e26c        0x8 ./Debug/task_task_photo.c.o
+                0x2005e26c                t_photo
+ COMMON         0x2005e274       0x10 ./Debug/task_task_play.c.o
+                0x2005e274                play_file_num
+                0x2005e278                t_play
+                0x2005e280                play_file_total
+ COMMON         0x2005e284        0x1 ./Debug/g_sensor_g_sensor.c.o
+                0x2005e284                Gsensor_ID
+ *fill*         0x2005e285        0x3 00
+ COMMON         0x2005e288       0x9c libs\libjpeg.a(jpeg_enc.o)
+                0x2005e288                g_stcJpegInfo
+                0x2005e300                sam_audio_buffer_ptr
+                0x2005e304                JpegFrame_locat_fifo
+                0x2005e314                auido_sd_locat_fifo
+ COMMON         0x2005e324        0x9 libs\libjpeg.a(jpeg_dec.o)
+                0x2005e324                u32jpegSize_V
+                0x2005e328                u32jpegSize_H
+                0x2005e32c                jpdec_flag
+ *fill*         0x2005e32d        0x3 00
+ COMMON         0x2005e330        0xc libs\libjpeg.a(jpeg_linebuffer.o)
+                0x2005e330                YUYVSrcBuff
+                0x2005e334                WriteBack_cnt
+                0x2005e338                YUYVDestBuff
+ COMMON         0x2005e33c       0x44 libs\libfs.a(ff.o)
+                0x2005e33c                removeChain_outptr
+                0x2005e33d                removeChain_inptr
+                0x2005e340                removeChain_pool
+ COMMON         0x2005e380       0x25 libs\libusb.a(usb_device_mass.o)
+                0x2005e380                g_cbw_cb
+                0x2005e390                g_cbw_transfer_len
+                0x2005e394                g_csw_status
+                0x2005e395                g_bSenseKey
+                0x2005e398                g_csw_data_residue
+                0x2005e39c                g_cbw_tag
+                0x2005e3a0                g_last_err
+                0x2005e3a1                g_packet_len
+                0x2005e3a2                g_bAdditionalSenseCode
+                0x2005e3a3                g_cur_lun
+                0x2005e3a4                g_bAddiSenseCodeQualifier
+ *fill*         0x2005e3a5        0x3 00
+ COMMON         0x2005e3a8       0x4d libs\libusb.a(usb_dev_audio.o)
+                0x2005e3a8                usbep3buf
+                0x2005e3ac                UacSampFreq
+                0x2005e3b0                UacVolCtrlCur
+                0x2005e3b2                UacMuteControl
+                0x2005e3b3                AudioStreamingIsOn
+                0x2005e3b4                ep0txbuf
+                0x2005e3f4                AudioDataIndex
+ *fill*         0x2005e3f5        0x3 00
+ COMMON         0x2005e3f8       0x43 libs\libusb.a(usb_device_enum.o)
+                0x2005e3f8                ep0_rx_buf
+                0x2005e438                video_start
+                0x2005e439                csr0_tmp
+                0x2005e43a                tick
+ *fill*         0x2005e43b        0x1 00
+ COMMON         0x2005e43c       0x30 libs\libusb.a(usb_device_video.o)
+                0x2005e43c                current_DMAADDR
+                0x2005e440                pVideoBuf
+                0x2005e444                uvc_video_probe_commit_value
+                0x2005e45e                CsiLastPacketPending
+                0x2005e460                lastPacketSize
+                0x2005e464                csibufflag
+                0x2005e468                m_CsiFrameDataPos
+ COMMON         0x2005e46c        0x4 libs\libfat.a(fat.o)
+                0x2005e46c                u32DataOffset
+ COMMON         0x2005e470      0xfa2 libs\libfat.a(fat_fileorder.o)
+                0x2005e470                RecFileNum
+ *fill*         0x2005f412        0x2 00
+ COMMON         0x2005f414       0x14 libs\libsd.a(sd.o)
+                0x2005f414                g_stcSDInfo
+                0x2005f428                . = ALIGN (0x4)
+                0x2005f428                __bss_end = .
+OUTPUT(./Debug/AX325X elf32-littlearm)
+
+.debug_info     0x00000000    0x4c5e2
+ .debug_info    0x00000000     0x1234 ./Debug/audio_adc_audio_adc.c.o
+ .debug_info    0x00001234     0x1aa5 ./Debug/audio_dac_audio_dac.c.o
+ .debug_info    0x00002cd9     0x12d8 ./Debug/common_common.c.o
+ .debug_info    0x00003fb1     0x16e6 ./Debug/csi_csi.c.o
+ .debug_info    0x00005697      0xcbf ./Debug/csi_csi_isr.c.o
+ .debug_info    0x00006356     0x1143 ./Debug/csi_csi_timeinfo.c.o
+ .debug_info    0x00007499     0x2933 ./Debug/fat_api_fat_api.c.o
+ .debug_info    0x00009dcc     0x1062 ./Debug/font_font.c.o
+ .debug_info    0x0000ae2e     0x1297 ./Debug/gpdma_gpdma.c.o
+ .debug_info    0x0000c0c5      0xf7b ./Debug/i2c_i2c.c.o
+ .debug_info    0x0000d040      0xc2d ./Debug/int_int.c.o
+ .debug_info    0x0000dc6d     0x1698 ./Debug/lcd_lcdc.c.o
+ .debug_info    0x0000f305     0x11f4 ./Debug/lcd_osd.c.o
+ .debug_info    0x000104f9     0x13ae ./Debug/lcd_lcd_driver.c.o
+ .debug_info    0x000118a7     0x1454 ./Debug/lcd_lcd_interface.c.o
+ .debug_info    0x00012cfb      0xacf ./Debug/lcd_lcd_tdo24theb2.c.o
+ .debug_info    0x000137ca      0xacf ./Debug/lcd_lcd_ili8961.c.o
+ .debug_info    0x00014299     0x1103 ./Debug/lcd_lcd_nodisplay.c.o
+ .debug_info    0x0001539c      0xacf ./Debug/lcd_lcd_3029.c.o
+ .debug_info    0x00015e6b      0xacf ./Debug/lcd_lcd_61505.c.o
+ .debug_info    0x0001693a      0xacf ./Debug/lcd_lcd_hx8367.c.o
+ .debug_info    0x00017409      0xacf ./Debug/lcd_lcd_7781.c.o
+ .debug_info    0x00017ed8      0xacf ./Debug/lcd_lcd_ili6480.c.o
+ .debug_info    0x000189a7      0xacf ./Debug/lcd_lcd_61505W.c.o
+ .debug_info    0x00019476      0xacf ./Debug/lcd_lcd_3029C.c.o
+ .debug_info    0x00019f45      0xacf ./Debug/lcd_lcd_9303.c.o
+ .debug_info    0x0001aa14      0xacf ./Debug/lcd_lcd_9312.c.o
+ .debug_info    0x0001b4e3      0xacf ./Debug/lcd_lcd_ili9225.c.o
+ .debug_info    0x0001bfb2      0xaec ./Debug/main_main.c.o
+ .debug_info    0x0001ca9e     0x2053 ./Debug/menu_menu_display.c.o
+ .debug_info    0x0001eaf1     0x8250 ./Debug/menu_menu_struct.c.o
+ .debug_info    0x00026d41     0x2537 ./Debug/menu_menu_setting.c.o
+ .debug_info    0x00029278     0x15c2 ./Debug/msg_adkey.c.o
+ .debug_info    0x0002a83a      0xc20 ./Debug/msg_msg.c.o
+ .debug_info    0x0002b45a     0x1890 ./Debug/play_avi_player.c.o
+ .debug_info    0x0002ccea      0xc1e ./Debug/play_gp_fifo.c.o
+ .debug_info    0x0002d908     0x1023 ./Debug/play_play_picture.c.o
+ .debug_info    0x0002e92b     0x19e2 ./Debug/rtc_rtc.c.o
+ .debug_info    0x0003030d     0x115b ./Debug/sd_sd_ext.c.o
+ .debug_info    0x00031468      0xc59 ./Debug/sensor_sensor.c.o
+ .debug_info    0x000320c1      0xacf ./Debug/sensor_sensor_gc0308.c.o
+ .debug_info    0x00032b90      0xacf ./Debug/sensor_sensor_nt99140.c.o
+ .debug_info    0x0003365f      0xacf ./Debug/sensor_sensor_ov7670.c.o
+ .debug_info    0x0003412e      0xacf ./Debug/sensor_sensor_ov9710.c.o
+ .debug_info    0x00034bfd      0xcb0 ./Debug/sensor_sensor_nt99141.c.o
+ .debug_info    0x000358ad      0xacf ./Debug/sensor_sensor_bf3925.c.o
+ .debug_info    0x0003637c      0xacf ./Debug/sensor_sensor_siv121DS.c.o
+ .debug_info    0x00036e4b      0xacf ./Debug/sensor_sensor_ov7725.c.o
+ .debug_info    0x0003791a      0xacf ./Debug/sensor_sensor_nt99240.c.o
+ .debug_info    0x000383e9      0xacf ./Debug/sensor_sensor_siv100B.c.o
+ .debug_info    0x00038eb8     0x1693 ./Debug/sys_sys.c.o
+ .debug_info    0x0003a54b      0xedb ./Debug/timer_timer.c.o
+ .debug_info    0x0003b426     0x106b ./Debug/timer_timer_isr.c.o
+ .debug_info    0x0003c491     0x1248 ./Debug/uart_uart.c.o
+ .debug_info    0x0003d6d9     0x160b ./Debug/spi_spi.c.o
+ .debug_info    0x0003ece4     0x164e ./Debug/task_task.c.o
+ .debug_info    0x00040332     0x195f ./Debug/task_task_video.c.o
+ .debug_info    0x00041c91     0x164b ./Debug/task_task_photo.c.o
+ .debug_info    0x000432dc     0x159b ./Debug/task_task_play.c.o
+ .debug_info    0x00044877     0x1190 ./Debug/task_task_usb_device.c.o
+ .debug_info    0x00045a07      0xf07 ./Debug/task_task_holdMode.c.o
+ .debug_info    0x0004690e     0x1fc8 ./Debug/tvout_tvout.c.o
+ .debug_info    0x000488d6      0xd2a ./Debug/led_led.c.o
+ .debug_info    0x00049600      0xafe ./Debug/g_sensor_g_sensor.c.o
+ .debug_info    0x0004a0fe      0xacf ./Debug/g_sensor_g_sensor_dmard07.c.o
+ .debug_info    0x0004abcd      0xacf ./Debug/g_sensor_g_sensor_gma301a.c.o
+ .debug_info    0x0004b69c      0xb64 ./Debug/g_sensor_g_sensor_null.c.o
+ .debug_info    0x0004c200       0xb9 d:/MinGW-4.7.1/arm-elf/lib\libc.a(lib_a-strcpy.o)
+ .debug_info    0x0004c2b9       0xb1 d:/MinGW-4.7.1/arm-elf/lib\libc.a(lib_a-strlen.o)
+ .debug_info    0x0004c36a       0x9e d:/MinGW-4.7.1/lib/gcc/arm-elf/4.6.0\libgcc.a(_udivsi3.o)
+ .debug_info    0x0004c408       0x9e d:/MinGW-4.7.1/lib/gcc/arm-elf/4.6.0\libgcc.a(_divsi3.o)
+ .debug_info    0x0004c4a6       0x9e d:/MinGW-4.7.1/lib/gcc/arm-elf/4.6.0\libgcc.a(_umodsi3.o)
+ .debug_info    0x0004c544       0x9e d:/MinGW-4.7.1/lib/gcc/arm-elf/4.6.0\libgcc.a(_dvmd_tls.o)
+
+.debug_abbrev   0x00000000     0x7acf
+ .debug_abbrev  0x00000000      0x249 ./Debug/audio_adc_audio_adc.c.o
+ .debug_abbrev  0x00000249      0x362 ./Debug/audio_dac_audio_dac.c.o
+ .debug_abbrev  0x000005ab      0x356 ./Debug/common_common.c.o
+ .debug_abbrev  0x00000901      0x382 ./Debug/csi_csi.c.o
+ .debug_abbrev  0x00000c83      0x163 ./Debug/csi_csi_isr.c.o
+ .debug_abbrev  0x00000de6      0x20d ./Debug/csi_csi_timeinfo.c.o
+ .debug_abbrev  0x00000ff3      0x3d4 ./Debug/fat_api_fat_api.c.o
+ .debug_abbrev  0x000013c7      0x17f ./Debug/font_font.c.o
+ .debug_abbrev  0x00001546      0x23f ./Debug/gpdma_gpdma.c.o
+ .debug_abbrev  0x00001785      0x289 ./Debug/i2c_i2c.c.o
+ .debug_abbrev  0x00001a0e      0x17b ./Debug/int_int.c.o
+ .debug_abbrev  0x00001b89      0x27c ./Debug/lcd_lcdc.c.o
+ .debug_abbrev  0x00001e05      0x2ae ./Debug/lcd_osd.c.o
+ .debug_abbrev  0x000020b3      0x1e0 ./Debug/lcd_lcd_driver.c.o
+ .debug_abbrev  0x00002293      0x1bc ./Debug/lcd_lcd_interface.c.o
+ .debug_abbrev  0x0000244f       0xf1 ./Debug/lcd_lcd_tdo24theb2.c.o
+ .debug_abbrev  0x00002540       0xf1 ./Debug/lcd_lcd_ili8961.c.o
+ .debug_abbrev  0x00002631      0x22e ./Debug/lcd_lcd_nodisplay.c.o
+ .debug_abbrev  0x0000285f       0xf1 ./Debug/lcd_lcd_3029.c.o
+ .debug_abbrev  0x00002950       0xf1 ./Debug/lcd_lcd_61505.c.o
+ .debug_abbrev  0x00002a41       0xf1 ./Debug/lcd_lcd_hx8367.c.o
+ .debug_abbrev  0x00002b32       0xf1 ./Debug/lcd_lcd_7781.c.o
+ .debug_abbrev  0x00002c23       0xf1 ./Debug/lcd_lcd_ili6480.c.o
+ .debug_abbrev  0x00002d14       0xf1 ./Debug/lcd_lcd_61505W.c.o
+ .debug_abbrev  0x00002e05       0xf1 ./Debug/lcd_lcd_3029C.c.o
+ .debug_abbrev  0x00002ef6       0xf1 ./Debug/lcd_lcd_9303.c.o
+ .debug_abbrev  0x00002fe7       0xf1 ./Debug/lcd_lcd_9312.c.o
+ .debug_abbrev  0x000030d8       0xf1 ./Debug/lcd_lcd_ili9225.c.o
+ .debug_abbrev  0x000031c9      0x10a ./Debug/main_main.c.o
+ .debug_abbrev  0x000032d3      0x418 ./Debug/menu_menu_display.c.o
+ .debug_abbrev  0x000036eb      0x186 ./Debug/menu_menu_struct.c.o
+ .debug_abbrev  0x00003871      0x4a8 ./Debug/menu_menu_setting.c.o
+ .debug_abbrev  0x00003d19      0x311 ./Debug/msg_adkey.c.o
+ .debug_abbrev  0x0000402a      0x192 ./Debug/msg_msg.c.o
+ .debug_abbrev  0x000041bc      0x1ad ./Debug/play_avi_player.c.o
+ .debug_abbrev  0x00004369      0x13c ./Debug/play_gp_fifo.c.o
+ .debug_abbrev  0x000044a5      0x182 ./Debug/play_play_picture.c.o
+ .debug_abbrev  0x00004627      0x3bc ./Debug/rtc_rtc.c.o
+ .debug_abbrev  0x000049e3      0x23d ./Debug/sd_sd_ext.c.o
+ .debug_abbrev  0x00004c20      0x181 ./Debug/sensor_sensor.c.o
+ .debug_abbrev  0x00004da1       0xf1 ./Debug/sensor_sensor_gc0308.c.o
+ .debug_abbrev  0x00004e92       0xf1 ./Debug/sensor_sensor_nt99140.c.o
+ .debug_abbrev  0x00004f83       0xf1 ./Debug/sensor_sensor_ov7670.c.o
+ .debug_abbrev  0x00005074       0xf1 ./Debug/sensor_sensor_ov9710.c.o
+ .debug_abbrev  0x00005165      0x1cc ./Debug/sensor_sensor_nt99141.c.o
+ .debug_abbrev  0x00005331       0xf1 ./Debug/sensor_sensor_bf3925.c.o
+ .debug_abbrev  0x00005422       0xf1 ./Debug/sensor_sensor_siv121DS.c.o
+ .debug_abbrev  0x00005513       0xf1 ./Debug/sensor_sensor_ov7725.c.o
+ .debug_abbrev  0x00005604       0xf1 ./Debug/sensor_sensor_nt99240.c.o
+ .debug_abbrev  0x000056f5       0xf1 ./Debug/sensor_sensor_siv100B.c.o
+ .debug_abbrev  0x000057e6      0x35b ./Debug/sys_sys.c.o
+ .debug_abbrev  0x00005b41      0x142 ./Debug/timer_timer.c.o
+ .debug_abbrev  0x00005c83      0x171 ./Debug/timer_timer_isr.c.o
+ .debug_abbrev  0x00005df4      0x262 ./Debug/uart_uart.c.o
+ .debug_abbrev  0x00006056      0x290 ./Debug/spi_spi.c.o
+ .debug_abbrev  0x000062e6      0x230 ./Debug/task_task.c.o
+ .debug_abbrev  0x00006516      0x2c2 ./Debug/task_task_video.c.o
+ .debug_abbrev  0x000067d8      0x27f ./Debug/task_task_photo.c.o
+ .debug_abbrev  0x00006a57      0x285 ./Debug/task_task_play.c.o
+ .debug_abbrev  0x00006cdc      0x1af ./Debug/task_task_usb_device.c.o
+ .debug_abbrev  0x00006e8b      0x1d0 ./Debug/task_task_holdMode.c.o
+ .debug_abbrev  0x0000705b      0x372 ./Debug/tvout_tvout.c.o
+ .debug_abbrev  0x000073cd      0x1b1 ./Debug/led_led.c.o
+ .debug_abbrev  0x0000757e       0xf1 ./Debug/g_sensor_g_sensor.c.o
+ .debug_abbrev  0x0000766f       0xf1 ./Debug/g_sensor_g_sensor_dmard07.c.o
+ .debug_abbrev  0x00007760       0xf1 ./Debug/g_sensor_g_sensor_gma301a.c.o
+ .debug_abbrev  0x00007851      0x152 ./Debug/g_sensor_g_sensor_null.c.o
+ .debug_abbrev  0x000079a3       0x6f d:/MinGW-4.7.1/arm-elf/lib\libc.a(lib_a-strcpy.o)
+ .debug_abbrev  0x00007a12       0x6d d:/MinGW-4.7.1/arm-elf/lib\libc.a(lib_a-strlen.o)
+ .debug_abbrev  0x00007a7f       0x14 d:/MinGW-4.7.1/lib/gcc/arm-elf/4.6.0\libgcc.a(_udivsi3.o)
+ .debug_abbrev  0x00007a93       0x14 d:/MinGW-4.7.1/lib/gcc/arm-elf/4.6.0\libgcc.a(_divsi3.o)
+ .debug_abbrev  0x00007aa7       0x14 d:/MinGW-4.7.1/lib/gcc/arm-elf/4.6.0\libgcc.a(_umodsi3.o)
+ .debug_abbrev  0x00007abb       0x14 d:/MinGW-4.7.1/lib/gcc/arm-elf/4.6.0\libgcc.a(_dvmd_tls.o)
+
+.debug_loc      0x00000000     0xaf3d
+ .debug_loc     0x00000000      0x1ee ./Debug/audio_adc_audio_adc.c.o
+ .debug_loc     0x000001ee      0x49b ./Debug/audio_dac_audio_dac.c.o
+ .debug_loc     0x00000689      0x707 ./Debug/common_common.c.o
+ .debug_loc     0x00000d90      0x4dc ./Debug/csi_csi.c.o
+ .debug_loc     0x0000126c       0x33 ./Debug/csi_csi_isr.c.o
+ .debug_loc     0x0000129f      0x349 ./Debug/csi_csi_timeinfo.c.o
+ .debug_loc     0x000015e8     0x16c4 ./Debug/fat_api_fat_api.c.o
+ .debug_loc     0x00002cac      0x48f ./Debug/gpdma_gpdma.c.o
+ .debug_loc     0x0000313b      0x64d ./Debug/i2c_i2c.c.o
+ .debug_loc     0x00003788       0x20 ./Debug/int_int.c.o
+ .debug_loc     0x000037a8      0xb93 ./Debug/lcd_lcdc.c.o
+ .debug_loc     0x0000433b      0x908 ./Debug/lcd_osd.c.o
+ .debug_loc     0x00004c43      0x170 ./Debug/lcd_lcd_driver.c.o
+ .debug_loc     0x00004db3      0x694 ./Debug/lcd_lcd_interface.c.o
+ .debug_loc     0x00005447      0x13c ./Debug/lcd_lcd_nodisplay.c.o
+ .debug_loc     0x00005583       0x20 ./Debug/main_main.c.o
+ .debug_loc     0x000055a3      0xc99 ./Debug/menu_menu_display.c.o
+ .debug_loc     0x0000623c      0xf3d ./Debug/menu_menu_setting.c.o
+ .debug_loc     0x00007179      0x3c7 ./Debug/msg_adkey.c.o
+ .debug_loc     0x00007540       0x26 ./Debug/msg_msg.c.o
+ .debug_loc     0x00007566      0x45a ./Debug/play_avi_player.c.o
+ .debug_loc     0x000079c0      0x154 ./Debug/play_gp_fifo.c.o
+ .debug_loc     0x00007b14      0x138 ./Debug/play_play_picture.c.o
+ .debug_loc     0x00007c4c      0xdeb ./Debug/rtc_rtc.c.o
+ .debug_loc     0x00008a37       0xd3 ./Debug/sd_sd_ext.c.o
+ .debug_loc     0x00008b0a      0x185 ./Debug/sensor_sensor.c.o
+ .debug_loc     0x00008c8f       0xef ./Debug/sensor_sensor_nt99141.c.o
+ .debug_loc     0x00008d7e      0x3f7 ./Debug/sys_sys.c.o
+ .debug_loc     0x00009175       0x40 ./Debug/timer_timer.c.o
+ .debug_loc     0x000091b5       0x40 ./Debug/timer_timer_isr.c.o
+ .debug_loc     0x000091f5      0x7a0 ./Debug/uart_uart.c.o
+ .debug_loc     0x00009995      0x449 ./Debug/spi_spi.c.o
+ .debug_loc     0x00009dde      0x163 ./Debug/task_task.c.o
+ .debug_loc     0x00009f41      0x3eb ./Debug/task_task_video.c.o
+ .debug_loc     0x0000a32c      0x1be ./Debug/task_task_photo.c.o
+ .debug_loc     0x0000a4ea      0x189 ./Debug/task_task_play.c.o
+ .debug_loc     0x0000a673       0x84 ./Debug/task_task_usb_device.c.o
+ .debug_loc     0x0000a6f7      0x114 ./Debug/task_task_holdMode.c.o
+ .debug_loc     0x0000a80b      0x70c ./Debug/tvout_tvout.c.o
+ .debug_loc     0x0000af17       0x13 d:/MinGW-4.7.1/arm-elf/lib\libc.a(lib_a-strcpy.o)
+ .debug_loc     0x0000af2a       0x13 d:/MinGW-4.7.1/arm-elf/lib\libc.a(lib_a-strlen.o)
+
+.debug_aranges  0x00000000      0x5e8
+ .debug_aranges
+                0x00000000       0x20 ./Debug/audio_adc_audio_adc.c.o
+ .debug_aranges
+                0x00000020       0x20 ./Debug/audio_dac_audio_dac.c.o
+ .debug_aranges
+                0x00000040       0x20 ./Debug/common_common.c.o
+ .debug_aranges
+                0x00000060       0x20 ./Debug/csi_csi.c.o
+ .debug_aranges
+                0x00000080       0x20 ./Debug/csi_csi_isr.c.o
+ .debug_aranges
+                0x000000a0       0x20 ./Debug/csi_csi_timeinfo.c.o
+ .debug_aranges
+                0x000000c0       0x20 ./Debug/fat_api_fat_api.c.o
+ .debug_aranges
+                0x000000e0       0x20 ./Debug/font_font.c.o
+ .debug_aranges
+                0x00000100       0x20 ./Debug/gpdma_gpdma.c.o
+ .debug_aranges
+                0x00000120       0x20 ./Debug/i2c_i2c.c.o
+ .debug_aranges
+                0x00000140       0x28 ./Debug/int_int.c.o
+ .debug_aranges
+                0x00000168       0x20 ./Debug/lcd_lcdc.c.o
+ .debug_aranges
+                0x00000188       0x20 ./Debug/lcd_osd.c.o
+ .debug_aranges
+                0x000001a8       0x20 ./Debug/lcd_lcd_driver.c.o
+ .debug_aranges
+                0x000001c8       0x20 ./Debug/lcd_lcd_interface.c.o
+ .debug_aranges
+                0x000001e8       0x20 ./Debug/lcd_lcd_nodisplay.c.o
+ .debug_aranges
+                0x00000208       0x20 ./Debug/menu_menu_display.c.o
+ .debug_aranges
+                0x00000228       0x20 ./Debug/menu_menu_setting.c.o
+ .debug_aranges
+                0x00000248       0x20 ./Debug/msg_adkey.c.o
+ .debug_aranges
+                0x00000268       0x20 ./Debug/msg_msg.c.o
+ .debug_aranges
+                0x00000288       0x20 ./Debug/play_avi_player.c.o
+ .debug_aranges
+                0x000002a8       0x20 ./Debug/play_gp_fifo.c.o
+ .debug_aranges
+                0x000002c8       0x20 ./Debug/play_play_picture.c.o
+ .debug_aranges
+                0x000002e8       0x20 ./Debug/rtc_rtc.c.o
+ .debug_aranges
+                0x00000308       0x20 ./Debug/sd_sd_ext.c.o
+ .debug_aranges
+                0x00000328       0x20 ./Debug/sensor_sensor.c.o
+ .debug_aranges
+                0x00000348       0x20 ./Debug/sensor_sensor_nt99141.c.o
+ .debug_aranges
+                0x00000368       0x20 ./Debug/sys_sys.c.o
+ .debug_aranges
+                0x00000388       0x20 ./Debug/timer_timer.c.o
+ .debug_aranges
+                0x000003a8       0x20 ./Debug/timer_timer_isr.c.o
+ .debug_aranges
+                0x000003c8       0x20 ./Debug/uart_uart.c.o
+ .debug_aranges
+                0x000003e8       0x20 ./Debug/spi_spi.c.o
+ .debug_aranges
+                0x00000408       0x20 ./Debug/task_task.c.o
+ .debug_aranges
+                0x00000428       0x20 ./Debug/task_task_video.c.o
+ .debug_aranges
+                0x00000448       0x20 ./Debug/task_task_photo.c.o
+ .debug_aranges
+                0x00000468       0x20 ./Debug/task_task_play.c.o
+ .debug_aranges
+                0x00000488       0x20 ./Debug/task_task_usb_device.c.o
+ .debug_aranges
+                0x000004a8       0x20 ./Debug/task_task_holdMode.c.o
+ .debug_aranges
+                0x000004c8       0x20 ./Debug/tvout_tvout.c.o
+ .debug_aranges
+                0x000004e8       0x20 ./Debug/led_led.c.o
+ .debug_aranges
+                0x00000508       0x20 ./Debug/g_sensor_g_sensor_null.c.o
+ .debug_aranges
+                0x00000528       0x20 d:/MinGW-4.7.1/arm-elf/lib\libc.a(lib_a-strcpy.o)
+ .debug_aranges
+                0x00000548       0x20 d:/MinGW-4.7.1/arm-elf/lib\libc.a(lib_a-strlen.o)
+ .debug_aranges
+                0x00000568       0x20 d:/MinGW-4.7.1/lib/gcc/arm-elf/4.6.0\libgcc.a(_udivsi3.o)
+ .debug_aranges
+                0x00000588       0x20 d:/MinGW-4.7.1/lib/gcc/arm-elf/4.6.0\libgcc.a(_divsi3.o)
+ .debug_aranges
+                0x000005a8       0x20 d:/MinGW-4.7.1/lib/gcc/arm-elf/4.6.0\libgcc.a(_umodsi3.o)
+ .debug_aranges
+                0x000005c8       0x20 d:/MinGW-4.7.1/lib/gcc/arm-elf/4.6.0\libgcc.a(_dvmd_tls.o)
+
+.debug_ranges   0x00000000     0x3170
+ .debug_ranges  0x00000000       0x30 ./Debug/audio_adc_audio_adc.c.o
+ .debug_ranges  0x00000030       0xf8 ./Debug/audio_dac_audio_dac.c.o
+ .debug_ranges  0x00000128       0xa8 ./Debug/common_common.c.o
+ .debug_ranges  0x000001d0       0xa0 ./Debug/csi_csi.c.o
+ .debug_ranges  0x00000270       0x18 ./Debug/csi_csi_isr.c.o
+ .debug_ranges  0x00000288       0xe0 ./Debug/csi_csi_timeinfo.c.o
+ .debug_ranges  0x00000368      0x3b8 ./Debug/fat_api_fat_api.c.o
+ .debug_ranges  0x00000720      0x110 ./Debug/gpdma_gpdma.c.o
+ .debug_ranges  0x00000830      0x138 ./Debug/i2c_i2c.c.o
+ .debug_ranges  0x00000968       0x18 ./Debug/int_int.c.o
+ .debug_ranges  0x00000980      0x1e8 ./Debug/lcd_lcdc.c.o
+ .debug_ranges  0x00000b68       0x30 ./Debug/lcd_osd.c.o
+ .debug_ranges  0x00000b98       0x10 ./Debug/main_main.c.o
+ .debug_ranges  0x00000ba8      0x518 ./Debug/menu_menu_display.c.o
+ .debug_ranges  0x000010c0      0x490 ./Debug/menu_menu_setting.c.o
+ .debug_ranges  0x00001550       0xe0 ./Debug/msg_adkey.c.o
+ .debug_ranges  0x00001630       0x40 ./Debug/play_avi_player.c.o
+ .debug_ranges  0x00001670       0x38 ./Debug/play_play_picture.c.o
+ .debug_ranges  0x000016a8      0xa38 ./Debug/rtc_rtc.c.o
+ .debug_ranges  0x000020e0       0x30 ./Debug/sd_sd_ext.c.o
+ .debug_ranges  0x00002110       0x30 ./Debug/sensor_sensor_nt99141.c.o
+ .debug_ranges  0x00002140       0x30 ./Debug/sys_sys.c.o
+ .debug_ranges  0x00002170      0x4b8 ./Debug/uart_uart.c.o
+ .debug_ranges  0x00002628      0x760 ./Debug/spi_spi.c.o
+ .debug_ranges  0x00002d88      0x100 ./Debug/task_task_video.c.o
+ .debug_ranges  0x00002e88       0xd8 ./Debug/task_task_photo.c.o
+ .debug_ranges  0x00002f60       0x30 ./Debug/task_task_play.c.o
+ .debug_ranges  0x00002f90       0x18 ./Debug/task_task_usb_device.c.o
+ .debug_ranges  0x00002fa8      0x168 ./Debug/tvout_tvout.c.o
+ .debug_ranges  0x00003110       0x60 ./Debug/led_led.c.o
+
+.debug_line     0x00000000    0x13905
+ .debug_line    0x00000000      0x59e ./Debug/audio_adc_audio_adc.c.o
+ .debug_line    0x0000059e      0x722 ./Debug/audio_dac_audio_dac.c.o
+ .debug_line    0x00000cc0      0x500 ./Debug/common_common.c.o
+ .debug_line    0x000011c0      0x75f ./Debug/csi_csi.c.o
+ .debug_line    0x0000191f      0x432 ./Debug/csi_csi_isr.c.o
+ .debug_line    0x00001d51      0x446 ./Debug/csi_csi_timeinfo.c.o
+ .debug_line    0x00002197      0xcdf ./Debug/fat_api_fat_api.c.o
+ .debug_line    0x00002e76      0x3cb ./Debug/font_font.c.o
+ .debug_line    0x00003241      0x44b ./Debug/gpdma_gpdma.c.o
+ .debug_line    0x0000368c      0x868 ./Debug/i2c_i2c.c.o
+ .debug_line    0x00003ef4      0x384 ./Debug/int_int.c.o
+ .debug_line    0x00004278      0x60b ./Debug/lcd_lcdc.c.o
+ .debug_line    0x00004883      0x5dc ./Debug/lcd_osd.c.o
+ .debug_line    0x00004e5f      0x505 ./Debug/lcd_lcd_driver.c.o
+ .debug_line    0x00005364      0x4c8 ./Debug/lcd_lcd_interface.c.o
+ .debug_line    0x0000582c      0x2ac ./Debug/lcd_lcd_tdo24theb2.c.o
+ .debug_line    0x00005ad8      0x2ac ./Debug/lcd_lcd_ili8961.c.o
+ .debug_line    0x00005d84      0x411 ./Debug/lcd_lcd_nodisplay.c.o
+ .debug_line    0x00006195      0x2ac ./Debug/lcd_lcd_3029.c.o
+ .debug_line    0x00006441      0x2ac ./Debug/lcd_lcd_61505.c.o
+ .debug_line    0x000066ed      0x2ac ./Debug/lcd_lcd_hx8367.c.o
+ .debug_line    0x00006999      0x2ac ./Debug/lcd_lcd_7781.c.o
+ .debug_line    0x00006c45      0x2ac ./Debug/lcd_lcd_ili6480.c.o
+ .debug_line    0x00006ef1      0x2ac ./Debug/lcd_lcd_61505W.c.o
+ .debug_line    0x0000719d      0x2ac ./Debug/lcd_lcd_3029C.c.o
+ .debug_line    0x00007449      0x2ac ./Debug/lcd_lcd_9303.c.o
+ .debug_line    0x000076f5      0x2ac ./Debug/lcd_lcd_9312.c.o
+ .debug_line    0x000079a1      0x2ac ./Debug/lcd_lcd_ili9225.c.o
+ .debug_line    0x00007c4d      0x32b ./Debug/main_main.c.o
+ .debug_line    0x00007f78      0x7ea ./Debug/menu_menu_display.c.o
+ .debug_line    0x00008762      0x308 ./Debug/menu_menu_struct.c.o
+ .debug_line    0x00008a6a      0xcf5 ./Debug/menu_menu_setting.c.o
+ .debug_line    0x0000975f      0x618 ./Debug/msg_adkey.c.o
+ .debug_line    0x00009d77      0x321 ./Debug/msg_msg.c.o
+ .debug_line    0x0000a098      0x6a9 ./Debug/play_avi_player.c.o
+ .debug_line    0x0000a741      0x346 ./Debug/play_gp_fifo.c.o
+ .debug_line    0x0000aa87      0x411 ./Debug/play_play_picture.c.o
+ .debug_line    0x0000ae98      0x7f4 ./Debug/rtc_rtc.c.o
+ .debug_line    0x0000b68c      0x532 ./Debug/sd_sd_ext.c.o
+ .debug_line    0x0000bbbe      0x474 ./Debug/sensor_sensor.c.o
+ .debug_line    0x0000c032      0x2c1 ./Debug/sensor_sensor_gc0308.c.o
+ .debug_line    0x0000c2f3      0x2c1 ./Debug/sensor_sensor_nt99140.c.o
+ .debug_line    0x0000c5b4      0x2c1 ./Debug/sensor_sensor_ov7670.c.o
+ .debug_line    0x0000c875      0x2c1 ./Debug/sensor_sensor_ov9710.c.o
+ .debug_line    0x0000cb36      0x425 ./Debug/sensor_sensor_nt99141.c.o
+ .debug_line    0x0000cf5b      0x2c1 ./Debug/sensor_sensor_bf3925.c.o
+ .debug_line    0x0000d21c      0x2c1 ./Debug/sensor_sensor_siv121DS.c.o
+ .debug_line    0x0000d4dd      0x2c1 ./Debug/sensor_sensor_ov7725.c.o
+ .debug_line    0x0000d79e      0x2c1 ./Debug/sensor_sensor_nt99240.c.o
+ .debug_line    0x0000da5f      0x2c1 ./Debug/sensor_sensor_siv100B.c.o
+ .debug_line    0x0000dd20      0x849 ./Debug/sys_sys.c.o
+ .debug_line    0x0000e569      0x3f9 ./Debug/timer_timer.c.o
+ .debug_line    0x0000e962      0x432 ./Debug/timer_timer_isr.c.o
+ .debug_line    0x0000ed94      0x6ae ./Debug/uart_uart.c.o
+ .debug_line    0x0000f442      0x5bf ./Debug/spi_spi.c.o
+ .debug_line    0x0000fa01      0x5ad ./Debug/task_task.c.o
+ .debug_line    0x0000ffae      0x7d1 ./Debug/task_task_video.c.o
+ .debug_line    0x0001077f      0x665 ./Debug/task_task_photo.c.o
+ .debug_line    0x00010de4      0x60c ./Debug/task_task_play.c.o
+ .debug_line    0x000113f0      0x492 ./Debug/task_task_usb_device.c.o
+ .debug_line    0x00011882      0x536 ./Debug/task_task_holdMode.c.o
+ .debug_line    0x00011db8      0x7bf ./Debug/tvout_tvout.c.o
+ .debug_line    0x00012577      0x368 ./Debug/led_led.c.o
+ .debug_line    0x000128df      0x314 ./Debug/g_sensor_g_sensor.c.o
+ .debug_line    0x00012bf3      0x2cf ./Debug/g_sensor_g_sensor_dmard07.c.o
+ .debug_line    0x00012ec2      0x2cf ./Debug/g_sensor_g_sensor_gma301a.c.o
+ .debug_line    0x00013191      0x32f ./Debug/g_sensor_g_sensor_null.c.o
+ .debug_line    0x000134c0       0xcb d:/MinGW-4.7.1/arm-elf/lib\libc.a(lib_a-strcpy.o)
+ .debug_line    0x0001358b      0x11d d:/MinGW-4.7.1/arm-elf/lib\libc.a(lib_a-strlen.o)
+ .debug_line    0x000136a8       0xa6 d:/MinGW-4.7.1/lib/gcc/arm-elf/4.6.0\libgcc.a(_udivsi3.o)
+ .debug_line    0x0001374e       0xb2 d:/MinGW-4.7.1/lib/gcc/arm-elf/4.6.0\libgcc.a(_divsi3.o)
+ .debug_line    0x00013800       0x8d d:/MinGW-4.7.1/lib/gcc/arm-elf/4.6.0\libgcc.a(_umodsi3.o)
+ .debug_line    0x0001388d       0x78 d:/MinGW-4.7.1/lib/gcc/arm-elf/4.6.0\libgcc.a(_dvmd_tls.o)
+
+.debug_str      0x00000000     0x85cd
+ .debug_str     0x00000000      0xac3 ./Debug/audio_adc_audio_adc.c.o
+                                0xba2 (size before relaxing)
+ .debug_str     0x00000ac3      0x281 ./Debug/audio_dac_audio_dac.c.o
+                                0x9ce (size before relaxing)
+ .debug_str     0x00000d44      0x211 ./Debug/common_common.c.o
+                                0x84e (size before relaxing)
+ .debug_str     0x00000f55      0x465 ./Debug/csi_csi.c.o
+                                0xc98 (size before relaxing)
+ .debug_str     0x000013ba       0x8a ./Debug/csi_csi_isr.c.o
+                                0x790 (size before relaxing)
+ .debug_str     0x00001444      0x1bd ./Debug/csi_csi_timeinfo.c.o
+                                0xa4b (size before relaxing)
+ .debug_str     0x00001601      0xa34 ./Debug/fat_api_fat_api.c.o
+                               0x15c4 (size before relaxing)
+ .debug_str     0x00002035      0x21a ./Debug/font_font.c.o
+                                0x85a (size before relaxing)
+ .debug_str     0x0000224f      0x263 ./Debug/gpdma_gpdma.c.o
+                                0x8a8 (size before relaxing)
+ .debug_str     0x000024b2      0x14f ./Debug/i2c_i2c.c.o
+                                0x761 (size before relaxing)
+ .debug_str     0x00002601       0x95 ./Debug/int_int.c.o
+                                0x789 (size before relaxing)
+ .debug_str     0x00002696      0x309 ./Debug/lcd_lcdc.c.o
+                                0x92f (size before relaxing)
+ .debug_str     0x0000299f      0x1f9 ./Debug/lcd_osd.c.o
+                                0x892 (size before relaxing)
+ .debug_str     0x00002b98      0x36f ./Debug/lcd_lcd_driver.c.o
+                                0x9a7 (size before relaxing)
+ .debug_str     0x00002f07      0x1f6 ./Debug/lcd_lcd_interface.c.o
+                                0xa34 (size before relaxing)
+ .debug_str     0x000030fd       0x43 ./Debug/lcd_lcd_tdo24theb2.c.o
+                                0x650 (size before relaxing)
+ .debug_str     0x00003140       0x40 ./Debug/lcd_lcd_ili8961.c.o
+                                0x64d (size before relaxing)
+ .debug_str     0x00003180       0xd5 ./Debug/lcd_lcd_nodisplay.c.o
+                                0xa13 (size before relaxing)
+ .debug_str     0x00003255       0x3d ./Debug/lcd_lcd_3029.c.o
+                                0x64a (size before relaxing)
+ .debug_str     0x00003292       0x3e ./Debug/lcd_lcd_61505.c.o
+                                0x64b (size before relaxing)
+ .debug_str     0x000032d0       0x3f ./Debug/lcd_lcd_hx8367.c.o
+                                0x64c (size before relaxing)
+ .debug_str     0x0000330f       0x3d ./Debug/lcd_lcd_7781.c.o
+                                0x64a (size before relaxing)
+ .debug_str     0x0000334c       0x40 ./Debug/lcd_lcd_ili6480.c.o
+                                0x64d (size before relaxing)
+ .debug_str     0x0000338c       0x3f ./Debug/lcd_lcd_61505W.c.o
+                                0x64c (size before relaxing)
+ .debug_str     0x000033cb       0x3e ./Debug/lcd_lcd_3029C.c.o
+                                0x64b (size before relaxing)
+ .debug_str     0x00003409       0x3d ./Debug/lcd_lcd_9303.c.o
+                                0x64a (size before relaxing)
+ .debug_str     0x00003446       0x3d ./Debug/lcd_lcd_9312.c.o
+                                0x64a (size before relaxing)
+ .debug_str     0x00003483       0x40 ./Debug/lcd_lcd_ili9225.c.o
+                                0x64d (size before relaxing)
+ .debug_str     0x000034c3       0x3a ./Debug/main_main.c.o
+                                0x64c (size before relaxing)
+ .debug_str     0x000034fd      0x63c ./Debug/menu_menu_display.c.o
+                                0xec5 (size before relaxing)
+ .debug_str     0x00003b39     0x24fb ./Debug/menu_menu_struct.c.o
+                               0x318a (size before relaxing)
+ .debug_str     0x00006034      0x56e ./Debug/menu_menu_setting.c.o
+                               0x1336 (size before relaxing)
+ .debug_str     0x000065a2      0x190 ./Debug/msg_adkey.c.o
+                                0xe3e (size before relaxing)
+ .debug_str     0x00006732       0x89 ./Debug/msg_msg.c.o
+                                0x696 (size before relaxing)
+ .debug_str     0x000067bb      0x338 ./Debug/play_avi_player.c.o
+                               0x10fa (size before relaxing)
+ .debug_str     0x00006af3       0x63 ./Debug/play_gp_fifo.c.o
+                                0x6ca (size before relaxing)
+ .debug_str     0x00006b56       0x69 ./Debug/play_play_picture.c.o
+                                0x9d7 (size before relaxing)
+ .debug_str     0x00006bbf      0x192 ./Debug/rtc_rtc.c.o
+                                0x9c6 (size before relaxing)
+ .debug_str     0x00006d51      0x19b ./Debug/sd_sd_ext.c.o
+                                0xc53 (size before relaxing)
+ .debug_str     0x00006eec      0x113 ./Debug/sensor_sensor.c.o
+                                0x733 (size before relaxing)
+ .debug_str     0x00006fff       0x45 ./Debug/sensor_sensor_gc0308.c.o
+                                0x652 (size before relaxing)
+ .debug_str     0x00007044       0x46 ./Debug/sensor_sensor_nt99140.c.o
+                                0x653 (size before relaxing)
+ .debug_str     0x0000708a       0x45 ./Debug/sensor_sensor_ov7670.c.o
+                                0x652 (size before relaxing)
+ .debug_str     0x000070cf       0x45 ./Debug/sensor_sensor_ov9710.c.o
+                                0x652 (size before relaxing)
+ .debug_str     0x00007114       0xad ./Debug/sensor_sensor_nt99141.c.o
+                                0x6f8 (size before relaxing)
+ .debug_str     0x000071c1       0x45 ./Debug/sensor_sensor_bf3925.c.o
+                                0x652 (size before relaxing)
+ .debug_str     0x00007206       0x47 ./Debug/sensor_sensor_siv121DS.c.o
+                                0x654 (size before relaxing)
+ .debug_str     0x0000724d       0x45 ./Debug/sensor_sensor_ov7725.c.o
+                                0x652 (size before relaxing)
+ .debug_str     0x00007292       0x46 ./Debug/sensor_sensor_nt99240.c.o
+                                0x653 (size before relaxing)
+ .debug_str     0x000072d8       0x46 ./Debug/sensor_sensor_siv100B.c.o
+                                0x653 (size before relaxing)
+ .debug_str     0x0000731e      0x25f ./Debug/sys_sys.c.o
+                                0xf2a (size before relaxing)
+ .debug_str     0x0000757d       0xec ./Debug/timer_timer.c.o
+                                0xa7e (size before relaxing)
+ .debug_str     0x00007669       0x86 ./Debug/timer_timer_isr.c.o
+                                0xc37 (size before relaxing)
+ .debug_str     0x000076ef      0x121 ./Debug/uart_uart.c.o
+                                0x769 (size before relaxing)
+ .debug_str     0x00007810      0x188 ./Debug/spi_spi.c.o
+                                0x7a7 (size before relaxing)
+ .debug_str     0x00007998      0x106 ./Debug/task_task.c.o
+                               0x100b (size before relaxing)
+ .debug_str     0x00007a9e      0x28c ./Debug/task_task_video.c.o
+                               0x1214 (size before relaxing)
+ .debug_str     0x00007d2a       0xfa ./Debug/task_task_photo.c.o
+                               0x1011 (size before relaxing)
+ .debug_str     0x00007e24      0x12f ./Debug/task_task_play.c.o
+                                0xf43 (size before relaxing)
+ .debug_str     0x00007f53       0x76 ./Debug/task_task_usb_device.c.o
+                                0xd14 (size before relaxing)
+ .debug_str     0x00007fc9       0x94 ./Debug/task_task_holdMode.c.o
+                                0xa42 (size before relaxing)
+ .debug_str     0x0000805d      0x1f2 ./Debug/tvout_tvout.c.o
+                                0x9dc (size before relaxing)
+ .debug_str     0x0000824f      0x104 ./Debug/led_led.c.o
+                                0x86a (size before relaxing)
+ .debug_str     0x00008353       0x4d ./Debug/g_sensor_g_sensor.c.o
+                                0x66d (size before relaxing)
+ .debug_str     0x000083a0       0x4a ./Debug/g_sensor_g_sensor_dmard07.c.o
+                                0x657 (size before relaxing)
+ .debug_str     0x000083ea       0x4a ./Debug/g_sensor_g_sensor_gma301a.c.o
+                                0x657 (size before relaxing)
+ .debug_str     0x00008434       0xb0 ./Debug/g_sensor_g_sensor_null.c.o
+                                0x6dd (size before relaxing)
+ .debug_str     0x000084e4       0x93 d:/MinGW-4.7.1/arm-elf/lib\libc.a(lib_a-strcpy.o)
+                                0x12f (size before relaxing)
+ .debug_str     0x00008577       0x56 d:/MinGW-4.7.1/arm-elf/lib\libc.a(lib_a-strlen.o)
+                                0x136 (size before relaxing)
+
+.comment        0x00000000       0x11
+ .comment       0x00000000       0x11 ./Debug/audio_adc_audio_adc.c.o
+                                 0x12 (size before relaxing)
+ .comment       0x00000000       0x12 ./Debug/audio_dac_audio_dac.c.o
+ .comment       0x00000000       0x12 ./Debug/common_common.c.o
+ .comment       0x00000000       0x12 ./Debug/csi_csi.c.o
+ .comment       0x00000000       0x12 ./Debug/csi_csi_isr.c.o
+ .comment       0x00000000       0x12 ./Debug/csi_csi_timeinfo.c.o
+ .comment       0x00000000       0x12 ./Debug/fat_api_fat_api.c.o
+ .comment       0x00000000       0x12 ./Debug/font_font.c.o
+ .comment       0x00000000       0x12 ./Debug/gpdma_gpdma.c.o
+ .comment       0x00000000       0x12 ./Debug/i2c_i2c.c.o
+ .comment       0x00000000       0x12 ./Debug/int_int.c.o
+ .comment       0x00000000       0x12 ./Debug/lcd_lcdc.c.o
+ .comment       0x00000000       0x12 ./Debug/lcd_osd.c.o
+ .comment       0x00000000       0x12 ./Debug/lcd_lcd_driver.c.o
+ .comment       0x00000000       0x12 ./Debug/lcd_lcd_interface.c.o
+ .comment       0x00000000       0x12 ./Debug/lcd_lcd_tdo24theb2.c.o
+ .comment       0x00000000       0x12 ./Debug/lcd_lcd_ili8961.c.o
+ .comment       0x00000000       0x12 ./Debug/lcd_lcd_nodisplay.c.o
+ .comment       0x00000000       0x12 ./Debug/lcd_lcd_3029.c.o
+ .comment       0x00000000       0x12 ./Debug/lcd_lcd_61505.c.o
+ .comment       0x00000000       0x12 ./Debug/lcd_lcd_hx8367.c.o
+ .comment       0x00000000       0x12 ./Debug/lcd_lcd_7781.c.o
+ .comment       0x00000000       0x12 ./Debug/lcd_lcd_ili6480.c.o
+ .comment       0x00000000       0x12 ./Debug/lcd_lcd_61505W.c.o
+ .comment       0x00000000       0x12 ./Debug/lcd_lcd_3029C.c.o
+ .comment       0x00000000       0x12 ./Debug/lcd_lcd_9303.c.o
+ .comment       0x00000000       0x12 ./Debug/lcd_lcd_9312.c.o
+ .comment       0x00000000       0x12 ./Debug/lcd_lcd_ili9225.c.o
+ .comment       0x00000000       0x12 ./Debug/main_main.c.o
+ .comment       0x00000000       0x12 ./Debug/menu_menu_display.c.o
+ .comment       0x00000000       0x12 ./Debug/menu_menu_struct.c.o
+ .comment       0x00000000       0x12 ./Debug/menu_menu_setting.c.o
+ .comment       0x00000000       0x12 ./Debug/msg_adkey.c.o
+ .comment       0x00000000       0x12 ./Debug/msg_msg.c.o
+ .comment       0x00000000       0x12 ./Debug/play_avi_player.c.o
+ .comment       0x00000000       0x12 ./Debug/play_gp_fifo.c.o
+ .comment       0x00000000       0x12 ./Debug/play_play_picture.c.o
+ .comment       0x00000000       0x12 ./Debug/rtc_rtc.c.o
+ .comment       0x00000000       0x12 ./Debug/sd_sd_ext.c.o
+ .comment       0x00000000       0x12 ./Debug/sensor_sensor.c.o
+ .comment       0x00000000       0x12 ./Debug/sensor_sensor_gc0308.c.o
+ .comment       0x00000000       0x12 ./Debug/sensor_sensor_nt99140.c.o
+ .comment       0x00000000       0x12 ./Debug/sensor_sensor_ov7670.c.o
+ .comment       0x00000000       0x12 ./Debug/sensor_sensor_ov9710.c.o
+ .comment       0x00000000       0x12 ./Debug/sensor_sensor_nt99141.c.o
+ .comment       0x00000000       0x12 ./Debug/sensor_sensor_bf3925.c.o
+ .comment       0x00000000       0x12 ./Debug/sensor_sensor_siv121DS.c.o
+ .comment       0x00000000       0x12 ./Debug/sensor_sensor_ov7725.c.o
+ .comment       0x00000000       0x12 ./Debug/sensor_sensor_nt99240.c.o
+ .comment       0x00000000       0x12 ./Debug/sensor_sensor_siv100B.c.o
+ .comment       0x00000000       0x12 ./Debug/sys_sys.c.o
+ .comment       0x00000000       0x12 ./Debug/timer_timer.c.o
+ .comment       0x00000000       0x12 ./Debug/timer_timer_isr.c.o
+ .comment       0x00000000       0x12 ./Debug/uart_uart.c.o
+ .comment       0x00000000       0x12 ./Debug/spi_spi.c.o
+ .comment       0x00000000       0x12 ./Debug/task_task.c.o
+ .comment       0x00000000       0x12 ./Debug/task_task_video.c.o
+ .comment       0x00000000       0x12 ./Debug/task_task_photo.c.o
+ .comment       0x00000000       0x12 ./Debug/task_task_play.c.o
+ .comment       0x00000000       0x12 ./Debug/task_task_usb_device.c.o
+ .comment       0x00000000       0x12 ./Debug/task_task_holdMode.c.o
+ .comment       0x00000000       0x12 ./Debug/tvout_tvout.c.o
+ .comment       0x00000000       0x12 ./Debug/led_led.c.o
+ .comment       0x00000000       0x12 ./Debug/g_sensor_g_sensor.c.o
+ .comment       0x00000000       0x12 ./Debug/g_sensor_g_sensor_dmard07.c.o
+ .comment       0x00000000       0x12 ./Debug/g_sensor_g_sensor_gma301a.c.o
+ .comment       0x00000000       0x12 ./Debug/g_sensor_g_sensor_null.c.o
+ .comment       0x00000000       0x12 d:/MinGW-4.7.1/arm-elf/lib\libc.a(lib_a-strcpy.o)
+ .comment       0x00000000       0x12 d:/MinGW-4.7.1/arm-elf/lib\libc.a(lib_a-strlen.o)
+ .comment       0x00000000       0x12 libs\libjpeg.a(jpeg_enc.o)
+ .comment       0x00000000       0x12 libs\libjpeg.a(jpeg_isr.o)
+ .comment       0x00000000       0x12 libs\libjpeg.a(jpeg_dec.o)
+ .comment       0x00000000       0x12 libs\libjpeg.a(jpeg_linebuffer.o)
+ .comment       0x00000000       0x12 libs\libfs.a(fat_format.o)
+ .comment       0x00000000       0x12 libs\libfs.a(ff.o)
+ .comment       0x00000000       0x12 libs\libfs.a(diskio.o)
+ .comment       0x00000000       0x12 libs\libusb.a(usb_device_mass.o)
+ .comment       0x00000000       0x12 libs\libusb.a(usb_dev_audio.o)
+ .comment       0x00000000       0x12 libs\libusb.a(usb_device_enum.o)
+ .comment       0x00000000       0x12 libs\libusb.a(usb.o)
+ .comment       0x00000000       0x12 libs\libusb.a(usb_device_video.o)
+ .comment       0x00000000       0x12 libs\libstartup.a(cpu.o)
+ .comment       0x00000000       0x12 libs\libstartup.a(lowPower.o)
+ .comment       0x00000000       0x12 libs\libfat.a(fat.o)
+ .comment       0x00000000       0x12 libs\libfat.a(fat_fileorder.o)
+ .comment       0x00000000       0x12 libs\libsd.a(sd.o)
+
+.ARM.attributes
+                0x00000000       0x10
+ .ARM.attributes
+                0x00000000       0x10 ./Debug/audio_adc_audio_adc.c.o
+ .ARM.attributes
+                0x00000010       0x10 ./Debug/audio_dac_audio_dac.c.o
+ .ARM.attributes
+                0x00000020       0x10 ./Debug/common_common.c.o
+ .ARM.attributes
+                0x00000030       0x10 ./Debug/csi_csi.c.o
+ .ARM.attributes
+                0x00000040       0x10 ./Debug/csi_csi_isr.c.o
+ .ARM.attributes
+                0x00000050       0x10 ./Debug/csi_csi_timeinfo.c.o
+ .ARM.attributes
+                0x00000060       0x10 ./Debug/fat_api_fat_api.c.o
+ .ARM.attributes
+                0x00000070       0x10 ./Debug/font_font.c.o
+ .ARM.attributes
+                0x00000080       0x10 ./Debug/gpdma_gpdma.c.o
+ .ARM.attributes
+                0x00000090       0x10 ./Debug/i2c_i2c.c.o
+ .ARM.attributes
+                0x000000a0       0x10 ./Debug/int_int.c.o
+ .ARM.attributes
+                0x000000b0       0x10 ./Debug/lcd_lcdc.c.o
+ .ARM.attributes
+                0x000000c0       0x10 ./Debug/lcd_osd.c.o
+ .ARM.attributes
+                0x000000d0       0x10 ./Debug/lcd_lcd_driver.c.o
+ .ARM.attributes
+                0x000000e0       0x10 ./Debug/lcd_lcd_interface.c.o
+ .ARM.attributes
+                0x000000f0       0x10 ./Debug/lcd_lcd_tdo24theb2.c.o
+ .ARM.attributes
+                0x00000100       0x10 ./Debug/lcd_lcd_ili8961.c.o
+ .ARM.attributes
+                0x00000110       0x10 ./Debug/lcd_lcd_nodisplay.c.o
+ .ARM.attributes
+                0x00000120       0x10 ./Debug/lcd_lcd_3029.c.o
+ .ARM.attributes
+                0x00000130       0x10 ./Debug/lcd_lcd_61505.c.o
+ .ARM.attributes
+                0x00000140       0x10 ./Debug/lcd_lcd_hx8367.c.o
+ .ARM.attributes
+                0x00000150       0x10 ./Debug/lcd_lcd_7781.c.o
+ .ARM.attributes
+                0x00000160       0x10 ./Debug/lcd_lcd_ili6480.c.o
+ .ARM.attributes
+                0x00000170       0x10 ./Debug/lcd_lcd_61505W.c.o
+ .ARM.attributes
+                0x00000180       0x10 ./Debug/lcd_lcd_3029C.c.o
+ .ARM.attributes
+                0x00000190       0x10 ./Debug/lcd_lcd_9303.c.o
+ .ARM.attributes
+                0x000001a0       0x10 ./Debug/lcd_lcd_9312.c.o
+ .ARM.attributes
+                0x000001b0       0x10 ./Debug/lcd_lcd_ili9225.c.o
+ .ARM.attributes
+                0x000001c0       0x10 ./Debug/main_main.c.o
+ .ARM.attributes
+                0x000001d0       0x10 ./Debug/menu_menu_display.c.o
+ .ARM.attributes
+                0x000001e0       0x10 ./Debug/menu_menu_struct.c.o
+ .ARM.attributes
+                0x000001f0       0x10 ./Debug/menu_menu_setting.c.o
+ .ARM.attributes
+                0x00000200       0x10 ./Debug/msg_adkey.c.o
+ .ARM.attributes
+                0x00000210       0x10 ./Debug/msg_msg.c.o
+ .ARM.attributes
+                0x00000220       0x10 ./Debug/play_avi_player.c.o
+ .ARM.attributes
+                0x00000230       0x10 ./Debug/play_gp_fifo.c.o
+ .ARM.attributes
+                0x00000240       0x10 ./Debug/play_play_picture.c.o
+ .ARM.attributes
+                0x00000250       0x10 ./Debug/rtc_rtc.c.o
+ .ARM.attributes
+                0x00000260       0x10 ./Debug/sd_sd_ext.c.o
+ .ARM.attributes
+                0x00000270       0x10 ./Debug/sensor_sensor.c.o
+ .ARM.attributes
+                0x00000280       0x10 ./Debug/sensor_sensor_gc0308.c.o
+ .ARM.attributes
+                0x00000290       0x10 ./Debug/sensor_sensor_nt99140.c.o
+ .ARM.attributes
+                0x000002a0       0x10 ./Debug/sensor_sensor_ov7670.c.o
+ .ARM.attributes
+                0x000002b0       0x10 ./Debug/sensor_sensor_ov9710.c.o
+ .ARM.attributes
+                0x000002c0       0x10 ./Debug/sensor_sensor_nt99141.c.o
+ .ARM.attributes
+                0x000002d0       0x10 ./Debug/sensor_sensor_bf3925.c.o
+ .ARM.attributes
+                0x000002e0       0x10 ./Debug/sensor_sensor_siv121DS.c.o
+ .ARM.attributes
+                0x000002f0       0x10 ./Debug/sensor_sensor_ov7725.c.o
+ .ARM.attributes
+                0x00000300       0x10 ./Debug/sensor_sensor_nt99240.c.o
+ .ARM.attributes
+                0x00000310       0x10 ./Debug/sensor_sensor_siv100B.c.o
+ .ARM.attributes
+                0x00000320       0x10 ./Debug/startup_spi_boot_cfg.S.o
+ .ARM.attributes
+                0x00000330       0x10 ./Debug/sys_sys.c.o
+ .ARM.attributes
+                0x00000340       0x10 ./Debug/timer_timer.c.o
+ .ARM.attributes
+                0x00000350       0x10 ./Debug/timer_timer_isr.c.o
+ .ARM.attributes
+                0x00000360       0x10 ./Debug/uart_uart.c.o
+ .ARM.attributes
+                0x00000370       0x10 ./Debug/spi_spi.c.o
+ .ARM.attributes
+                0x00000380       0x10 ./Debug/task_task.c.o
+ .ARM.attributes
+                0x00000390       0x10 ./Debug/task_task_video.c.o
+ .ARM.attributes
+                0x000003a0       0x10 ./Debug/task_task_photo.c.o
+ .ARM.attributes
+                0x000003b0       0x10 ./Debug/task_task_play.c.o
+ .ARM.attributes
+                0x000003c0       0x10 ./Debug/task_task_usb_device.c.o
+ .ARM.attributes
+                0x000003d0       0x10 ./Debug/task_task_holdMode.c.o
+ .ARM.attributes
+                0x000003e0       0x10 ./Debug/tvout_tvout.c.o
+ .ARM.attributes
+                0x000003f0       0x10 ./Debug/led_led.c.o
+ .ARM.attributes
+                0x00000400       0x10 ./Debug/g_sensor_g_sensor.c.o
+ .ARM.attributes
+                0x00000410       0x10 ./Debug/g_sensor_g_sensor_dmard07.c.o
+ .ARM.attributes
+                0x00000420       0x10 ./Debug/g_sensor_g_sensor_gma301a.c.o
+ .ARM.attributes
+                0x00000430       0x10 ./Debug/g_sensor_g_sensor_null.c.o
+ .ARM.attributes
+                0x00000440       0x10 d:/MinGW-4.7.1/arm-elf/lib\libc.a(lib_a-strcpy.o)
+ .ARM.attributes
+                0x00000450       0x10 d:/MinGW-4.7.1/arm-elf/lib\libc.a(lib_a-strlen.o)
+ .ARM.attributes
+                0x00000460       0x10 d:/MinGW-4.7.1/lib/gcc/arm-elf/4.6.0\libgcc.a(_udivsi3.o)
+ .ARM.attributes
+                0x00000470       0x10 d:/MinGW-4.7.1/lib/gcc/arm-elf/4.6.0\libgcc.a(_divsi3.o)
+ .ARM.attributes
+                0x00000480       0x10 d:/MinGW-4.7.1/lib/gcc/arm-elf/4.6.0\libgcc.a(_umodsi3.o)
+ .ARM.attributes
+                0x00000490       0x10 d:/MinGW-4.7.1/lib/gcc/arm-elf/4.6.0\libgcc.a(_dvmd_tls.o)
+ .ARM.attributes
+                0x000004a0       0x10 libs\libjpeg.a(jpeg_enc.o)
+ .ARM.attributes
+                0x000004b0       0x10 libs\libjpeg.a(jpeg_isr.o)
+ .ARM.attributes
+                0x000004c0       0x10 libs\libjpeg.a(jpeg_dec.o)
+ .ARM.attributes
+                0x000004d0       0x10 libs\libjpeg.a(jpeg_linebuffer.o)
+ .ARM.attributes
+                0x000004e0       0x10 libs\libfs.a(fat_format.o)
+ .ARM.attributes
+                0x000004f0       0x10 libs\libfs.a(ff.o)
+ .ARM.attributes
+                0x00000500       0x10 libs\libfs.a(diskio.o)
+ .ARM.attributes
+                0x00000510       0x10 libs\libusb.a(usb_device_mass.o)
+ .ARM.attributes
+                0x00000520       0x10 libs\libusb.a(usb_dev_audio.o)
+ .ARM.attributes
+                0x00000530       0x10 libs\libusb.a(usb_device_enum.o)
+ .ARM.attributes
+                0x00000540       0x10 libs\libusb.a(usb.o)
+ .ARM.attributes
+                0x00000550       0x10 libs\libusb.a(usb_device_video.o)
+ .ARM.attributes
+                0x00000560       0x10 libs\libusb.a(update.o)
+ .ARM.attributes
+                0x00000570       0x10 libs\libstartup.a(cpu.o)
+ .ARM.attributes
+                0x00000580       0x10 libs\libstartup.a(lowPower.o)
+ .ARM.attributes
+                0x00000590       0x10 libs\libstartup.a(startup.o)
+ .ARM.attributes
+                0x000005a0       0x10 libs\libstartup.a(BootSec.o)
+ .ARM.attributes
+                0x000005b0       0x10 libs\libfat.a(fat.o)
+ .ARM.attributes
+                0x000005c0       0x10 libs\libfat.a(fat_fileorder.o)
+ .ARM.attributes
+                0x000005d0       0x10 libs\libsd.a(sd.o)
+
+.debug_frame    0x00000000     0x2f64
+ .debug_frame   0x00000000      0x11c ./Debug/audio_adc_audio_adc.c.o
+ .debug_frame   0x0000011c      0x180 ./Debug/audio_dac_audio_dac.c.o
+ .debug_frame   0x0000029c      0x1dc ./Debug/common_common.c.o
+ .debug_frame   0x00000478      0x1d0 ./Debug/csi_csi.c.o
+ .debug_frame   0x00000648       0x2c ./Debug/csi_csi_isr.c.o
+ .debug_frame   0x00000674       0x94 ./Debug/csi_csi_timeinfo.c.o
+ .debug_frame   0x00000708      0x2f8 ./Debug/fat_api_fat_api.c.o
+ .debug_frame   0x00000a00       0xa0 ./Debug/font_font.c.o
+ .debug_frame   0x00000aa0      0x130 ./Debug/gpdma_gpdma.c.o
+ .debug_frame   0x00000bd0       0xe0 ./Debug/i2c_i2c.c.o
+ .debug_frame   0x00000cb0       0x68 ./Debug/int_int.c.o
+ .debug_frame   0x00000d18      0x26c ./Debug/lcd_lcdc.c.o
+ .debug_frame   0x00000f84      0x178 ./Debug/lcd_osd.c.o
+ .debug_frame   0x000010fc       0xec ./Debug/lcd_lcd_driver.c.o
+ .debug_frame   0x000011e8      0x244 ./Debug/lcd_lcd_interface.c.o
+ .debug_frame   0x0000142c       0xb8 ./Debug/lcd_lcd_nodisplay.c.o
+ .debug_frame   0x000014e4       0x28 ./Debug/main_main.c.o
+ .debug_frame   0x0000150c      0x27c ./Debug/menu_menu_display.c.o
+ .debug_frame   0x00001788      0x490 ./Debug/menu_menu_setting.c.o
+ .debug_frame   0x00001c18       0xe4 ./Debug/msg_adkey.c.o
+ .debug_frame   0x00001cfc       0x60 ./Debug/msg_msg.c.o
+ .debug_frame   0x00001d5c       0x58 ./Debug/play_avi_player.c.o
+ .debug_frame   0x00001db4       0x58 ./Debug/play_gp_fifo.c.o
+ .debug_frame   0x00001e0c       0x34 ./Debug/play_play_picture.c.o
+ .debug_frame   0x00001e40      0x1b4 ./Debug/rtc_rtc.c.o
+ .debug_frame   0x00001ff4       0x9c ./Debug/sd_sd_ext.c.o
+ .debug_frame   0x00002090       0x80 ./Debug/sensor_sensor.c.o
+ .debug_frame   0x00002110       0x68 ./Debug/sensor_sensor_nt99141.c.o
+ .debug_frame   0x00002178      0x1ec ./Debug/sys_sys.c.o
+ .debug_frame   0x00002364       0xb0 ./Debug/timer_timer.c.o
+ .debug_frame   0x00002414       0x60 ./Debug/timer_timer_isr.c.o
+ .debug_frame   0x00002474       0xf8 ./Debug/uart_uart.c.o
+ .debug_frame   0x0000256c      0x170 ./Debug/spi_spi.c.o
+ .debug_frame   0x000026dc      0x13c ./Debug/task_task.c.o
+ .debug_frame   0x00002818      0x1c4 ./Debug/task_task_video.c.o
+ .debug_frame   0x000029dc      0x128 ./Debug/task_task_photo.c.o
+ .debug_frame   0x00002b04      0x104 ./Debug/task_task_play.c.o
+ .debug_frame   0x00002c08       0x3c ./Debug/task_task_usb_device.c.o
+ .debug_frame   0x00002c44       0xac ./Debug/task_task_holdMode.c.o
+ .debug_frame   0x00002cf0      0x11c ./Debug/tvout_tvout.c.o
+ .debug_frame   0x00002e0c       0x50 ./Debug/led_led.c.o
+ .debug_frame   0x00002e5c       0x50 ./Debug/g_sensor_g_sensor_null.c.o
+ .debug_frame   0x00002eac       0x20 d:/MinGW-4.7.1/arm-elf/lib\libc.a(lib_a-strcpy.o)
+ .debug_frame   0x00002ecc       0x20 d:/MinGW-4.7.1/arm-elf/lib\libc.a(lib_a-strlen.o)
+ .debug_frame   0x00002eec       0x28 d:/MinGW-4.7.1/lib/gcc/arm-elf/4.6.0\libgcc.a(_udivsi3.o)
+ .debug_frame   0x00002f14       0x28 d:/MinGW-4.7.1/lib/gcc/arm-elf/4.6.0\libgcc.a(_divsi3.o)
+ .debug_frame   0x00002f3c       0x28 d:/MinGW-4.7.1/lib/gcc/arm-elf/4.6.0\libgcc.a(_umodsi3.o)
