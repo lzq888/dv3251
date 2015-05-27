@@ -98,8 +98,8 @@
  *****************************************************************************/
 #define I2C_MAP		I2C_MAP_SW			//select software simulate I2C signal
 
-#define SENSOR_RESET()       REG32(PF) &= ~BIT(5);REG32(PF_DIR) &= ~BIT(5)
-#define SENSOR_NRESET()      REG32(PF) |= BIT(5);REG32(PF_DIR) &= ~BIT(5)
+#define SENSOR_RESET()       REG32(PF) &= ~BIT(10);REG32(PF_DIR) &= ~BIT(10)
+#define SENSOR_NRESET()      REG32(PF) |= BIT(10);REG32(PF_DIR) &= ~BIT(10)
 
 #if (I2C_MAP==I2C_MAP_SW)
 	#define I2C_SCL_PORT_DATA			(REG32(PG))
