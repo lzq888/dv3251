@@ -439,6 +439,10 @@ void sys_dcin_set_down()
 u32 sys_dcin_check()
 {
 	u32 tmpPorta = 0;
+
+#ifdef SPI_TRANSFER
+	return 0;
+#endif
 //	u8 i;
 	//deg_Printf("CHK");
 	if((bI2CBusy_Flag == 0)&&(bSFBusy_Flag == 0))

@@ -132,12 +132,14 @@ void led_Init(void)
 *******************************************************************************/
 void led_SetStatus(void)
 {
+#ifndef SPI_TRANSFER
 #if LED_RED_BLINK
 	led_SetStatus_RED();		//LED_RED
 #endif
 
 #if LED_GREEN_BLINK
 	led_SetStatus_GREEN();		//LED_GREEN
+#endif
 #endif
 }
 

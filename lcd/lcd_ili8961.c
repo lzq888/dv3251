@@ -51,7 +51,8 @@ const struct spirgbmode spi_ili8961 ={
 	.spi_1dw_dir = 0,
 	.spi_9biten = 0,
 	.spi_9bit = 0,
-	.spi_baud = SYS_CLK/(2*6000000)-1,
+	//.spi_baud = SYS_CLK/(2*6000000)-1,
+	.spi_baud = SYS_CLK/(2*50000)-1, //yezq
 
 	.vsync_inact_at = 0,
 	.vsync_up_neg_edge = 0, 
@@ -110,7 +111,8 @@ const struct spirgbmode spi_ili8961 ={
 	.spi_1dw_dir = 0,
 	.spi_9biten = 0,
 	.spi_9bit = 0,
-	.spi_baud = SYS_CLK/(2*6000000)-1,
+	//.spi_baud = SYS_CLK/(2*6000000)-1,
+	.spi_baud = SYS_CLK/(2*6000000)-1, //yezq
 
 	.vsync_inact_at = 0,
 	.vsync_up_neg_edge = 0, 
@@ -287,12 +289,14 @@ void lcd_spi_init(u16 *p)
 #ifdef SPI_TRANSFER
 int spi_send(unsigned char *buf, int len)
 {
-	REG32(PF) |= (1<<LCD_SPI_CS_PIN);
-	delay_ms(1);
+	//REG32(PF) |= (1<<LCD_SPI_CS_PIN);
+	//delay_ms(1);
 	REG32(PF) &= ~(1<<LCD_SPI_CS_PIN);
+	delay_ms(5);
 	while(len-- > 0) {
 		lcd_spi_putchar(*buf++);
 	}
+	delay_ms(5);
 	REG32(PF) |= (1<<LCD_SPI_CS_PIN);	
 
 	return 0;
@@ -300,8 +304,8 @@ int spi_send(unsigned char *buf, int len)
 
 int spi_recv(unsigned char *buf, int len)
 {
-	REG32(PF) |= (1<<LCD_SPI_CS_PIN);
-	delay_ms(1);
+	//REG32(PF) |= (1<<LCD_SPI_CS_PIN);
+	//delay_ms(1);
 	REG32(PF) &= ~(1<<LCD_SPI_CS_PIN);
 	while(len-- > 0) {
 		*buf++ = lcd_spi_getchar();
@@ -320,10 +324,8 @@ void lcd_init(void)
 	
 	PIN_CONF()
 	SPI_PIN_CONF()	  	
+	REG32(PF) |= (1<<LCD_SPI_CS_PIN);	
 
-#ifdef SPI_TRANSFER
-	return;
-#endif
 
 //====open lcd ldo=====
 	REG32(SYS_CON) = 0x932B;	//SPEC request value
@@ -334,8 +336,11 @@ void lcd_init(void)
 //====end open lcd ldo=====
 
 	lcd_spirgb_timing_init(spi_ili8961);
-    	lcd_spi_init(&table_init[0][0]);	
 
+#ifdef SPI_TRANSFER
+	return;
+#endif
+    	lcd_spi_init(&table_init[0][0]);	
 #if (USER_CONFIG==CONFIG_AX3251_K6000)
 	reset_rgb_data_en(0xfe);			// data  7bit en  
 #endif

@@ -42,7 +42,9 @@ void delay_ms(u32 delay_ms_cnt)
 void lcd_spi_putchar(u8 u8data)
 {
     REG32(LCD_DATA) = u8data;
+	deg_Printf("lcd_spi_putchar wait spi finish\n");
     while(REG32(LCD_PND)&BIT(BIT_EMI_SPI_BUSY));	// wait data transfer done
+	deg_Printf("lcd_spi_putchar wait spi finish ok\n");
 }
 u8 lcd_spi_getchar(void)
 {
