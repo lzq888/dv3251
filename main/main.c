@@ -22,11 +22,12 @@
 int main(void)
 {	
 	//unsigned char buf[2] = "\x55\x55";
-	unsigned char buf[32] = "01234567890abcdefhijklmnopqrstuvwxyz";
+	unsigned char buf[33];
 	//unsigned char buf[2] = "\x00\x00";
 	sys_Init();
 
 	lcd_init();
+	spi_init();
 #if 0
 	deg_Printf("spi sending 0x55\n");
 	REG32(PMAP_CFG0) &=~(1UL<<25);
@@ -34,8 +35,10 @@ int main(void)
 	REG32(PF_DIR) &= ~0xf0;  //set to output
 	REG32(PF) &= ~0x0f0;
 #endif
+	buf[0] = 0x90;
+	memcpy(buf+1,"1234567890abcdefghijklmnopqrstuvwxyz",32);
 	for(;;) {
-		deg_Printf("spi sending 0x55\n");
+		//deg_Printf("spi sending 0x55\n");
 		//deg_Printf("low\n");
 		//REG32(PF) &= ~0x0f0UL;
 		//spi_send(buf, 2);
@@ -43,10 +46,11 @@ int main(void)
 		//deg_Printf("high\n");
 		//REG32(PF) |= 0x0f0UL;
 	//REG32(PF) &= ~(1<<LCD_SPI_CS_PIN);
-		//spi_send("\x901234567890abcdefghijklmnopqrstuvwxyz",33);
-		spi_send("\x90\x55\x55\x55\x55\x55\x55\x55\x55\x55\x55\x55\x55\x55\x55\x55\x55\x55\x55\x55\x55\x55\x55\x55\x55\x55\x55\x55\x55\x55\x55\x55\x55",33);
+	
+		spi_send(buf,33);
+		//spi_send("\x90\x55\x55\x55\x55\x55\x55\x55\x55\x55\x55\x55\x55\x55\x55\x55\x55\x55\x55\x55\x55\x55\x55\x55\x55\x55\x55\x55\x55\x55\x55\x55\x55",33);
 		//spi_send(buf, 32);
-		Delay_MS(500);
+		//Delay_MS(500);
 		//Delay_MS(4000);
 	//REG32(PF) |= (1<<LCD_SPI_CS_PIN);
 	}

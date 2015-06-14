@@ -288,17 +288,20 @@ void lcd_spi_init(u16 *p)
 }
 
 #ifdef SPI_TRANSFER
-int spi_send(unsigned char *buf, int len)
+void spi_init(void)
 {
 	REG32(PF) |= (1<<LCD_SPI_CS_PIN);
-	delay_ms(1);
+}
+
+int spi_send(unsigned char *buf, int len)
+{
 	REG32(PF) &= ~(1<<LCD_SPI_CS_PIN);
-	delay_ms(5);
+	delay_us(10);
 	while(len-- > 0) {
 		lcd_spi_putchar(*buf++);
 	}
-	delay_ms(5);
 	REG32(PF) |= (1<<LCD_SPI_CS_PIN);	
+	delay_us(10);
 
 	return 0;
 }
