@@ -50,6 +50,7 @@ const struct spirgbmode spi_ili8961 ={
 	.spi_1dw = 1,
 	.spi_1dw_dir = 0,
 	.spi_9biten = 0,
+#error "config error"
 	.spi_9bit = 0,
 	//.spi_baud = SYS_CLK/(2*6000000)-1,
 	.spi_baud = SYS_CLK/(2*50000)-1, //yezq
@@ -289,8 +290,8 @@ void lcd_spi_init(u16 *p)
 #ifdef SPI_TRANSFER
 int spi_send(unsigned char *buf, int len)
 {
-	//REG32(PF) |= (1<<LCD_SPI_CS_PIN);
-	//delay_ms(1);
+	REG32(PF) |= (1<<LCD_SPI_CS_PIN);
+	delay_ms(1);
 	REG32(PF) &= ~(1<<LCD_SPI_CS_PIN);
 	delay_ms(5);
 	while(len-- > 0) {
